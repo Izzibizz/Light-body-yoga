@@ -38,9 +38,9 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 z-20 w-full bg-light/10 py-4 flex px-4 laptop:px-16 ">
-      <div className="flex w-full justify-between laptop:hidden">
-      <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"  alt="Therese Lind Bjellder Light Body Yoga" className="w-[100px] justify-self-center cursor-pointer"/>
+    <header className="fixed top-0 z-20 w-full bg-light/0 py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-round">
+      <div className="flex w-full laptop:hidden justify-end">
+      <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"  alt="Therese Lind Bjellder Light Body Yoga" className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"/>
        <button
         ref={buttonRef}
         onClick={toggleMenu}
@@ -113,19 +113,19 @@ export const Header = () => {
              /*  onClick={() => handleNavClick("contact")} */
               className={`hover:scale-110 hover:text-dark-brown transform transition-transform duration-300 origin-center cursor-pointer`}
             >
-              Contakt
+              Contact
             </li>
           </ul>
         </div>
       )}
-      <div className="hidden laptop:flex justify-between w-full items-center">
-      <div className="flex justify-between gap-32 text-sm">
+      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-semibold">
+      <div className="flex justify-between gap-28">
       <span className="ml-4">Schedule</span>
       <span className="ml-4">Workshops</span>
       <span className="ml-4">Office Yoga</span>
       </div>
       <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"  alt="Therese Lind Bjellder Light Body Yoga" className="w-[100px] cursor-pointer"/>
-      <div className="flex justify-between gap-32 text-sm">
+      <div className="flex justify-between gap-28">
       <span className="mr-4">Treatments</span>
       <span className="mr-4">About</span>
       <span className="mr-4">Contact</span>
