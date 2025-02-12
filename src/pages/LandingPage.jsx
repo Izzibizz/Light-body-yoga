@@ -47,8 +47,8 @@ useEffect(() => {
       </video>
       <div className="relative w-full h-[100vh] flex z-10 flex flex-col gap-20">
         
-      <div className="flex flex-col laptop:flex-row w-10/12 mx-auto mt-28 laptop:mt-32 laptop:justify-end items-center gap-10 " ref={imgRef}>
-        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736928855/530be1ab3b6184dd15e0e5a0b6012ac8-22_gebuz4.jpg" alt="Therese Lind Bjellder" className="w-full tablet:w-2/3 tablet:self-end laptop:w-1/2 rounded-xl"></img>
+      <div className="flex flex-col laptop:flex-row w-10/12 mx-auto mt-28 laptop:mt-32 laptop:justify-end items-center gap-4 " ref={imgRef}>
+        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736928855/530be1ab3b6184dd15e0e5a0b6012ac8-22_gebuz4.jpg" alt="Therese Lind Bjellder" className="w-full tablet:w-2/3 tablet:self-end laptop:w-1/2 rounded-xl mb-10"></img>
         <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739100255/svg_test-text_nmxvhb.svg" alt="text" className="tablet:absolute w-10/12 tablet:w-1/2 laptop:w-[40%] [750px] tablet:left-10 tablet:top-2/3 laptop:left-[8%] laptop:top-[28%]"/>
         <div className="flex font-body items-center gap-2 border border-black rounded-2xl py-1 px-3 w-fit tablet:self-end tablet:mr-20 laptop:mr-0 laptop:ml-40 laptop:absolute laptop:left-[20%] laptop:bottom-20 ">Read more <MdArrowDropDownCircle /></div>
       </div>
