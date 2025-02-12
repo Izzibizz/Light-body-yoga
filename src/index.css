@@ -12,7 +12,10 @@
 
   --color-light: rgb(240,208, 195);
   --color-dark: rgb(160, 25, 25);
-  --color-gray-blue:rgb(77, 81, 103);
+  --color-gray: rgb(174, 180,188);
+  --color-grayBlue:rgb(77, 81, 103);
+  --color-purple:rgb(104, 109, 137);
+  --color-lightPurple: rgb(165, 169, 190);
   --color-dark-blue: rgb(2, 2, 21);
   --color-warm-white: rgb(253, 251, 250);
   --color-dark-purple: rgb(65, 39, 132);

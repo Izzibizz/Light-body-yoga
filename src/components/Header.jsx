@@ -1,7 +1,10 @@
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
+import { useYogaStore } from "../store/useYogaStore"
 
 export const Header = () => {
+
+  const { headerBg } = useYogaStore()
 
   const dropdownRef = useRef();
   const buttonRef = useRef();
@@ -38,7 +41,7 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 z-20 w-full bg-light/0 py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-round">
+    <header className={`fixed top-0 z-20 w-full py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-round ${headerBg ? "bg-lightPurple/90 " : "bg-light/0"} `}>
       <div className="flex w-full laptop:hidden justify-end">
       <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"  alt="Therese Lind Bjellder Light Body Yoga" className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"/>
        <button
@@ -76,7 +79,7 @@ export const Header = () => {
       {isOpen && (
         <div
           ref={dropdownRef}
-          className={`absolute laptop:top-4 laptop:right-12 top-0 z-40 right-0 w-full h-screen laptop:w-fit laptop:h-fit text-xl text-warm-white bg-gray-blue/90 laptop:bg-warm-white/0 flex justify-center `}
+          className={`absolute laptop:top-4 laptop:right-12 top-0 z-40 right-0 w-full h-screen laptop:w-fit laptop:h-fit text-xl text-warm-white bg-grayBlue/90 laptop:bg-warm-white/0 flex justify-center `}
         >
           <ul className="flex flex-col laptop:flex-row items-center align-middle laptop:items-end gap-6 laptop:gap-10 laptop:pb-4 laptop:px-6 font-light mt-48 laptop:mt-0">
             <li
