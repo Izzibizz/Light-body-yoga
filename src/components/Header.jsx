@@ -1,4 +1,5 @@
 import { NavLink, useNavigate } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect, useRef } from "react";
 import { useYogaStore } from "../store/useYogaStore";
 
@@ -94,25 +95,31 @@ export const Header = () => {
       </div>
 
       {/* Mobile Dropdown Menu */}
+      <AnimatePresence>
       {isOpen && (
-        <div
+        <motion.div
+        initial={{ clipPath: "circle(5% at 100% 0%)" }} // Small circle at top-right
+        animate={{ clipPath: "circle(150% at 50% 50%)" }} // Expands to full screen
+        exit={{ clipPath: "circle(5% at 100% 0%)" }} // Shrinks back to top-right
+        transition={{ duration: 0.8, ease: "easeInOut" }}
+        className="fixed top-0 right-0 h-screen w-screen overflow-hidde text-xl text-warm-white bg-grayBlue/90 flex justify-center"
           ref={dropdownRef}
-          className="absolute top-0 right-0 w-full h-screen laptop:w-fit laptop:h-fit text-xl text-warm-white bg-grayBlue/90 laptop:bg-warm-white/0 flex justify-center"
         >
           <ul className="flex flex-col laptop:flex-row items-center gap-6 laptop:gap-10 font-light mt-48 laptop:mt-0">
             {navLinks.map((link) => (
-              <NavLink
+              <motion.NavLink layout="position"
                 key={link.path}
                 to={link.path}
                 onClick={closeMenu}
                 className="hover:scale-110 hover:text-dark-brown transform transition-transform duration-300"
               >
                 {link.name}
-              </NavLink>
+              </motion.NavLink>
             ))}
           </ul>
-        </div>
+        </motion.div>
       )}
+      </AnimatePresence>
 
       {/* Laptop Menu */}
       <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900">
