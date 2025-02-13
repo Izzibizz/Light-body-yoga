@@ -1,5 +1,6 @@
 import { Header } from "./components/Header"
 import { MainRoutes } from "./routes/MainRoutes";
+import { VideoBg } from "./components/VideoBg";
 import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
 
@@ -11,6 +12,7 @@ export const App = () => {
     <div className="max-w-screen min-h-screen flex flex-col overflow-hidden relative bg-grayBlue">
       <Header />
       <main className="flex-grow">
+      <VideoBg />
         <MainRoutes />
       </main>
       <Footer />

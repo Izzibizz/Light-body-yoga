@@ -5,6 +5,5 @@ export const Workshops = () => {
     <section>
       Workshops
     </section>
-  )
-}
-
+  );
+};

@@ -98,23 +98,23 @@ export const Header = () => {
       <AnimatePresence>
       {isOpen && (
         <motion.div
-        initial={{ clipPath: "circle(5% at 100% 0%)" }} // Small circle at top-right
-        animate={{ clipPath: "circle(150% at 50% 50%)" }} // Expands to full screen
-        exit={{ clipPath: "circle(5% at 100% 0%)" }} // Shrinks back to top-right
+        initial={{ clipPath: "circle(5% at 100% 0%)" }} 
+        animate={{ clipPath: "circle(150% at 50% 50%)" }} 
+        exit={{ clipPath: "circle(5% at 100% 0%)" }} 
         transition={{ duration: 0.8, ease: "easeInOut" }}
-        className="fixed top-0 right-0 h-screen w-screen overflow-hidde text-xl text-warm-white bg-grayBlue/90 flex justify-center"
+        className="fixed top-0 right-0 h-screen w-screen overflow-hidden text-xl text-warm-white bg-grayBlue/90 flex justify-center"
           ref={dropdownRef}
         >
           <ul className="flex flex-col laptop:flex-row items-center gap-6 laptop:gap-10 font-light mt-48 laptop:mt-0">
             {navLinks.map((link) => (
-              <motion.NavLink layout="position"
+              <NavLink layout="position"
                 key={link.path}
                 to={link.path}
                 onClick={closeMenu}
                 className="hover:scale-110 hover:text-dark-brown transform transition-transform duration-300"
               >
                 {link.name}
-              </motion.NavLink>
+              </NavLink>
             ))}
           </ul>
         </motion.div>
@@ -122,10 +122,10 @@ export const Header = () => {
       </AnimatePresence>
 
       {/* Laptop Menu */}
-      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900">
-        <div className="flex gap-28">
+      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900 py-2 px-4">
+        <div className="flex justify-between w-1/3">
           {navLinks.slice(0, 3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="ml-4 hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
               {link.name}
             </NavLink>
           ))}
@@ -134,13 +134,13 @@ export const Header = () => {
         <img
           src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
-          className="w-[100px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl"
+          className="w-[100px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-2 left-1/2 -translate-x-1/2"
           onClick={() => navigate("/")}
         />
 
-        <div className="flex gap-28">
+        <div className="flex justify-between w-1/3">
           {navLinks.slice(3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="mr-4 hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
               {link.name}
             </NavLink>
           ))}
