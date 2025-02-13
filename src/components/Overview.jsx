@@ -5,7 +5,7 @@ export const Overview = () => {
     <section className="bg-gray relative px-8 py-28 tablet:px-20 tablet:py-20 laptop:px-40 laptop:py-32 text-stone-900">
       <div className="gap-8 laptop:gap-10 flex flex-col">
         <h3 className="font-dream text-3xl text-center">What I offer</h3>
-        <div className="grid grid-cols-2 laptop:grid-cols-4 gap-4 tablet:gap-10 laptop:gap-[4%] font-body font-extralight">
+        <div className="grid grid-cols-2 laptop:grid-cols-6 gap-4 tablet:gap-10 laptop:gap-[2%] font-body font-extralight">
           <NavLink to="/office-yoga">
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/11062b_bf629a121acb42ac8c9f25e69fe0d79a_mv2_f8nnpc.webp"
@@ -44,6 +44,26 @@ export const Overview = () => {
             />
             <div className="bg-warm-white h-1/3 flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
               <p>Treatments</p>
+            </div>
+          </NavLink>
+          <NavLink to="/retreats">
+            <img
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/retreat_lah6u3.jpg"
+              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
+              alt="image"
+            />
+            <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
+              Yoga Retreats
+            </div>
+          </NavLink>
+          <NavLink to="/workshops">
+            <img
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/workshop_y7e11j.jpg"
+              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
+              alt="image"
+            />
+            <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
+              Workshops
             </div>
           </NavLink>
         </div>
