@@ -5,7 +5,7 @@ export const Introduction = () => {
   const navigate = useNavigate()
 
   return (
-    <section className="relative w-9/12 tablet:w-10/12 laptop:w-7/12 mx-auto py-28 tablet:py-20 laptop:py-32 flex flex-col text-stone-900">
+    <section className="relative w-9/12 tablet:w-10/12 laptop:w-8/12 mx-auto py-28 tablet:py-20 laptop:py-32 flex flex-col text-stone-900">
       <div className=" flex flex-col tablet:flex-row tablet:justify-between gap-12 laptop:gap-0">
         <div className="flex flex-col gap-8 justify-end">
           <h3 className="font-dream text-3xl">Who am I?</h3>
