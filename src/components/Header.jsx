@@ -102,10 +102,10 @@ export const Header = () => {
         animate={{ clipPath: "circle(150% at 50% 50%)" }} 
         exit={{ clipPath: "circle(5% at 100% 0%)" }} 
         transition={{ duration: 0.8, ease: "easeInOut" }}
-        className="fixed top-0 right-0 h-screen w-screen overflow-hidden text-xl text-warm-white bg-grayBlue/90 flex justify-center"
+        className="fixed top-0 right-0 h-screen w-screen overflow-hidden font-dream text-2xl text-warm-white bg-grayBlue/95 flex justify-end px-8 "
           ref={dropdownRef}
         >
-          <ul className="flex flex-col laptop:flex-row items-center gap-6 laptop:gap-10 font-light mt-48 laptop:mt-0">
+          <ul className="flex flex-col laptop:flex-row items-end gap-6 laptop:gap-10 font-light mt-48 animate-fadeIn">
             {navLinks.map((link) => (
               <NavLink layout="position"
                 key={link.path}
