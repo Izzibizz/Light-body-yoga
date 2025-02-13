@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <>
     <ScrollToTop />
-    <div className="max-w-screen min-h-screen flex flex-col overflow-hidden relative">
+    <div className="max-w-screen min-h-screen flex flex-col overflow-hidden relative bg-grayBlue">
       <Header />
       <main className="flex-grow">
         <MainRoutes />

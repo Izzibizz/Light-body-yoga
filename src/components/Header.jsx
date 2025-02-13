@@ -1,16 +1,22 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
-import { useYogaStore } from "../store/useYogaStore"
+import { useYogaStore } from "../store/useYogaStore";
 
 export const Header = () => {
-
-  const { headerBg } = useYogaStore()
-
+  const { headerBg } = useYogaStore();
+  const navigate = useNavigate();
   const dropdownRef = useRef();
   const buttonRef = useRef();
-  const location = useLocation();
-  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
+
+  const navLinks = [
+    { name: "Schedule", path: "/schedule" },
+    { name: "Workshops", path: "/workshops" },
+    { name: "Office Yoga", path: "/office-yoga" },
+    { name: "Treatments", path: "/treatments" },
+    { name: "About", path: "/about" },
+    { name: "Contact", path: "/contact" },
+  ];
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -41,99 +47,98 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 z-20 w-full py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-round ${headerBg ? "bg-lightPurple/90 " : "bg-light/0"} `}>
+    <header
+      className={`fixed top-0 z-20 w-full py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-body ${
+        headerBg ? "bg-lightPurple/90 " : "bg-light/0"
+      }`}
+    >
+      {/* Mobile Menu */}
       <div className="flex w-full laptop:hidden justify-end">
-      <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"  alt="Therese Lind Bjellder Light Body Yoga" className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"/>
-       <button
-        ref={buttonRef}
-        onClick={toggleMenu}
-        aria-label="Toggle Menu"
-        className="flex flex-col justify-center items-center z-50 cursor-pointer justify-self-end"
-      >
-        <span
-          className={`bg-stone-900 block transition-all duration-300 ease-out 
-                      h-0.5 w-6 laptop:h-0.7 laptop:w-6 rounded-sm ${
-                        isOpen
-                          ? "rotate-45 translate-y-1 laptop:translate-y-1.2 bg-warm-white"
-                          : "-translate-y-0.5 laptop:-translate-y-0.7 bg-stone-900"
-                      }`}
+        <img
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"
+          alt="Therese Lind Bjellder Light Body Yoga"
+          className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+          onClick={() => navigate("/")}
+        />
+        <button
+          ref={buttonRef}
+          onClick={toggleMenu}
+          aria-label="Toggle Menu"
+          className="flex flex-col justify-center items-center z-50 cursor-pointer justify-self-end"
         >
-          {" "}
-        </span>
-        <span
-          className={` bg-stone-900 block transition-all duration-300 ease-out 
-                      h-0.5 w-6 laptop:h-0.7 laptop:w-6 rounded-sm my-0.5 laptop:my-0.7 ${
-                        isOpen ? "opacity-0" : "opacity-100"
-                      }`}
-        ></span>
-        <span
-          className={`bg-stone-900  block transition-all duration-300 ease-out 
-                      h-0.5 w-6 laptop:h-0.7 laptop:w-6 rounded-xl ${
-                        isOpen
-                          ? "-rotate-45 -translate-y-1 laptop:-translate-y-1.2 bg-warm-white"
-                          : "translate-y-0.5 laptop:translate-y-0.7 bg-stone-900"
-                      }`}
-        ></span>
-      </button>
+          <span
+            className={`bg-stone-900 block transition-all duration-300 ease-out 
+              h-0.5 w-6 laptop:h-0.7 laptop:w-6 rounded-sm ${
+                isOpen
+                  ? "rotate-45 translate-y-1 laptop:translate-y-1.2 bg-warm-white"
+                  : "-translate-y-0.5 laptop:-translate-y-0.7 bg-stone-900"
+              }`}
+          >
+            {" "}
+          </span>
+          <span
+            className={` bg-stone-900 block transition-all duration-300 ease-out 
+              h-0.5 w-6 laptop:h-0.7 laptop:w-6 rounded-sm my-0.5 laptop:my-0.7 ${
+                isOpen ? "opacity-0" : "opacity-100"
+              }`}
+          ></span>
+          <span
+            className={`bg-stone-900  block transition-all duration-300 ease-out 
+              h-0.5 w-6 laptop:h-0.7 laptop:w-6 rounded-xl ${
+                isOpen
+                  ? "-rotate-45 -translate-y-1 laptop:-translate-y-1.2 bg-warm-white"
+                  : "translate-y-0.5 laptop:translate-y-0.7 bg-stone-900"
+              }`}
+          ></span>
+        </button>
       </div>
+
+      {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div
           ref={dropdownRef}
-          className={`absolute laptop:top-4 laptop:right-12 top-0 z-40 right-0 w-full h-screen laptop:w-fit laptop:h-fit text-xl text-warm-white bg-grayBlue/90 laptop:bg-warm-white/0 flex justify-center `}
+          className="absolute top-0 right-0 w-full h-screen laptop:w-fit laptop:h-fit text-xl text-warm-white bg-grayBlue/90 laptop:bg-warm-white/0 flex justify-center"
         >
-          <ul className="flex flex-col laptop:flex-row items-center align-middle laptop:items-end gap-6 laptop:gap-10 laptop:pb-4 laptop:px-6 font-light mt-48 laptop:mt-0">
-            <li
-            /*   onClick={() => handleNavClick("galleri")} */
-              className={`hover:scale-110 hover:text-dark-brown transform transition-transform duration-300 origin-center cursor-pointer`}
-            >
-              Schedule
-            </li>
-            <li
-             /*  onClick={() => handleNavClick("omEllen")} */
-              className={`hover:scale-110 hover:text-dark-brown transform transition-transform duration-300 origin-center cursor-pointer`}
-            >
-              Workshops
-            </li>
-            <li
-             /*  onClick={() => handleNavClick("cv")} */
-              className={`hover:scale-110 hover:text-dark-brown transform transition-transform duration-300 origin-center cursor-pointer`}
-            >
-              Office yoga
-            </li>
-            <li
-             /*  onClick={() => handleNavClick("cv")} */
-              className={`hover:scale-110 hover:text-dark-brown transform transition-transform duration-300 origin-center cursor-pointer`}
-            >
-              Treatments
-            </li>
-            <li
-             /*  onClick={() => handleNavClick("cv")} */
-              className={`hover:scale-110 hover:text-dark-brown transform transition-transform duration-300 origin-center cursor-pointer`}
-            >
-              About
-            </li>
-            <li
-             /*  onClick={() => handleNavClick("contact")} */
-              className={`hover:scale-110 hover:text-dark-brown transform transition-transform duration-300 origin-center cursor-pointer`}
-            >
-              Contact
-            </li>
+          <ul className="flex flex-col laptop:flex-row items-center gap-6 laptop:gap-10 font-light mt-48 laptop:mt-0">
+            {navLinks.map((link) => (
+              <NavLink
+                key={link.path}
+                to={link.path}
+                onClick={closeMenu}
+                className="hover:scale-110 hover:text-dark-brown transform transition-transform duration-300"
+              >
+                {link.name}
+              </NavLink>
+            ))}
           </ul>
         </div>
       )}
-      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-semibold">
-      <div className="flex justify-between gap-28">
-      <span className="ml-4">Schedule</span>
-      <span className="ml-4">Workshops</span>
-      <span className="ml-4">Office Yoga</span>
-      </div>
-      <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"  alt="Therese Lind Bjellder Light Body Yoga" className="w-[100px] cursor-pointer"/>
-      <div className="flex justify-between gap-28">
-      <span className="mr-4">Treatments</span>
-      <span className="mr-4">About</span>
-      <span className="mr-4">Contact</span>
-      </div>
+
+      {/* Laptop Menu */}
+      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900">
+        <div className="flex gap-28">
+          {navLinks.slice(0, 3).map((link) => (
+            <NavLink key={link.path} to={link.path} className="ml-4 hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
+              {link.name}
+            </NavLink>
+          ))}
+        </div>
+
+        <img
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"
+          alt="Therese Lind Bjellder Light Body Yoga"
+          className="w-[100px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl"
+          onClick={() => navigate("/")}
+        />
+
+        <div className="flex gap-28">
+          {navLinks.slice(3).map((link) => (
+            <NavLink key={link.path} to={link.path} className="mr-4 hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
+              {link.name}
+            </NavLink>
+          ))}
+        </div>
       </div>
     </header>
-  )
-}
+  );
+};
