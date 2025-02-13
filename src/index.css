@@ -31,6 +31,7 @@
 
   --animate-wiggle: wiggle 1s ease-in-out infinite;
   --animate-longFadeIn: fadeIn 3s ease-in both;
+  --animate-mediumFadeIn: fadeIn 1.5s ease-in both;
   --animate-fadeIn: fadeIn 1s ease-in both;
 
 @keyframes fadeIn {

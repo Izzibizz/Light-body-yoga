@@ -57,7 +57,7 @@ export const LandingPage = () => {
   }, [setHeaderBg]);
 
   return (
-    <section className="animate-fadeIn ">
+    <section className="animate-mediumFadeIn ">
       <video
         autoPlay
         loop
@@ -66,7 +66,7 @@ export const LandingPage = () => {
         className={`absolute inset-0 w-full h-full object-cover z-0`}
       >
         <source
-          src={isLaptop? "https://res.cloudinary.com/dbf8xygxz/video/upload/v1739448144/tlb-lby_dbkvpp.mp4" : "https://res.cloudinary.com/dbf8xygxz/video/upload/v1739448864/tlb-lby-mobile_mmmgsf.mp4"}
+          src={isLaptop? "https://res.cloudinary.com/dbf8xygxz/video/upload/v1739448144/tlb-lby_dbkvpp.mp4" : "https://res.cloudinary.com/dbf8xygxz/video/upload/v1739449884/Tlb-lby-rotate_tms1pq.mp4"}
           type="video/mp4"
         />
       </video>
