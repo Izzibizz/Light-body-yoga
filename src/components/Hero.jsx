@@ -33,9 +33,9 @@ export const Hero = ({scrollToOverview}) => {
 const imgRef = useRef()
 
   return (
-    <div className="relative w-full min-h-[100vh]  z-10 flex flex-col py-32 tablet:py-40">
+    <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40">
     <div
-      className="flex flex-col laptop:flex-row-reverse w-10/12 mx-auto laptop:justify-between items-center gap-8 tablet:gap-20 h-full"
+      className="flex flex-col laptop:flex-row-reverse w-10/12 mx-auto laptop:justify-between items-center gap-6 tablet:gap-20 h-full"
       ref={imgRef}
     >
       <img
@@ -47,11 +47,11 @@ const imgRef = useRef()
       <img
         src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739100255/svg_test-text_nmxvhb.svg"
         alt="text"
-        className="w-10/12 tablet:w-2/3 laptop:w-11/12 mx-auto tablet:mx-0"/>
-        <button className="flex font-body items-center gap-3 cursor-pointer group self-center tablet:self-end" onClick={scrollToOverview}>
+        className="w-9/12 tablet:w-2/3 laptop:w-11/12 mx-auto tablet:mx-0"/>
+        <button className="flex font-body font-extralight items-center gap-3 cursor-pointer group self-center tablet:self-end" onClick={scrollToOverview}>
         Read more{" "}
         <div className="relative w-[60px] h-[60px] laptop:w-[70px] laptop:h-[70px]">
-          <img src={sun} alt="sun button more" className="group-hover:scale-115 transition-transform duration-100" />
+          <img src={sun} alt="sun button more" className="group-hover:scale-115 transition-transform duration-100 group-hover:animate-spin" />
           <motion.div
             className="absolute inset-0 flex justify-center items-center"
             animate={{ y: [0, -4, 0] }}
