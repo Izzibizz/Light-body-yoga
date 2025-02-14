@@ -5,7 +5,11 @@
 }
 @import "tailwindcss";
 
-
+@layer base {
+  body {
+    @apply bg-purple
+  }
+}
 
 @theme {
   --font-round: "Poiret One", "serif";
@@ -35,13 +39,9 @@
   --animate-longFadeIn: fadeIn 3s ease-in both;
   --animate-mediumFadeIn: fadeIn 1.5s ease-in both;
   --animate-fadeIn: fadeIn 1s ease-in both;
-  --animate-spin: spin 10s ease-in infinite;
+  --animate-spin: spin 5s ease-in infinite;
 
-  @layer base {
-    body {
-      @apply bg-purple
-    }
-  }
+
 
 @keyframes fadeIn {
   from {
@@ -57,3 +57,4 @@
 }
 
 }
+
