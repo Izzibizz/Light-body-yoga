@@ -33,7 +33,7 @@ export const Hero = ({scrollToOverview}) => {
 const imgRef = useRef()
 
   return (
-    <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40">
+    <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40 laptop:pt-48">
     <div
       className="flex flex-col laptop:flex-row-reverse w-10/12 mx-auto laptop:justify-between items-center gap-6 tablet:gap-20 h-full"
       ref={imgRef}
@@ -41,9 +41,9 @@ const imgRef = useRef()
       <img
         src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736928855/530be1ab3b6184dd15e0e5a0b6012ac8-22_gebuz4.jpg"
         alt="Therese Lind Bjellder"
-        className="w-full max-w-[400px] laptop:max-w-[650px] tablet:self-center laptop:self-end laptop:w-1/2 rounded-xl mb-2"
+        className="w-full max-w-[400px] laptop:max-w-[700px] tablet:self-center laptop:self-end laptop:w-1/2 rounded-xl mb-2"
       ></img>
-      <div className="w-full laptop:w-[40%] flex flex-col tablet:flex-row laptop:flex-col gap-4">
+      <div className="w-full laptop:w-[45%] flex flex-col tablet:flex-row laptop:flex-col gap-4">
       <img
         src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739100255/svg_test-text_nmxvhb.svg"
         alt="text"

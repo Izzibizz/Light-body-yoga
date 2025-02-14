@@ -122,7 +122,7 @@ export const Header = () => {
       </AnimatePresence>
 
       {/* Laptop Menu */}
-      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900 py-2 px-4">
+      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900 py-3 px-4">
         <div className="flex justify-between w-1/3">
           {navLinks.slice(0, 3).map((link) => (
             <NavLink key={link.path} to={link.path} className="hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
@@ -134,7 +134,7 @@ export const Header = () => {
         <img
           src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
-          className="w-[100px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-2 left-1/2 -translate-x-1/2"
+          className="w-[100px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-3 left-1/2 -translate-x-1/2"
           onClick={() => navigate("/")}
         />
 
