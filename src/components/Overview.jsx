@@ -6,7 +6,10 @@ export const Overview = () => {
       <div className="gap-8 laptop:gap-10 flex flex-col">
         <h3 className="font-dream text-3xl text-center">What I offer</h3>
         <div className="grid grid-cols-2 laptop:grid-cols-6 gap-4 tablet:gap-10 laptop:gap-[2%] font-body font-extralight">
-          <NavLink to="/office-yoga">
+          <NavLink
+            to="/office-yoga"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/11062b_bf629a121acb42ac8c9f25e69fe0d79a_mv2_f8nnpc.webp"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
@@ -16,7 +19,10 @@ export const Overview = () => {
               Yoga at work
             </div>
           </NavLink>
-          <NavLink to="/schedule">
+          <NavLink
+            to="/schedule"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/93e1df401815c159b7662c14d37f84b1_l2jnfx.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
@@ -26,7 +32,10 @@ export const Overview = () => {
               Classes
             </div>
           </NavLink>
-          <NavLink to="/private-session">
+          <NavLink
+            to="/private-session"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/yoga_1_kexakz.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
@@ -36,7 +45,10 @@ export const Overview = () => {
               Private sessions
             </div>
           </NavLink>
-          <NavLink to="/treatments">
+          <NavLink
+            to="/treatments"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/hands_h45m3c.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl "
@@ -46,7 +58,10 @@ export const Overview = () => {
               <p>Treatments</p>
             </div>
           </NavLink>
-          <NavLink to="/retreats">
+          <NavLink
+            to="/retreats"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/retreat_lah6u3.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
@@ -56,7 +71,10 @@ export const Overview = () => {
               Yoga Retreats
             </div>
           </NavLink>
-          <NavLink to="/workshops">
+          <NavLink
+            to="/workshops"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/workshop_y7e11j.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
@@ -68,10 +86,18 @@ export const Overview = () => {
           </NavLink>
         </div>
         <div className="flex flex-col gap-4">
-          <div className="font-dream text-2xl flex flex-col laptop:flex-row laptop:justify-between"><h4>
-            Holistic Yoga & Healing
-          </h4>
-          <h4>Anytime, Anywhere</h4></div>
+          <div className="font-dream text-2xl flex flex-col laptop:flex-row laptop:justify-between items-center gap-2">
+            <h4>Holistic Yoga & Healing</h4>
+            <div className="flex items-center gap-6">
+              {" "}
+              <h4>Anytime, Anywhere</h4>
+              <img
+                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739545182/free-movement_wbbd7u.svg"
+                className="w-[40px]"
+                alt="yoga position"
+              />
+            </div>
+          </div>
           <div className="grid tablet:grid-cols-2 gap-[4%]">
             <p className="text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In

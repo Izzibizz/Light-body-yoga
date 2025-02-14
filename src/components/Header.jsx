@@ -125,7 +125,7 @@ export const Header = () => {
       <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900 py-3 px-4">
         <div className="flex justify-between w-1/3">
           {navLinks.slice(0, 3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-110 hover:text-warm-white transition-all duration-100 hover:drop-shadow-xl">
               {link.name}
             </NavLink>
           ))}
@@ -140,7 +140,7 @@ export const Header = () => {
 
         <div className="flex justify-between w-1/3">
           {navLinks.slice(3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-110 hover:text-warm-white transition-all duration-100 hover:drop-shadow-xl">
               {link.name}
             </NavLink>
           ))}
