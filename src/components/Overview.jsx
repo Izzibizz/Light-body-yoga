@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export const Overview = () => {
   return (
-    <section className="bg-gray relative px-8 py-28 tablet:px-20 tablet:py-20 laptop:px-40 laptop:py-32 text-stone-900">
+    <section className="bg-lightGray relative px-8 py-28 tablet:px-20 tablet:py-20 laptop:px-40 laptop:py-32 text-stone-900">
       <div className="gap-8 laptop:gap-10 flex flex-col">
         <h3 className="font-dream text-3xl text-center">What I offer</h3>
         <div className="grid grid-cols-2 laptop:grid-cols-6 gap-4 tablet:gap-10 laptop:gap-[2%] font-body font-extralight">
