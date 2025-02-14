@@ -9,8 +9,9 @@ export const Header = () => {
   const dropdownRef = useRef();
   const buttonRef = useRef();
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
-  const navLinks = [
+  const navLinksBase = [
     { name: "Schedule", path: "/schedule" },
     { name: "Workshops", path: "/workshops" },
     { name: "Office Yoga", path: "/office-yoga" },
@@ -19,6 +20,10 @@ export const Header = () => {
     { name: "Contact", path: "/contact" },
   ];
 
+  const navLinks = isMobile
+  ? [{ name: "Home", path: "/" }, ...navLinksBase]
+  : navLinksBase; 
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -26,6 +31,14 @@ export const Header = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 1024);
+    
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -39,10 +52,10 @@ export const Header = () => {
       }
     };
 
-    // Bind the event listener
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      // Clean up the event listener
+
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
