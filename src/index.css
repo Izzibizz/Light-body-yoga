@@ -6,6 +6,7 @@
 @import "tailwindcss";
 
 
+
 @theme {
   --font-round: "Poiret One", "serif";
   --font-body: "Figtree", "serif";
@@ -35,6 +36,12 @@
   --animate-mediumFadeIn: fadeIn 1.5s ease-in both;
   --animate-fadeIn: fadeIn 1s ease-in both;
   --animate-spin: spin 10s ease-in infinite;
+
+  @layer base {
+    body {
+      @apply bg-purple
+    }
+  }
 
 @keyframes fadeIn {
   from {
