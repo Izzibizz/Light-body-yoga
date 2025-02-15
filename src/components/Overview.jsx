@@ -15,13 +15,13 @@ export const Overview = () => {
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
-            <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
+            <div className="bg-warm-white hover:drop-shadow-xl flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
               Yoga at work
             </div>
           </NavLink>
           <NavLink
             to="/schedule"
-            className="hover:scale-105 transition-transform duration-200"
+            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/93e1df401815c159b7662c14d37f84b1_l2jnfx.jpg"
@@ -34,7 +34,7 @@ export const Overview = () => {
           </NavLink>
           <NavLink
             to="/private-session"
-            className="hover:scale-105 transition-transform duration-200"
+            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/yoga_1_kexakz.jpg"
@@ -47,7 +47,7 @@ export const Overview = () => {
           </NavLink>
           <NavLink
             to="/treatments"
-            className="hover:scale-105 transition-transform duration-200"
+            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/hands_h45m3c.jpg"
@@ -60,7 +60,7 @@ export const Overview = () => {
           </NavLink>
           <NavLink
             to="/retreats"
-            className="hover:scale-105 transition-transform duration-200"
+            className="hover:scale-105 hover:drop-shadow-xl hover:drop-shadow-xltransition-transform duration-200"
           >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/retreat_lah6u3.jpg"
@@ -73,7 +73,7 @@ export const Overview = () => {
           </NavLink>
           <NavLink
             to="/workshops"
-            className="hover:scale-105 transition-transform duration-200"
+            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/workshop_y7e11j.jpg"

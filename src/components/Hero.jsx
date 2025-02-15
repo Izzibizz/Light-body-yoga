@@ -48,8 +48,8 @@ const imgRef = useRef()
         src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739100255/svg_test-text_nmxvhb.svg"
         alt="text"
         className="w-9/12 tablet:w-2/3 laptop:w-11/12 mx-auto tablet:mx-0"/>
-        <button className="flex font-body font-extralight items-center gap-3 cursor-pointer group self-center tablet:self-end hover:text-warm-white transition-colors duration-200 " onClick={scrollToOverview}>
-        Read more{" "}
+        <button className="flex font-body font-extralight items-center gap-3 cursor-pointer group self-center tablet:self-end " onClick={scrollToOverview}>
+        <p className="w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-300 group-hover:w-[80px] group-hover:opacity-100">Read more{" "}</p>
         <div className="relative w-[60px] h-[60px] laptop:w-[70px] laptop:h-[70px]">
           <img src={sun} alt="sun button more" className="group-hover:scale-115 transition-transform duration-100 group-hover:animate-spin" />
           <motion.div
