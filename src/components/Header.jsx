@@ -118,7 +118,7 @@ export const Header = () => {
         className="fixed top-0 right-0 h-screen w-screen overflow-hidden font-dream text-4xl text-warm-white bg-grayBlue/95 flex justify-end px-8 "
           ref={dropdownRef}
         >
-          <ul className="flex flex-col laptop:flex-row items-end gap-8 font-light absolute bottom-10 animate-fadeIn">
+          <ul className="flex flex-col laptop:flex-row items-end gap-8 font-light absolute bottom-40 animate-fadeIn">
             {navLinks.map((link) => (
               <NavLink layout="position"
                 key={link.path}
