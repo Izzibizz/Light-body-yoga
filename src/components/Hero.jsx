@@ -39,9 +39,9 @@ const imgRef = useRef()
       ref={imgRef}
     >
       <img
-        src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736928855/530be1ab3b6184dd15e0e5a0b6012ac8-22_gebuz4.jpg"
+        src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742495726/emma.therese_c3kkdp.jpg"
         alt="Therese Lind Bjellder"
-        className="w-full max-w-[400px] laptop:max-w-[700px] tablet:self-center laptop:self-end laptop:w-1/2 rounded-xl mb-2"
+        className="w-full max-w-[400px] laptop:max-w-[500px] tablet:self-center laptop:self-end laptop:w-1/2 rounded-xl mb-2"
       ></img>
       <div className="w-full laptop:w-[45%] flex flex-col tablet:flex-row laptop:flex-col gap-4">
       <img

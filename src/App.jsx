@@ -11,7 +11,7 @@ export const App = () => {
     <ScrollToTop />
     <div className="max-w-screen min-h-screen flex flex-col overflow-hidden relative bg-grayBlue">
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow mb-20">
       <VideoBg />
         <MainRoutes />
       </main>

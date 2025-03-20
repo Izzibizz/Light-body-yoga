@@ -11,7 +11,7 @@ export const Overview = () => {
             className="hover:scale-105 transition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/11062b_bf629a121acb42ac8c9f25e69fe0d79a_mv2_f8nnpc.webp"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742493987/skissbild_Therese_Y8A7743-1-srgb_jxez5h.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
@@ -24,7 +24,7 @@ export const Overview = () => {
             className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/93e1df401815c159b7662c14d37f84b1_l2jnfx.jpg"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742483472/skissbild_Therese_Y8A8873-1-srgb_mjdudg.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
@@ -37,7 +37,7 @@ export const Overview = () => {
             className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/yoga_1_kexakz.jpg"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742493989/skissbild_Therese_Y8A8525-1-srgb_by8zvl.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
@@ -50,7 +50,7 @@ export const Overview = () => {
             className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739369690/hands_h45m3c.jpg"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742483811/skissbild_Therese_Y8A9123-1-srgb_kfzs0x.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl "
               alt="image"
             />
@@ -76,7 +76,7 @@ export const Overview = () => {
             className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/workshop_y7e11j.jpg"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742483813/skissbild_Therese_Y8A9009-1_srgb_xkwkym.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
@@ -90,7 +90,7 @@ export const Overview = () => {
             <h4>Holistic Yoga & Healing</h4>
             <div className="flex items-center gap-6">
               {" "}
-              <h4>Anytime, Anywhere</h4>
+              <h4>For Everyone, Anywhere</h4>
               <img
                 src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739545182/free-movement_wbbd7u.svg"
                 className="w-[40px]"
@@ -100,18 +100,11 @@ export const Overview = () => {
           </div>
           <div className="grid tablet:grid-cols-2 gap-[4%]">
             <p className="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              feugiat convallis urna, eget suscipit nisi pulvinar ut. Donec et
-              vehicula nunc. Sed tincidunt et neque sit amet cursus. Quisque
-              sodales rhoncus tellus. In ultricies euismod est, ac semper libero
-              tristique sit amet.
+            I’m dedicated to help others tap into their inner strength through yoga, healing and social connections. Over time I have developed a broad spectra of practises to meet my yogis in different ways. I offer one on one treatments and private yoga classes, to connect with you personally as well as social gatherings like group classes, retreats and workshops. My everyday practice is based in Stockholm but I offer my experiences world-wide.
+            
             </p>
             <p className="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              feugiat convallis urna, eget suscipit nisi pulvinar ut. Donec et
-              vehicula nunc. Sed tincidunt et neque sit amet cursus. Quisque
-              sodales rhoncus tellus. In ultricies euismod est, ac semper libero
-              tristique sit amet.
+            I teach Hatha & Vinyasa Yoga, Yin Yoga, Yoga Nidra, Pranayama, and give Reiki and Intuitive Healing & Massage. With a heart full of light and love, I share dynamic, playful classes infused with themes and intentions to cultivate energy and mindfullness. My creativity flows into every session, reflecting my dancer's soul, guiding others toward authenticity and compassion—for themselves, towards others, and how we show up for our beautiful Mother Earth.
             </p>
           </div>
         </div>
