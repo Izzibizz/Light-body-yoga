@@ -14,7 +14,7 @@ export const Schedule = () => {
           />
           <h3 className="font-dream text-2xl">Schedule</h3>
         </div>
-        <div className="bg-lightGray/40 border border-solid rounded-3xl p-6 py-8 laptop:grid laptop:grid-cols-5 w-full laptop:w-fit gap-4">
+        <div className="bg-purple/40 border border-solid rounded-3xl p-6 py-8 laptop:grid laptop:grid-cols-5 w-full laptop:w-fit gap-4">
           {schedule.map((dayItem, index) => {
             const { day, classes } = dayItem;
 
@@ -23,14 +23,14 @@ export const Schedule = () => {
                 key={index}
                 className="flex flex-col tablet:flex-row laptop:flex-col gap-1"
               >
-                <h5 className="text-xl tablet:text-2xl laptop:text-base mb-2 tablet:w-[90px]">
+                <h5 className="text-xl tablet:text-2xl laptop:text-lg laptop:font-semibold text-stone-800 mb-2 tablet:w-[90px]">
                   {day}
                 </h5>
                 {classes && classes.length > 0 ? (
                   classes.map((yogaClass, classIndex) => (
                     <div
                       key={classIndex}
-                      className={`bg-warm-white/90 tablet:w-[160px] p-4 border border-gray-300 rounded-xl shadow-md mb-4 flex flex-col gap-2 laptop:gap-1`}
+                      className={`bg-warm-white/90 tablet:w-[160px] tablet:min-h-[170px] p-4 border border-gray-300 rounded-xl shadow-md mb-4 flex flex-col justify-between gap-2 laptop:gap-1`}
                     >
                       <div className="flex justify-between items-center">
                         <h6 className="text-lg laptop:text-sm font-semibold tracking-wider font-dream">
@@ -49,15 +49,23 @@ export const Schedule = () => {
                           {yogaClass.place}
                         </p>
                       </div>
-
-                      <a
-                        href={yogaClass.bookinglink}
-                        alt="link to booking"
-                        target="_blank"
-                        className="bg-lightPurple text-warm-white w-fit p-2 px-3 rounded-xl mt-4  laptop:mt-2 laptop:text-sm self-center laptop:self-start"
-                      >
-                        Book Here
-                      </a>
+                      <a 
+  href={yogaClass.bookinglink} 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="inline-block w-full"
+>
+  <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-5 px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer w-full">
+    <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-lightGray text-purple duration-300 group-hover:translate-x-0">
+      <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+      </svg>
+    </span>
+    <span className="ease absolute flex h-full w-full transform items-center justify-center text-warm-white transition-all duration-300 group-hover:translate-x-full">
+      Book here
+    </span>
+  </button>
+</a>
                     </div>
                   ))
                 ) : (
