@@ -69,7 +69,7 @@ export const Header = () => {
       {/* Mobile Menu */}
       <div className="flex w-full laptop:hidden justify-end">
         <img
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742976066/lby-logga-square-text_y0kt0q.svg"
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742979419/lby-logga-sq-2t_erqk6p.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
           className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           onClick={() => navigate("/")}
@@ -145,7 +145,7 @@ export const Header = () => {
         </div>
 
         <img
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742976066/lby-logga-square-text_y0kt0q.svg"
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742979419/lby-logga-sq-2t_erqk6p.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
           className="w-[70px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-3 left-1/2 -translate-x-1/2"
           onClick={() => navigate("/")}

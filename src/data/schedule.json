@@ -1,0 +1,104 @@
+[ {
+    "day": "Tue",
+    "classes": [
+      {
+        "class": "Yoga for beginners",
+        "startingAt": "18:00",
+        "endingAt": "19:15",
+        "duration": "75 min",
+        "place": "YogaMana",
+        "address": "Danderydsgatan 2",
+        "bookinglink": "https://yogamana.se/schema-boka/"
+      }
+    ]
+},
+{
+    "day": "Wed",
+    "classes": [
+      {
+        "class": "Hatha Flow",
+        "startingAt": "08:00",
+        "endingAt": "09:15",
+        "duration": "75 min",
+        "place": "Yogashala Nytorget",
+        "address": "Gotlandsgatan 88",
+        "bookinglink": "https://yogashalastockholm.se/dropin/"
+      },
+      {
+        "class": "Breath With Us",
+        "startingAt": "17:15",
+        "endingAt": "18:00",
+        "duration": "45 min",
+        "place": "Downtown Camper by Scandic",
+        "address": "Brunkebergstorg 9",
+        "bookinglink": "mailto:lifestyleconcierge@scandichotels.com"
+      },
+      {
+        "class": "Sound Healing & Hands on Healing",
+        "startingAt": "18:15",
+        "endingAt": "19:00",
+        "duration": "45 min",
+        "place": "Downtown Camper by Scandic",
+        "address": "Brunkebergstorg 9",
+        "bookinglink": "mailto:lifestyleconcierge@scandichotels.com"
+      }
+    ]},
+    {
+        "day": "Fri",
+        "classes": [
+      {
+        "class": "Yin Yoga",
+        "startingAt": "16:00",
+        "endingAt": "17:15",
+        "duration": "75 min",
+        "place": "YogaMana",
+        "address": "Danderydsgatan 2",
+        "bookinglink": "https://yogamana.se/schema-boka/"
+      }
+    ]},
+    {
+        "day": "Sat",
+        "classes": [
+      {
+        "class": "Slow Flow",
+        "startingAt": "09:00",
+        "endingAt": "10:00",
+        "duration": "60 min",
+        "place": "YogaMana",
+        "address": "Danderydsgatan 2",
+        "bookinglink": "https://yogamana.se/schema-boka/"
+      },
+      {
+        "class": "Hatha Flow",
+        "startingAt": "16:30",
+        "endingAt": "18:00",
+        "duration": "90 min",
+        "place": "YogaMana",
+        "address": "Danderydsgatan 2",
+        "bookinglink": "https://yogamana.se/schema-boka/"
+      }
+    ]},
+{
+    "day": "Sun",
+    "classes": [
+      {
+        "class": "Yin & Nidra",
+        "startingAt": "09:00",
+        "endingAt": "10:15",
+        "duration": "75 min",
+        "place": "Yogashala Nytorget",
+        "address": "Gotlandsgatan 88",
+        "bookinglink": "https://yogashalastockholm.se/dropin/"
+      },
+      {
+        "class": "Hatha Flow",
+        "startingAt": "10:30",
+        "endingAt": "11:45",
+        "duration": "75 min",
+        "place": "Yogashala Nytorget",
+        "address": "Gotlandsgatan 88",
+        "bookinglink": "https://yogashalastockholm.se/dropin/"
+      }
+    ]
+  }
+]
