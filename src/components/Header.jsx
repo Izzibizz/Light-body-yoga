@@ -69,7 +69,7 @@ export const Header = () => {
       {/* Mobile Menu */}
       <div className="flex w-full laptop:hidden justify-end">
         <img
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742976066/lby-logga-square-text_y0kt0q.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
           className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           onClick={() => navigate("/")}
@@ -138,22 +138,22 @@ export const Header = () => {
       <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900 py-3 px-4">
         <div className="flex justify-between w-1/3">
           {navLinks.slice(0, 3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="hover:scale-110 hover:text-warm-white transition-all duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100 hover:drop-shadow-xl">
               {link.name}
             </NavLink>
           ))}
         </div>
 
         <img
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1736872757/lby-logga-text_vgk1uh.svg"
+          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742976066/lby-logga-square-text_y0kt0q.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
-          className="w-[100px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-3 left-1/2 -translate-x-1/2"
+          className="w-[70px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-3 left-1/2 -translate-x-1/2"
           onClick={() => navigate("/")}
         />
 
         <div className="flex justify-between w-1/3">
           {navLinks.slice(3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="hover:scale-110 hover:text-warm-white transition-all duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100 hover:drop-shadow-xl">
               {link.name}
             </NavLink>
           ))}
