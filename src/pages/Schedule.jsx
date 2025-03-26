@@ -32,7 +32,7 @@ export const Schedule = () => {
                       key={classIndex}
                       className={`bg-warm-white/90 tablet:w-[160px] p-4 border border-gray-300 rounded-xl shadow-md mb-4 flex flex-col gap-2 laptop:gap-1`}
                     >
-                      <div className="flex justify-between">
+                      <div className="flex justify-between items-center">
                         <h6 className="text-lg laptop:text-sm font-semibold tracking-wider font-dream">
                           {yogaClass.class}
                         </h6>
