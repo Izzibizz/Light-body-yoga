@@ -41,7 +41,7 @@ export const Schedule = () => {
                         </p>
                       </div>
                       <div className="flex gap-2 flex-wrap justify-between">
-                        <p className="text-sm laptop:text-xs flex items-center gap-1">
+                        <p className="text-sm laptop:text-xs flex items-center gap-1 laptop:gap-3">
                           {yogaClass.startingAt} <MdArrowRightAlt />{" "}
                           {yogaClass.endingAt}
                         </p>
@@ -54,7 +54,7 @@ export const Schedule = () => {
                         href={yogaClass.bookinglink}
                         alt="link to booking"
                         target="_blank"
-                        className="bg-lightPurple text-warm-white w-fit p-2 px-3 rounded-xl mt-2 laptop:text-sm self-center laptop:self-end"
+                        className="bg-lightPurple text-warm-white w-fit p-2 px-3 rounded-xl mt-4  laptop:mt-2 laptop:text-sm self-center laptop:self-start"
                       >
                         Book Here
                       </a>
