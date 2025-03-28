@@ -1,5 +1,6 @@
 import schedule from "../data/schedule.json";
 import { MdArrowRightAlt } from "react-icons/md";
+import { MdOutlineArrowRight } from "react-icons/md";
 
 export const Schedule = () => {
   console.log(schedule);
@@ -57,12 +58,16 @@ export const Schedule = () => {
 >
   <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-5 px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer w-full">
     <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center bg-lightGray text-purple duration-300 group-hover:translate-x-0">
-      <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-      </svg>
+    {yogaClass.place === "Yogashala Nytorget"
+    ? "Yogashala"
+    : yogaClass.place === "Downtown Camper"
+    ? "Downtown C."
+    : yogaClass.place}
+      <MdOutlineArrowRight/>
     </span>
+    
     <span className="ease absolute flex h-full w-full transform items-center justify-center text-warm-white transition-all duration-300 group-hover:translate-x-full">
-      Book here
+      Book a spot
     </span>
   </button>
 </a>

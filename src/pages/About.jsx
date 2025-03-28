@@ -66,7 +66,7 @@ export const About = () => {
               <img
                 src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
                 alt="therese lind bjellder Light body yoga"
-                className="laptop:max-w-[300px] laptop:max-h-[400px] rounded-2xl hidden laptop:block justify-self-center"
+                className="laptop:max-w-[300px] laptop:max-h-[400px] rounded-2xl hidden laptop:block justify-self-center mt-20"
               />
               <div className="flex flex-col gap-4">
                 <h4 className="font-dream text-2xl self-end laptop:self-start mt-4 laptop:mt-0">
