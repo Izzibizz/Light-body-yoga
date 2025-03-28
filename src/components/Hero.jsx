@@ -1,47 +1,22 @@
 import { motion } from "framer-motion"
-import { useRef, useEffect } from "react"
+
 import { SlArrowDown } from "react-icons/sl";
 import sun from "/sol.svg";
-import { useYogaStore } from "../store/useYogaStore";
+
 
 export const Hero = ({scrollToOverview}) => {
 
-    const { setHeaderBg } = useYogaStore();
-    
-    useEffect(() => {
-        const handleScroll = () => {
-          if (!imgRef.current) return;
-    
-          const imgTop = imgRef.current.offsetTop;
-          const scrollPosition = window.scrollY;
-    
-          setHeaderBg(scrollPosition > imgTop);
-        };
-    
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-      }, []);
-    
-      useEffect(() => {
-        setHeaderBg(false); // Reset to false when mounting
-    
-        return () => {
-          setHeaderBg(true); // Ensure true when unmounting (navigating away)
-        };
-      }, [setHeaderBg]);
-
-const imgRef = useRef()
 
   return (
     <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40 laptop:pt-48">
     <div
       className="flex flex-col laptop:flex-row-reverse w-10/12 mx-auto laptop:justify-between items-center gap-6 tablet:gap-20 h-full"
-      ref={imgRef}
+      
     >
       <img
         src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743156984/skissbild_Therese_Y8A7743-1-srgb-sqr_txz9gp.png"
         alt="Therese Lind Bjellder"
-        className="h-[300px] w-full tablet:h-[400px] laptop:w-[500px] tablet:h-[500px] aspect-square object-cover tablet:self-end rounded-xl mb-2"
+        className="h-[300px] w-full tablet:h-[400px] tablet:w-[400px] laptop:w-[600px] laptop:h-[600px] aspect-square object-cover tablet:self-end rounded-xl mb-2"
       />
       <div className="w-full laptop:w-[45%] flex flex-col tablet:flex-row laptop:flex-col gap-4">
       <img

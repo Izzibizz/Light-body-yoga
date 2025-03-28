@@ -3,7 +3,7 @@ export const About = () => {
     <section className="animate-mediumFadeIn ">
       <div className="relative w-9/12 tablet:w-10/12 laptop:w-9/12 mx-auto mt-40 laptop:mt-42 flex flex-col text-stone-900 gap-10">
         <div className="flex flex-col laptop:flex-row gap-16">
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-4">
             <div className="flex gap-4 items-center">
               <h3 className="font-dream text-3xl">About me</h3>
               <img
@@ -17,8 +17,9 @@ export const About = () => {
               alt="therese lind bjellder Light body yoga"
               className="aspect-[3/4] object-cover rounded-2xl tablet:hidden"
             />
-            <div className="flex flex-col gap-4 text-justify laptop:grid laptop:grid-cols-3 laptop:gap-x-20">
-              <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 text-justify laptop:grid laptop:grid-cols-3 laptop:gap-x-10">
+            <div className="hidden laptop:flex flex-col gap-4">
+                <div className="flex flex-col gap-4 bg-warm-white p-8 rounded-xl ">
                 <h4 className="font-dream text-2xl">
                   <span className="font-medium">Hi,</span> I’m Therese!
                 </h4>
@@ -29,14 +30,37 @@ export const About = () => {
                   creativity, and deep healing, paved with self-discovery and
                   growth.
                 </p>
-                <div className="flex gap-10">
+             </div>
+             <img
+                src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743166688/skissbild_Therese_Y8A8247-1-srgbsqr_daarkk.png"
+                alt="therese lind bjellder Light body yoga"
+                className=" rounded-2xl  justify-self-center hidden laptop:block"
+              />
+             </div>
+              <div className="flex flex-col gap-4">
+                
+              <div className="flex flex-col gap-4 bg-warm-white p-6 rounded-xl laptop:hidden">
+                <h4 className="font-dream text-2xl">
+                  <span className="font-medium">Hi,</span> I’m Therese!
+                </h4>
+                <p>
+                  My journey to yoga, and back to embodying my healer’s soul in
+                  this lifetime, has been a winding, rocky and beautiful road
+                  that’s carried me across the world—a path of movement,
+                  creativity, and deep healing, paved with self-discovery and
+                  growth.
+                </p>
+                </div>
+                
+                <div className="flex gap-10 laptop:h-full">
                   <img
                     src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
                     alt="therese lind bjellder Light body yoga"
                     className="max-w-[300px] h-[400px] rounded-2xl hidden tablet:block laptop:hidden"
                   />
-                  <div>
-                    <h4 className="font-dream text-2xl self-end laptop:self-start">
+                  
+                  <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl ">
+                    <h4 className="font-dream text-2xl self-end laptop:self-start ">
                       How it began
                     </h4>
                     <p>
@@ -63,12 +87,7 @@ export const About = () => {
                   </div>
                 </div>
               </div>
-              <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
-                alt="therese lind bjellder Light body yoga"
-                className="laptop:max-w-[300px] laptop:max-h-[400px] rounded-2xl hidden laptop:block justify-self-center mt-20"
-              />
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl laptop:h-full">
                 <h4 className="font-dream text-2xl self-end laptop:self-start mt-4 laptop:mt-0">
                   How my practice looks today
                 </h4>

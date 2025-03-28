@@ -1,11 +1,12 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect, useRef } from "react";
 import { useYogaStore } from "../store/useYogaStore";
 
 export const Header = () => {
-  const { headerBg } = useYogaStore();
+  const { headerBg, setHeaderBg } = useYogaStore();
   const navigate = useNavigate();
+  const location = useLocation ()
   const dropdownRef = useRef();
   const buttonRef = useRef();
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,14 @@ export const Header = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  const logoClick = () => {
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      navigate("/")
+    }
+  }
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 1024);
@@ -60,6 +69,23 @@ export const Header = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setHeaderBg(true);
+      } else {
+        setHeaderBg(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  console.log(location.pathname)
+
   return (
     <header
       className={`fixed top-0 z-20 w-full py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-body ${
@@ -72,7 +98,7 @@ export const Header = () => {
           src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742979419/lby-logga-sq-2t_erqk6p.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
           className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-          onClick={() => navigate("/")}
+          onClick={() => logoClick()}
         />
         <button
           ref={buttonRef}
@@ -148,7 +174,7 @@ export const Header = () => {
           src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742979419/lby-logga-sq-2t_erqk6p.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
           className="w-[70px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-3 left-1/2 -translate-x-1/2"
-          onClick={() => navigate("/")}
+          onClick={() => logoClick()}
         />
 
         <div className="flex justify-between w-1/3">
