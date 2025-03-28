@@ -11,7 +11,7 @@ export const Overview = () => {
             className="hover:scale-105 transition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742493987/skissbild_Therese_Y8A7743-1-srgb_jxez5h.jpg"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742483820/skissbild_Therese_Y8A9467-1-srgb_ksvq1f.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
