@@ -5,12 +5,12 @@ export const About = () => {
         <div className="flex flex-col laptop:flex-row gap-16">
           <div className="flex flex-col gap-4">
             <div className="flex gap-4 items-center">
-              <h3 className="font-dream text-3xl">About me</h3>
               <img
                 src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743091266/blomma_ad2dpv.svg"
                 alt="balance symbol"
                 className="w-[40px] h-[40px]"
               />
+              <h3 className="font-dream text-3xl">About me</h3>
             </div>
             <img
               src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
@@ -94,9 +94,7 @@ export const About = () => {
               </div>
               <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl laptop:h-full">
                 <div className="flex gap-4 items-center">
-                  <h4 className="font-dream text-2xl ">
-                   My practice today
-                  </h4>
+                  <h4 className="font-dream text-2xl ">My practice today</h4>
                   <img
                     src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743176561/circles_ayr69r.svg"
                     className="w-[30px] h-[20px]"
