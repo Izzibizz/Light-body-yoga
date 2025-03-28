@@ -51,7 +51,7 @@ export const Contact = () => {
               gap-4 font-dream text-xl laptop:text-2xl"
               >
                 <PiInstagramLogoFill className="text-orange-500 w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]" />{" "}
-                Instagram: yogitherese
+                @yogitherese
               </a>
             </div>
           </div>
