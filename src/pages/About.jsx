@@ -18,51 +18,56 @@ export const About = () => {
               className="aspect-[3/4] object-cover rounded-2xl tablet:hidden"
             />
             <div className="flex flex-col gap-4 text-justify laptop:grid laptop:grid-cols-3 laptop:gap-x-10">
-            <div className="hidden laptop:flex flex-col gap-4">
+              <div className="hidden laptop:flex flex-col gap-4">
                 <div className="flex flex-col gap-4 bg-warm-white p-8 rounded-xl ">
-                <h4 className="font-dream text-2xl">
-                  <span className="font-medium">Hi,</span> I’m Therese!
-                </h4>
-                <p>
-                  My journey to yoga, and back to embodying my healer’s soul in
-                  this lifetime, has been a winding, rocky and beautiful road
-                  that’s carried me across the world—a path of movement,
-                  creativity, and deep healing, paved with self-discovery and
-                  growth.
-                </p>
-             </div>
-             <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743166688/skissbild_Therese_Y8A8247-1-srgbsqr_daarkk.png"
-                alt="therese lind bjellder Light body yoga"
-                className=" rounded-2xl  justify-self-center hidden laptop:block"
-              />
-             </div>
-              <div className="flex flex-col gap-4">
-                
-              <div className="flex flex-col gap-4 bg-warm-white p-6 rounded-xl laptop:hidden">
-                <h4 className="font-dream text-2xl">
-                  <span className="font-medium">Hi,</span> I’m Therese!
-                </h4>
-                <p>
-                  My journey to yoga, and back to embodying my healer’s soul in
-                  this lifetime, has been a winding, rocky and beautiful road
-                  that’s carried me across the world—a path of movement,
-                  creativity, and deep healing, paved with self-discovery and
-                  growth.
-                </p>
+                  <h4 className="font-dream text-2xl">
+                    <span className="font-medium">Hi,</span> I’m Therese!
+                  </h4>
+                  <p>
+                    My journey to yoga, and back to embodying my healer’s soul
+                    in this lifetime, has been a winding, rocky and beautiful
+                    road that’s carried me across the world—a path of movement,
+                    creativity, and deep healing, paved with self-discovery and
+                    growth.
+                  </p>
                 </div>
-                
+                <img
+                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743166688/skissbild_Therese_Y8A8247-1-srgbsqr_daarkk.png"
+                  alt="therese lind bjellder Light body yoga"
+                  className=" rounded-2xl  justify-self-center hidden laptop:block"
+                />
+              </div>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 bg-warm-white p-6 rounded-xl laptop:hidden">
+                  <h4 className="font-dream text-2xl">
+                    <span className="font-medium">Hi,</span> I’m Therese!
+                  </h4>
+                  <p>
+                    My journey to yoga, and back to embodying my healer’s soul
+                    in this lifetime, has been a winding, rocky and beautiful
+                    road that’s carried me across the world—a path of movement,
+                    creativity, and deep healing, paved with self-discovery and
+                    growth.
+                  </p>
+                </div>
+
                 <div className="flex gap-10 laptop:h-full">
                   <img
                     src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
                     alt="therese lind bjellder Light body yoga"
                     className="max-w-[300px] h-[400px] rounded-2xl hidden tablet:block laptop:hidden"
                   />
-                  
+
                   <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl ">
-                    <h4 className="font-dream text-2xl self-end laptop:self-start ">
-                      How it began
-                    </h4>
+                    <div className="flex gap-4">
+                      <h4 className="font-dream text-2xl self-end laptop:self-start">
+                        How it began
+                      </h4>
+                      <img
+                        src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743176595/begnning_eqj8ae.svg"
+                        className="w-[30px] h[30px]"
+                      />
+                    </div>
                     <p>
                       I began my path in 2002 at the Ballet Academy in
                       Stockholm, where I trained to become a dancer. For years,
@@ -88,9 +93,15 @@ export const About = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl laptop:h-full">
-                <h4 className="font-dream text-2xl self-end laptop:self-start mt-4 laptop:mt-0">
-                  How my practice looks today
-                </h4>
+                <div className="flex gap-4 items-center">
+                  <h4 className="font-dream text-2xl ">
+                   My practice today
+                  </h4>
+                  <img
+                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743176561/circles_ayr69r.svg"
+                    className="w-[30px] h-[20px]"
+                  />
+                </div>
                 <p>
                   Today, I’m dedicated to helping others tap into their inner
                   strength through yoga. With a heart full of light and love, I
