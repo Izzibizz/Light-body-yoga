@@ -6,19 +6,7 @@ export const Overview = () => {
       <div className="gap-8 laptop:gap-10 flex flex-col">
         <h3 className="font-dream text-3xl text-center">What I offer</h3>
         <div className="grid grid-cols-2 laptop:grid-cols-6 gap-4 tablet:gap-10 laptop:gap-[2%] font-body font-extralight">
-          <NavLink
-            to="/office-yoga"
-            className="hover:scale-105 transition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742483820/skissbild_Therese_Y8A9467-1-srgb_ksvq1f.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
-              alt="image"
-            />
-            <div className="bg-warm-white hover:drop-shadow-xl flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              Yoga at work
-            </div>
-          </NavLink>
+     
           <NavLink
             to="/schedule"
             className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
@@ -30,6 +18,32 @@ export const Overview = () => {
             />
             <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
               Classes
+            </div>
+          </NavLink>
+          <NavLink
+            to="/treatments"
+            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
+          >
+            <img
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742483811/skissbild_Therese_Y8A9123-1-srgb_kfzs0x.jpg"
+              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl "
+              alt="image"
+            />
+            <div className="bg-warm-white h-1/3 flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
+              <p>Treatments</p>
+            </div>
+          </NavLink>
+          <NavLink
+            to="/office-yoga"
+            className="hover:scale-105 transition-transform duration-200"
+          >
+            <img
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742483820/skissbild_Therese_Y8A9467-1-srgb_ksvq1f.jpg"
+              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
+              alt="image"
+            />
+            <div className="bg-warm-white hover:drop-shadow-xl flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
+              Yoga at work
             </div>
           </NavLink>
           <NavLink
@@ -45,25 +59,13 @@ export const Overview = () => {
               Private sessions
             </div>
           </NavLink>
-          <NavLink
-            to="/treatments"
-            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742483811/skissbild_Therese_Y8A9123-1-srgb_kfzs0x.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl "
-              alt="image"
-            />
-            <div className="bg-warm-white h-1/3 flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              <p>Treatments</p>
-            </div>
-          </NavLink>
+        
           <NavLink
             to="/retreats"
             className="hover:scale-105 hover:drop-shadow-xl hover:drop-shadow-xltransition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739461075/retreat_lah6u3.jpg"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1739461075/retreat_lah6u3.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
@@ -76,7 +78,7 @@ export const Overview = () => {
             className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
           >
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742483813/skissbild_Therese_Y8A9009-1_srgb_xkwkym.jpg"
+              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742483813/skissbild_Therese_Y8A9009-1_srgb_xkwkym.jpg"
               className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
               alt="image"
             />
