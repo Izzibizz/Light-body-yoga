@@ -7,7 +7,7 @@ export const Treatments = () => {
           <h4 className="text-2xl italic font-dream ">
           A Gentle Space for Healing & Renewal
           </h4>
-          <p className="laptop:w-2/3 font-body text-justify">
+          <p className="laptop:w-2/3 text-justify">
             My treatments are a blend of bodywork and energy healing, designed
             to support both physical and emotional well-being. Each session is
             shaped by the needs of the moment—whether that means releasing

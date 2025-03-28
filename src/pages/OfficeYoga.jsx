@@ -7,7 +7,7 @@ export const OfficeYoga = () => {
           <h4 className="text-2xl italic font-dream ">
           Movement & Mindfulness at Work 
           </h4>
-          <p className="laptop:w-2/3 font-body text-justify">
+          <p className="laptop:w-2/3 text-justify">
 My office yoga sessions are designed to fit seamlessly into the workday, offering a mix of gentle movement, mindful breathing, and relaxation techniques that help reset the body and mind. Sessions can be done in a conference room, a gym or whichever space you have to roll out your yoga mats. 
 Each class is tailormade for your needs and requests, but could typically include:</p><ul>
 <li>🌿 Gentle stretches to release tension from sitting</li>

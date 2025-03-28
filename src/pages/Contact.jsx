@@ -14,7 +14,7 @@ export const Contact = () => {
         <div className="flex flex-col tablet:flex-row gap-2 laptop:gap-10">
           <div className=" flex flex-col-reverse tablet:flex-col bg-warm-white p-6 laptop:p-8 rounded-xl w-full desktop:w-1/2 gap-10 laptop:gap-20">
             <div className="flex flex-col gap-4 text-lg"><h4 className="text-2xl italic font-dream ">Let’s Connect!</h4>
-            <p className=" font-body text-justify">
+            <p className=" text-justify">
               Whether you’re looking for a private yoga session, a deeply
               restorative treatment, or a customized workshop, I’d love to hear
               from you. If your workplace could benefit from office yoga, or if
@@ -37,7 +37,10 @@ export const Contact = () => {
                 />
                 <p className="font-dream text-xl laptop:text-2xl">Therese@lightbodyyoga.se</p>
               </a>
-              <a href="" className="flex gap-2 tablet:gap-4 font-dream text-xl laptop:text-2xl">
+              <a href="" className="flex gap-2 tablet:
+              
+              
+              gap-4 font-dream text-xl laptop:text-2xl">
                 <PiInstagramLogoFill className="text-orange-500 w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]" />{" "}
                 Instagram: yogitherese
               </a>

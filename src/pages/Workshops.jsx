@@ -7,7 +7,7 @@ export const Workshops = () => {
           <h4 className="text-2xl italic font-dream ">
             Join me for special workshops together with other beautiful souls!
           </h4>
-          <p className="laptop:w-2/3 font-body text-justify">
+          <p className="laptop:w-2/3 text-justify">
             Most of my workshops are co-created with other talented human
             beings, sound healers, meditation teachers and coaches to bring you
             unique yoga and wellness experiences. Each workshop blends different
@@ -24,7 +24,7 @@ export const Workshops = () => {
             <h4 className="text-2xl italic font-dream ">
               Join me for special workshops together with other beautiful souls!
             </h4>
-            <p className="laptop:w-2/3 font-body text-justify">
+            <p className="laptop:w-2/3 text-justify">
               Most of my workshops are co-created with other talented human
               beings, sound healers, meditation teachers and coaches to bring
               you unique yoga and wellness experiences. Each workshop blends

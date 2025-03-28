@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <>
     <ScrollToTop />
-    <div className="max-w-screen min-h-screen flex flex-col overflow-hidden relative bg-grayBlue">
+    <div className="max-w-screen min-h-screen flex flex-col overflow-hidden relative bg-grayBlue font-body">
       <Header />
       <main className="flex-grow mb-20">
       <VideoBg />
