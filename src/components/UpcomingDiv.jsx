@@ -1,4 +1,4 @@
-export const Upcoming = () => {
+export const UpcomingDiv = () => {
   return (
     <section className="bg-lightGray relative px-8 py-28 tablet:px-20 tablet:py-20 laptop:px-40 laptop:py-32 text-stone-900">
       <div className="gap-8 laptop:gap-10 flex flex-col">
