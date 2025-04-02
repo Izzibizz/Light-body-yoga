@@ -1,7 +1,7 @@
 export const Workshops = () => {
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 laptop:mt-48 flex flex-col text-stone-900">
+      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40  flex flex-col text-stone-900">
         <h3 className="font-dream text-3xl mb-10">Workshops</h3>
         <div className=" flex flex-col gap-4">
           <h4 className="text-2xl italic font-dream ">
@@ -13,7 +13,7 @@ export const Workshops = () => {
             unique yoga and wellness experiences. Each workshop blends different
             styles, expertise, and perspectives, creating a rich and
             transformative space for learning, movement, and connection. Whether
-            you're deepening your practice, exploring new techniques, or simply
+            you&lsquo;re deepening your practice, exploring new techniques, or simply
             looking for inspiration and new connections these sessions are
             designed to support and uplift you.
           </p>
@@ -30,7 +30,7 @@ export const Workshops = () => {
               you unique yoga and wellness experiences. Each workshop blends
               different styles, expertise, and perspectives, creating a rich and
               transformative space for learning, movement, and connection.
-              Whether you're deepening your practice, exploring new techniques,
+              Whether you&lsquo;re deepening your practice, exploring new techniques,
               or simply looking for inspiration and new connections these
               sessions are designed to support and uplift you.
             </p>

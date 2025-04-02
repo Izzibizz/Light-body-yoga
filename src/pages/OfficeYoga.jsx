@@ -1,7 +1,7 @@
 export const OfficeYoga = () => {
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 laptop:mt-48 flex flex-col text-stone-900">
+      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col text-stone-900">
         <h3 className="font-dream text-3xl mb-10">Office Yoga</h3>
         <div className=" flex flex-col gap-4">
           <h4 className="text-2xl italic font-dream ">

@@ -1,9 +1,9 @@
-import { PiInstagramLogoFill } from "react-icons/pi";
+
 
 export const Contact = () => {
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative relative w-10/12 laptop:w-9/12 mx-auto mt-40 laptop:mt-48 flex flex-col gap-10 text-stone-900">
+      <div className="relative relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col gap-10 text-stone-900">
         <div className="flex gap-4 items-center">
           <h3 className="font-dream text-3xl">Contact</h3>{" "}
           <img
@@ -14,17 +14,17 @@ export const Contact = () => {
         <div className="flex flex-col tablet:flex-row gap-2 laptop:gap-10">
           <div className=" flex flex-col-reverse tablet:flex-col bg-warm-white p-6 laptop:p-8 rounded-xl w-full desktop:w-1/2 gap-10 laptop:gap-20">
             <div className="flex flex-col gap-4 text-lg text-justify">
-              <h4 className="text-2xl italic font-dream ">Let’s Connect!</h4>
+              <h4 className="text-2xl italic font-dream ">Let&lsquo;s Connect!</h4>
               <p>
-                Whether you’re looking for a private yoga session, a deeply
-                restorative treatment, or a customized workshop, I’d love to
+                Whether you&lsquo;re looking for a private yoga session, a deeply
+                restorative treatment, or a customized workshop, I&lsquo;d love to
                 hear from you. If your workplace could benefit from office yoga,
-                or if you have an idea for a collaboration, let’s explore it
+                or if you have an idea for a collaboration, let&lsquo;s explore it
                 together!
               </p>
               <p>
                 Feel free to reach out with any questions, booking requests, or
-                creative ideas—I'm always open to new possibilities.
+                creative ideas — I&lsquo;m always open to new possibilities.
               </p>
               <p className="text-xl italic">
                 I look forward to connecting with you!
@@ -48,10 +48,10 @@ export const Contact = () => {
                 className="flex gap-2 tablet:
               
               
-              gap-4 font-dream text-xl laptop:text-2xl"
+              gap-2 tablet:gap-4 font-dream text-xl laptop:text-2xl"
               >
-                <PiInstagramLogoFill className="text-orange-500 w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]" />{" "}
-                @yogitherese
+                <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743428096/instagram_uvjqqx.svg" className="text-orange-500 w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]" />
+                yogitherese
               </a>
             </div>
           </div>

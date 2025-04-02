@@ -7,7 +7,7 @@ export const Schedule = () => {
 
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 laptop:mt-48 flex flex-col desktop:flex-row gap-10 laptop:justify-between text-stone-900">
+      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col desktop:flex-row gap-10 laptop:justify-between text-stone-900">
         <div className="flex gap-4 items-center laptop:items-start">
           <img
             src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742974189/classes-light-body-yoga-icon_oxuhkj.svg"
