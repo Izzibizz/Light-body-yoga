@@ -173,7 +173,7 @@ export const Header = () => {
         <img
           src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742979419/lby-logga-sq-2t_erqk6p.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
-          className="w-[70px] cursor-pointer hover:scale-110 transition-transform duration-100 hover:drop-shadow-xl absolute top-3 left-1/2 -translate-x-1/2"
+          className="w-[70px] cursor-pointer hover:scale-110 transition-transform duration-100 absolute top-3 left-1/2 -translate-x-1/2"
           onClick={() => logoClick()}
         />
 
