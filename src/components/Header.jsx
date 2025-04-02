@@ -14,9 +14,11 @@ export const Header = () => {
 
   const navLinksBase = [
     { name: "Schedule", path: "/schedule" },
-    { name: "Workshops", path: "/workshops" },
-    { name: "Office Yoga", path: "/office-yoga" },
     { name: "Treatments", path: "/treatments" },
+    { name: "Workshops", path: "/workshops" },
+    { name: "Retreats", path: "/retreats" },
+    { name: "Private session", path: "/private-session" },
+    { name: "Office Yoga", path: "/office-yoga" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
@@ -141,10 +143,10 @@ export const Header = () => {
         animate={{ clipPath: "circle(150% at 50% 50%)" }} 
         exit={{ clipPath: "circle(5% at 100% 0%)" }} 
         transition={{ duration: 0.8, ease: "easeInOut" }}
-        className="fixed top-0 right-0 h-screen w-screen overflow-hidden font-dream text-4xl text-warm-white bg-grayBlue/95 flex justify-end px-8 "
+        className="fixed top-0 right-0 h-screen w-screen overflow-hidden font-dream text-3xl text-warm-white bg-grayBlue/95 flex justify-end px-8 "
           ref={dropdownRef}
         >
-          <ul className="flex flex-col laptop:flex-row items-end gap-8 font-light absolute bottom-32 tablet:bottom-40 animate-fadeIn">
+          <ul className="flex flex-col laptop:flex-row items-end gap-5 font-light absolute bottom-32 tablet:bottom-40 animate-fadeIn">
             {navLinks.map((link) => (
               <NavLink layout="position"
                 key={link.path}
