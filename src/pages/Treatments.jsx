@@ -15,29 +15,31 @@ export const Treatments = () => {
               deep-seated tension, restoring balance, or simply creating space
               to slow down and reconnect. I rent a beautiful treatment room in Vasastan on tuesdays, and otherwise I&lsquo;m available at home, south of Stockholm.
             </p>
-            <div className="flex gap-6 items-center">
-              <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
-                className="w-[30px]"
-              />
-              <div className="flex flex-col gap-2">
-              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 bg-warm-white p-2 rounded-xl">
+              <div className="flex flex-col gap-2 laptop:w-3/4">
+              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 bg-warm-white p-2 px-4 rounded-xl laptop:items-center">
                 <p className="text-lg font-semibold">Tuesdays</p>
-                <div className="flex flex-col tablet:flex-row gap-1 laptop:gap-4 laptop:items-center">
+                <div className="flex gap-2 ">
+                <img
+                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
+                className="w-[10px]"
+              />
                   <p>
                     Home in Yoga, Birkagatan 23
                   </p>
-                  <p className="font-medium">08:00 - 16:00</p>
                 </div>
+                <p className="font-medium ml-4">08:00 - 16:00</p>
               </div>
-              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center bg-warm-white p-2 rounded-xl">
+              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center bg-warm-white p-2 px-4 rounded-xl">
                 <p className="text-lg font-semibold">On demand</p>
-                <div className="flex flex-col tablet:flex-row gap-4">
+                <div className="flex gap-2">
+                <img
+                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
+                className="w-[10px]"
+              />
                   <p>
                     Bjursätragatan 19, Rågsved
                   </p>
                 </div>
-              </div>
             </div>
             </div>
             <p className=" laptop:w-3/4">
