@@ -17,7 +17,7 @@ export const Treatments = () => {
             </p>
               <div className="flex flex-col gap-2 laptop:w-3/4">
               <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 bg-warm-white p-2 px-4 rounded-xl laptop:items-center">
-                <p className="text-lg font-semibold">Tuesdays</p>
+                <p className="font-semibold">Tuesdays</p>
                 <div className="flex gap-2 ">
                 <img
                 src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
@@ -30,7 +30,7 @@ export const Treatments = () => {
                 <p className="font-medium ml-4">08:00 - 16:00</p>
               </div>
               <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center bg-warm-white p-2 px-4 rounded-xl">
-                <p className="text-lg font-semibold">On demand</p>
+                <p className=" font-semibold">On demand</p>
                 <div className="flex gap-2">
                 <img
                 src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
@@ -42,7 +42,7 @@ export const Treatments = () => {
                 </div>
             </div>
             </div>
-            <p className=" laptop:w-3/4">
+            <p className="text-justify laptop:w-3/4">
               There&lsquo;s no right or wrong way to experience these
               treatments—just an opportunity to pause, listen inward, and allow
               yourself to fully relax.
@@ -70,7 +70,7 @@ export const Treatments = () => {
                       </p>
                     </div>
                     <a
-                      href="mailto:therese@lightbodyyoga.se?subject=Bokning Svensk massage&body=Hej, jag skulle vilja boka en Svensk massage -ditt datum-"
+                      href="mailto:therese@lightbodyyoga.se?subject=Bokning Svensk massage&body=Hej, jag skulle vilja boka en Svensk massage"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="laptop:inline-block laptop:w-full"
@@ -106,7 +106,7 @@ export const Treatments = () => {
                       </p>
                     </div>
                     <a
-                      href="mailto:therese@lightbodyyoga.se?subject=Bokning Reiki&body=Hej, jag skulle vilja boka en Reiki behandling -ditt datum-"
+                      href="mailto:therese@lightbodyyoga.se?subject=Bokning Reiki&body=Hej, jag skulle vilja boka en Reiki behandling"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="laptop:inline-block laptop:w-full"
@@ -144,7 +144,7 @@ export const Treatments = () => {
                       </p>
                     </div>
                     <a
-                      href="mailto:therese@lightbodyyoga.se?subject=Bokning Healing session&body=Hej, jag skulle vilja boka en Healing session -ditt datum-"
+                      href="mailto:therese@lightbodyyoga.se?subject=Bokning Healing session&body=Hej, jag skulle vilja boka en Healing & massage"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="laptop:inline-block laptop:w-full"

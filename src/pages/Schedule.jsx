@@ -13,7 +13,7 @@ export const Schedule = () => {
             src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742974189/classes-light-body-yoga-icon_oxuhkj.svg"
             className="h-[40px]"
           />
-          <h3 className="font-dream text-2xl">Schedule</h3>
+          <h3 className="font-dream text-3xl">Schedule</h3>
         </div>
         <div className="bg-purple/40 border border-solid rounded-3xl p-6 py-8 laptop:grid laptop:grid-cols-5 w-full laptop:w-fit gap-4">
           {schedule.map((dayItem, index) => {

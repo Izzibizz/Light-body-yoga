@@ -3,39 +3,49 @@ export const Workshops = () => {
     <section className="animate-mediumFadeIn ">
       <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40  flex flex-col text-stone-900">
         <h3 className="font-dream text-3xl mb-10">Workshops</h3>
+        <div className="flex flex-col laptop:flex-row gap-10 laptop:gap-20">
         <div className=" flex flex-col gap-4">
           <h4 className="text-2xl italic font-dream ">
-            Join me for special workshops together with other beautiful souls!
+            Join me for a special workshop together with other beautiful souls!
           </h4>
-          <p className="laptop:w-2/3 text-justify">
-            Most of my workshops are co-created with other talented human
+          <p className="text-justify">
+            Most of my workshops I organize are co-created with other talented human
             beings, sound healers, meditation teachers and coaches to bring you
-            unique yoga and wellness experiences. Each workshop blends different
+            unique yoga and wellness experiences. It&lsquo;s all about togetherness and sharing knowledge. Each workshop blends different
             styles, expertise, and perspectives, creating a rich and
             transformative space for learning, movement, and connection. Whether
             you&lsquo;re deepening your practice, exploring new techniques, or simply
             looking for inspiration and new connections these sessions are
             designed to support and uplift you.
           </p>
-        </div>
-        <div className="flex flex-col self-end">
-          <h3 className="font-dream text-3xl mb-10">Retreats</h3>
-          <div className=" flex flex-col gap-4">
-            <h4 className="text-2xl italic font-dream ">
-              Join me for special workshops together with other beautiful souls!
-            </h4>
-            <p className="laptop:w-2/3 text-justify">
-              Most of my workshops are co-created with other talented human
-              beings, sound healers, meditation teachers and coaches to bring
-              you unique yoga and wellness experiences. Each workshop blends
-              different styles, expertise, and perspectives, creating a rich and
-              transformative space for learning, movement, and connection.
-              Whether you&lsquo;re deepening your practice, exploring new techniques,
-              or simply looking for inspiration and new connections these
-              sessions are designed to support and uplift you.
-            </p>
+          <div className="flex flex-col bg-warm-white p-4 rounded-xl gap-4">
+            <h4 className="font-dream text-xl">Upcoming</h4>
+            <div className="flex flex-col gap-2">
+            <h5 className="font-bold flex gap-4">05 May, 2025<span className="italic font-semibold">Chitta Vritti Nirodah</span></h5>
+            <p>Time: 09:00 AM - 1:00 PM</p>
+            <p>Place: Lugnet48, Lugnets allé 48F, Hammarby Sjöstad Stockholm</p>
+
+            </div>
+            <a
+                      href="mailto:therese@lightbodyyoga.se?subject=Bokning Chitta Vritti Nirodah&body=Hej, jag skulle vilja boka en plats på workshopen Chitta Vritti Nirodah."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="laptop:inline-block laptop:w-full"
+                    >
+                      <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-2 laptop:py-5 px-3 laptop:px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer laptop:w-[150px]">
+                        <span className="ease absolute hidden laptop:flex inset-0 h-full w-full -translate-x-full items-center justify-center bg-lightGray text-purple duration-300 group-hover:translate-x-0">
+                          Book via mail
+                        </span>
+                        <span className="hidden laptop:flex ease absolute h-full w-full transform items-center justify-center text-warm-white transition-all duration-300 group-hover:translate-x-full">
+                          Book now
+                        </span>
+                        <span className="laptop:hidden">Book via mail</span>
+                      </button>
+                    </a>
           </div>
         </div>
+        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743601304/dc-downtown-camper-yoga-therese-lind-bjellder_u1p8yi.png" className="laptop:w-1/2 rounded-xl object-cover"/>
+      </div>
       </div>
     </section>
   );

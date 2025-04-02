@@ -16,15 +16,19 @@ export const Header = () => {
     { name: "Schedule", path: "/schedule" },
     { name: "Treatments", path: "/treatments" },
     { name: "Workshops", path: "/workshops" },
-    { name: "Retreats", path: "/retreats" },
-    { name: "Private session", path: "/private-session" },
     { name: "Office Yoga", path: "/office-yoga" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
 
   const navLinks = isMobile
-  ? [{ name: "Home", path: "/" }, ...navLinksBase]
+  ? [
+    { name: "Home", path: "/" },
+    ...navLinksBase.slice(0, 3),
+    { name: "Retreats", path: "/retreats" },
+    { name: "Private session", path: "/private-session" },
+    ...navLinksBase.slice(3)
+  ]
   : navLinksBase; 
 
   const toggleMenu = () => {
@@ -166,7 +170,7 @@ export const Header = () => {
       <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900 py-3 px-4">
         <div className="flex justify-between w-1/3">
           {navLinks.slice(0, 3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100">
               {link.name}
             </NavLink>
           ))}
@@ -181,7 +185,7 @@ export const Header = () => {
 
         <div className="flex justify-between w-1/3">
           {navLinks.slice(3).map((link) => (
-            <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100 hover:drop-shadow-xl">
+            <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100">
               {link.name}
             </NavLink>
           ))}
