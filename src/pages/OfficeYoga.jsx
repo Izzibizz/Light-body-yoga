@@ -12,29 +12,29 @@ export const OfficeYoga = () => {
 My office yoga sessions are designed to fit seamlessly into the workday, offering a mix of gentle movement, mindful breathing, and relaxation techniques that help reset the body and mind. Sessions can be done in a conference room, a gym or whichever space you have to roll out your yoga mats. 
 </p>
 <h5 className="font-medium">Each class is tailormade for your needs and requests, but could typically include:</h5>
-<ul className="list-disc list-inside bg-warm-white rounded-xl p-6 flex flex-col gap-3">
-<li>Gentle stretches to <span className="font-medium">release tension from sitting</span></li>
-<li>Breathing exercises to <span className="font-medium">improve focus and energy</span></li>
-<li>Simple positions that <span className="font-medium">support better posture and mobility</span></li>
-<li>A short relaxation to leave everyone <span className="font-medium">feeling refreshed and focused</span></li>
-<li>The opportunity to <span className="font-medium">connect with collegues</span> in a fun and genuine way</li>
+<ul className=" bg-warm-white rounded-xl p-6 flex flex-col gap-3 ">
+<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Gentle stretches torelease tension from sitting</li>
+<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Breathing exercises to improve focus and energy</li>
+<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Simple positions that support better posture and mobility</li>
+<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>A short relaxation to leave everyone feeling refreshed and focused</li>
+<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>The opportunity to connect with collegue in a fun and genuine way</li>
 </ul>
 <p>
 The practice is accessible to all levels</p>
 <p className="text-justify">
 The duration can be anything between <span className="font-medium">30 to 60 minutes</span>, whatever fits your office. Usually no shower is needed, so it&lsquo;s easy to fit into the work schedule.
-          </p><div className="flex gap-10">
+          </p><div className="flex gap-10 bg-warm-white p-6 rounded-xl">
           <a
                 href="mailto:therese@lightbodyyoga.se?subject=Påbörja samarbete - Kontorsyoga"
                 className="flex gap-2 tablet:gap-4 items-center"
               >
                 <img
                   src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743172962/orange_mail_m06yz1.svg"
-                  className="w-auto h-[90px] laptop:h-[80px]"
+                  className="w-auto h-[90px] laptop:h-[70px]"
                   alt="mail contact"
                 />
               </a>
-          <p className="text-justify"><span className="font-medium italic">Do you want to bring yoga to your office?</span> Simply send me an email, and we can find a way for me to improve your workday with movement, breath and joy. </p>
+          <p className="text-justify"><span className="font-medium italic">Do you want to bring yoga to your office?</span><br/> Simply send me an email, and we can find a way for me to improve your workday with movement, breath and joy. </p>
         </div>
         </div>
         <video
