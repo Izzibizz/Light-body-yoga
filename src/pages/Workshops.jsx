@@ -55,7 +55,7 @@ export const Workshops = () => {
                     </div>
           </div>
         </div>
-        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743668720/Downtown-camper-yoga-light-body-therese-lind-bjellder_enmkb6.png" className="laptop:w-1/2 rounded-xl object-cover"/>
+        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743677006/dc-therese-lind-bjellder-workshop_alcpw3.png" className="laptop:w-1/2 rounded-xl object-cover"/>
       </div>
       </div>
     </section>
