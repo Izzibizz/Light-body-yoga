@@ -12,12 +12,12 @@ export const OfficeYoga = () => {
 My office yoga sessions are designed to fit seamlessly into the workday, offering a mix of gentle movement, mindful breathing, and relaxation techniques that help reset the body and mind. Sessions can be done in a conference room, a gym or whichever space you have to roll out your yoga mats. 
 </p>
 <h5 className="font-medium">Each class is tailormade for your needs and requests, but could typically include:</h5>
-<ul className="list-disc list-inside bg-warm-white rounded-xl p-4 flex flex-col gap-3">
-<li>Gentle stretches to release tension from sitting</li>
-<li>Breathing exercises to improve focus and energy</li>
-<li>Simple positions that support better posture and mobility</li>
-<li>A short relaxation to leave everyone feeling refreshed</li>
-<li>The opportunity to connect with collegues in a fun and genuine way</li>
+<ul className="list-disc list-inside bg-warm-white rounded-xl p-6 flex flex-col gap-3">
+<li>Gentle stretches to <span className="font-medium">release tension from sitting</span></li>
+<li>Breathing exercises to <span className="font-medium">improve focus and energy</span></li>
+<li>Simple positions that <span className="font-medium">support better posture and mobility</span></li>
+<li>A short relaxation to leave everyone <span className="font-medium">feeling refreshed and focused</span></li>
+<li>The opportunity to <span className="font-medium">connect with collegues</span> in a fun and genuine way</li>
 </ul>
 <p>
 The practice is accessible to all levels</p>
