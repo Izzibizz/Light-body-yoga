@@ -1,5 +1,5 @@
 
-export const Upcoming = () => {
+export const Grinda = () => {
   return (
     <section>
       

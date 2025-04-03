@@ -1,5 +1,3 @@
-
-
 export const Contact = () => {
   return (
     <section className="animate-mediumFadeIn ">
@@ -14,13 +12,15 @@ export const Contact = () => {
         <div className="flex flex-col tablet:flex-row gap-2 laptop:gap-10">
           <div className=" flex flex-col-reverse tablet:flex-col bg-warm-white p-6 laptop:p-8 rounded-xl w-full desktop:w-1/2 gap-10 laptop:gap-20">
             <div className="flex flex-col gap-4 text-lg text-justify">
-              <h4 className="text-2xl italic font-dream ">Let&lsquo;s Connect!</h4>
+              <h4 className="text-2xl italic font-dream ">
+                Let&lsquo;s Connect!
+              </h4>
               <p>
-                Whether you&lsquo;re looking for a private yoga session, a deeply
-                restorative treatment, or a customized workshop, I&lsquo;d love to
-                hear from you. If your workplace could benefit from office yoga,
-                or if you have an idea for a collaboration, let&lsquo;s explore it
-                together!
+                Whether you&lsquo;re looking for a private yoga session, a
+                deeply restorative treatment, or a customized workshop,
+                I&lsquo;d love to hear from you. If your workplace could benefit
+                from office yoga, or if you have an idea for a collaboration,
+                let&lsquo;s explore it together!
               </p>
               <p>
                 Feel free to reach out with any questions, booking requests, or
@@ -38,19 +38,25 @@ export const Contact = () => {
                 <img
                   src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743172962/orange_mail_m06yz1.svg"
                   className="w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]"
+                  alt="mail contact"
                 />
                 <p className="font-dream text-xl laptop:text-2xl">
                   Therese@lightbodyyoga.se
                 </p>
               </a>
               <a
-                href=""
+                href="https://www.instagram.com/yogitherese/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex gap-2 tablet:
               
               
               gap-2 tablet:gap-4 font-dream text-xl laptop:text-2xl"
               >
-                <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743428096/instagram_uvjqqx.svg" className="text-orange-500 w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]" />
+                <img
+                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743428096/instagram_uvjqqx.svg"
+                  className="text-orange-500 w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]"
+                />
                 yogitherese
               </a>
             </div>

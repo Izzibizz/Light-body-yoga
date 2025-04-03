@@ -8,7 +8,7 @@ export const Workshops = () => {
       <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40  flex flex-col text-stone-900">
         <h3 className="font-dream text-3xl mb-10">Workshops</h3>
         <div className="flex flex-col laptop:flex-row gap-10 laptop:gap-20">
-        <div className=" flex flex-col gap-4">
+        <div className=" flex flex-col gap-8">
           <h4 className="text-2xl italic font-dream ">
             Join me for a special workshop together with other beautiful souls!
           </h4>
@@ -32,7 +32,7 @@ export const Workshops = () => {
 
             </div>
             <div className="flex gap-4">
-            <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-2 px-3 laptop:px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer laptop:w-[150px] hover:bg-lightPurple hover:text-white" onClick={() => navigate("/upcoming")}>
+            <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-2 px-3 laptop:px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer laptop:w-[150px] hover:bg-lightPurple hover:text-white" onClick={() => navigate("/chitta-vritti-nirodah")}>
                   
                         <span>Read more</span>
                       </button>
@@ -55,7 +55,7 @@ export const Workshops = () => {
                     </div>
           </div>
         </div>
-        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743601304/dc-downtown-camper-yoga-therese-lind-bjellder_u1p8yi.png" className="laptop:w-1/2 rounded-xl object-cover"/>
+        <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743668720/Downtown-camper-yoga-light-body-therese-lind-bjellder_enmkb6.png" className="laptop:w-1/2 rounded-xl object-cover"/>
       </div>
       </div>
     </section>

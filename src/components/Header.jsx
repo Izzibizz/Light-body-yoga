@@ -16,7 +16,9 @@ export const Header = () => {
     { name: "Schedule", path: "/schedule" },
     { name: "Treatments", path: "/treatments" },
     { name: "Workshops", path: "/workshops" },
+    { name: "Retreats", path: "/retreats" },
     { name: "Office Yoga", path: "/office-yoga" },
+    { name: "Private session", path: "/private-session" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
@@ -24,10 +26,7 @@ export const Header = () => {
   const navLinks = isMobile
   ? [
     { name: "Home", path: "/" },
-    ...navLinksBase.slice(0, 3),
-    { name: "Retreats", path: "/retreats" },
-    { name: "Private session", path: "/private-session" },
-    ...navLinksBase.slice(3)
+    ...navLinksBase
   ]
   : navLinksBase; 
 
@@ -110,7 +109,7 @@ export const Header = () => {
           ref={buttonRef}
           onClick={toggleMenu}
           aria-label="Toggle Menu"
-          className="flex flex-col justify-center items-center z-50 cursor-pointer justify-self-end"
+          className="flex flex-col justify-center items-center z-50 cursor-pointer justify-self-end mr-4"
         >
           <span
             className={`bg-stone-900 block transition-all duration-300 ease-out 
@@ -147,7 +146,7 @@ export const Header = () => {
         animate={{ clipPath: "circle(150% at 50% 50%)" }} 
         exit={{ clipPath: "circle(5% at 100% 0%)" }} 
         transition={{ duration: 0.8, ease: "easeInOut" }}
-        className="fixed top-0 right-0 h-screen w-screen overflow-hidden font-dream text-3xl text-warm-white bg-grayBlue/95 flex justify-end px-8 "
+        className="fixed top-0 right-0 h-screen w-screen overflow-hidden font-dream text-3xl text-warm-white bg-grayBlue/95 flex justify-end px-10 "
           ref={dropdownRef}
         >
           <ul className="flex flex-col laptop:flex-row items-end gap-5 font-light absolute bottom-32 tablet:bottom-40 animate-fadeIn">
@@ -167,9 +166,9 @@ export const Header = () => {
       </AnimatePresence>
 
       {/* Laptop Menu */}
-      <div className="hidden laptop:flex justify-between w-full items-center text-lg font-extralight text-stone-900 py-3 px-4">
+      <div className="hidden laptop:flex justify-between w-full items-center font-extralight text-stone-900 py-3 px-4">
         <div className="flex justify-between w-1/3">
-          {navLinks.slice(0, 3).map((link) => (
+          {navLinks.slice(0, 4).map((link) => (
             <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100">
               {link.name}
             </NavLink>
@@ -184,7 +183,7 @@ export const Header = () => {
         />
 
         <div className="flex justify-between w-1/3">
-          {navLinks.slice(3).map((link) => (
+          {navLinks.slice(4).map((link) => (
             <NavLink key={link.path} to={link.path} className="hover:scale-115 transition-all duration-100">
               {link.name}
             </NavLink>
