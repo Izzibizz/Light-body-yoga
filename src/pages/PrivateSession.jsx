@@ -71,7 +71,7 @@ export const PrivateSession = () => {
                 </h4>
                 <p>Pricing:</p>
                 <a
-                  href="mailto:therese@lightbodyyoga.se?subject=Bokning Chitta Vritti Nirodah&body=Hej, jag skulle vilja boka en plats på workshopen Chitta Vritti Nirodah."
+                  href="mailto:therese@lightbodyyoga.se?subject=Bokning Privat yoga klass&body=Hej, jag skulle vilja boka en privat yoga klass .."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="laptop:inline-block self-center"
@@ -148,8 +148,9 @@ export const PrivateSession = () => {
           />
          
         </div>
-        <div className="flex flex-col bg-warm-white p-6 rounded-xl gap-4 laptop:w-1/2">
+        <div className="flex flex-col bg-warm-white p-6 rounded-xl gap-4">
               <h4 className="font-dream text-xl">FAQ:</h4>
+              <div className="flex flex-col laptop:grid grid-cols-2 gap-4">
               {faqItems.map((item, index) => (
                 <div
                   key={index}
@@ -164,8 +165,10 @@ export const PrivateSession = () => {
                   >
                     {item.answer}
                   </div>
+                  
                 </div>
               ))}
+              </div>
             </div>
       </div>
     </section>
