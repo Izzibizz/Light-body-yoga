@@ -13,7 +13,7 @@ My office yoga sessions are designed to fit seamlessly into the workday, offerin
 </p>
 <h5 className="font-medium">Each class is tailormade for your needs and requests, but could typically include:</h5>
 <ul className=" bg-warm-white rounded-xl p-6 flex flex-col gap-3 ">
-<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Gentle stretches torelease tension from sitting</li>
+<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Gentle stretches to release tension from sitting</li>
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Breathing exercises to improve focus and energy</li>
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Simple positions that support better posture and mobility</li>
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>A short relaxation to leave everyone feeling refreshed and focused</li>

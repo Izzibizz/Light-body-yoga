@@ -96,7 +96,8 @@ export const Retreats = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743669166/grinda-yoga-retreat-light-body-yoga-nature_vvuc65.png"
+            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675744/grinda-yoga-retreat-light-body-yoga-nature_xvq6px.png"
+            alt="Grinda retreat 2024"
             className="laptop:w-1/2 rounded-xl object-cover"
           />
           <p className="laptop:hidden text-justify">Whether you choose a private
