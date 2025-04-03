@@ -41,6 +41,7 @@ The duration can be anything between <span className="font-medium">30 to 60 minu
        
          className="w-full laptop:w-1/2 h-auto aspect-[4/3] object-cover rounded-2xl"
         controls
+        playsInline
   controlsList="nodownload nofullscreen noremoteplayback"
   poster="https://res.cloudinary.com/dbf8xygxz/video/upload/v1743671518/video-dc-Therese-yoga_lrqfyw.jpg" 
 >
