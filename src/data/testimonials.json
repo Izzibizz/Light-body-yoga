@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "text": "Tack för en perfekt helg Sofia och Therese! Jag reste därifrån alldeles harmonisk men också full av energi. Ni är båda så varma och inkluderande i er gemenskap - det betyder mycket! Jag älskade retreatet och jag älskade Grindas salta bad och vackra miljö. Lagom blandning mellan yoga, social samvaro och lite ensamtid. Det allra bästa tycker jag var morgonyogan vid havet - oförglömlig!",
+      "name": "Anna",
+      "year": 2024,
+      "place": "Grinda retreat 2024, Vaxholm"
+    },
+    {
+      "id": 2,
+      "text": "Therese is simply AMAZING ❤️ Her yoga classes are infused with a beautiful, healing energy that can turn a challenging day into a positive one. What makes her teaching so special to me is the authenticity and love she brings—it’s clear it comes straight from the heart. This genuine energy makes each session grounding, transformative, and deeply nourishing. ",
+      "name": "Sarah",
+      "year": 2025,
+      "place": "Regular classes, Stockholm"
+    },
+    {
+      "id": 3,
+      "text": "Therese är min favorit yogalärare (och då har jag testat många på 20 år). Det som händer på hennes klass är att det skapas en kärleksfull gemenskap och hon har en varm, helande röst. Jag känner mig trygg och inspirerad på hennes klasser som hon lägger in hela sin närvaro i. ",
+      "name": "Melina",
+      "year": 2025,
+      "place": "Regular classes, Stockholm"
+    },
+    {
+      "id": 4,
+      "text": "Jag kan varmt rekommendera Therese, hon har en otrolig värme och närvaro som får en att känna sig trygg och omhändertagen från första stund. Hennes behandlingar, både massage och reiki, är djupt avslappnande och vårdande – en stund av total återhämtning för både kropp och själ. ",
+      "name": "Izabel",
+      "year": 2025,
+      "place": "Massage & Reiki, Stockholm"
+    }
+  ]
