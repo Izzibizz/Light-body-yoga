@@ -1,9 +1,22 @@
+import { useState, useEffect } from "react"
 import testimonials from "../data/testimonials.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 export const Testimonials = () => {
+
+    const [shuffledTestimonials, setShuffledTestimonials] = useState([]);
+
+    const shuffleArray = (array) => {
+        return array.sort(() => Math.random() - 0.5);
+      };
+
+    useEffect(() => {
+      setShuffledTestimonials(shuffleArray([...testimonials]));
+    }, []);
+
+
   return (
     <section className="w-10/12 laptop:w-full mx-auto h-full pt-20">
       <Swiper
@@ -21,7 +34,7 @@ export const Testimonials = () => {
         effect="fade"
         className="my-10 h-fit"
       >
-        {testimonials.map((testimonial, index) => (
+        {shuffledTestimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
             <div className="laptop:w-1/2 h-full mx-auto px-10 tablet:px-20 items-center pt-12 tablet:pt-15 pb-6 text-justify bg-warm-white rounded-4xl tablet:rounded-full tablet:rounded-br-none rounded-br-none shadow-lg  tablet:text-base cursor-pointer">
               <p className="italic text-xs tablet:text-sm">{testimonial.text}</p>
