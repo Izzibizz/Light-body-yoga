@@ -26,7 +26,7 @@ export const Grinda = () => {
             <p className="text-justify font-medium text-warm-white">
               Early Bird Discount — available until 1 May
             </p>}
-            <ul className="text-justify  gap-2 flex flex-col">
+            <ul className=" gap-2 flex flex-col">
               What you get:
               <li className="flex gap-4 items-center">
                 {" "}
