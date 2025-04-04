@@ -5,7 +5,7 @@ import "swiper/css";
 
 export const Testimonials = () => {
   return (
-    <section className="w-11/12 tablet:w-10/12 laptop:w-full mx-auto h-full pt-20">
+    <section className="w-10/12 laptop:w-full mx-auto h-full pt-20">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={70}
@@ -19,7 +19,7 @@ export const Testimonials = () => {
         }}
         loop
         effect="fade"
-        className="laptop:my-10 h-fit"
+        className="my-10 h-fit"
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>

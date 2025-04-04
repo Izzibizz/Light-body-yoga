@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import testimonials from "../data/testimonials.json"
 
 export const Grinda = () => {
 
@@ -171,10 +172,19 @@ export const Grinda = () => {
               </a>
             </div>
           </div>
+          <div className="flex flex-col gap-8 laptop:w-1/2">
           <img
             src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675744/grinda-yoga-retreat-light-body-yoga-nature_xvq6px.png"
-            className="laptop:w-1/2 rounded-xl object-cover"
+            className="rounded-xl object-cover"
           />
+          <div className="px-10 tablet:px-20 items-center pt-12 tablet:pt-15 pb-6 text-justify bg-warm-white rounded-4xl tablet:rounded-full tablet:rounded-br-none rounded-br-none shadow-lg  tablet:text-base cursor-pointer">
+              <p className="italic text-xs tablet:text-sm">{testimonials[0].text}</p>
+              <p className="mt-4 text-right text-xs">
+                - {testimonials[0].name}, {testimonials[0].year}
+              </p>
+              <p className="text-right text-xs">{testimonials[0].place}</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
