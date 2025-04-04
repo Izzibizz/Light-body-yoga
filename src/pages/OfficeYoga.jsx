@@ -11,11 +11,11 @@ export const OfficeYoga = () => {
           <p className=" text-justify">
 My office yoga sessions are designed to fit seamlessly into the workday, offering a mix of gentle movement, mindful breathing, and relaxation techniques that help reset the body and mind. Sessions can be done in a conference room, a gym or whichever space you have to roll out your yoga mats. 
 </p>
-<h5 className="font-medium">Each class is tailormade for your needs and requests, but could typically include:</h5>
+<h5 className="font-medium">Each class is tailormade for your needs and requests but could typically include:</h5>
 <ul className=" bg-warm-white rounded-xl p-6 flex flex-col gap-3 ">
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Gentle stretches to release tension from sitting</li>
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Breathing exercises to improve focus and energy</li>
-<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Simple positions that support better posture and mobility</li>
+<li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>Positions that support better posture and mobility</li>
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>A short relaxation to leave everyone feeling refreshed and focused</li>
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>The opportunity to connect with collegue in a fun and genuine way</li>
 </ul>
@@ -35,7 +35,7 @@ My office yoga sessions are designed to fit seamlessly into the workday, offerin
 <p>
 The practice is accessible to all levels</p>
 <p className="text-justify">
-The duration can be anything between <span className="font-medium">30 to 60 minutes</span>, whatever fits your office. Usually no shower is needed, so it&lsquo;s easy to fit into the work schedule.
+The duration can be anything between <span className="font-medium">30 to 60 minutes or longer</span>, whatever fits your office. Usually no shower is needed, so it&lsquo;s easy to fit into the work schedule.
           </p>
         </div>
         <video

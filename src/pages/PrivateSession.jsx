@@ -65,11 +65,16 @@ export const PrivateSession = () => {
               step.
             </p>
             <div className="flex flex-col laptop:flex-row gap-10 mt-8">
-              <div className="flex flex-col bg-warm-white p-6 rounded-xl gap-4 laptop:w-fit items-center tablet:items-start">
+              <div className="flex flex-col bg-warm-white p-6 rounded-xl gap-4 laptop:w-fit ">
                 <h4 className="font-dream text-xl">
                   Book a private yoga class
                 </h4>
-                <p>Pricing:</p>
+                <h5 className="text-lg">Pricing:</h5>
+                <ul>
+                  <li><span className="font-medium">60 min</span> 1100 kr</li>
+                  <li><span className="font-medium">Package price 3 classes</span> 3000 kr</li>
+                </ul>
+                <p className="text-sm">You can also book a group session, contact me for more info.</p>
                 <a
                   href="mailto:therese@lightbodyyoga.se?subject=Bokning Privat yoga klass&body=Hej, jag skulle vilja boka en privat yoga klass .."
                   target="_blank"
@@ -88,7 +93,7 @@ export const PrivateSession = () => {
                 </a>
               </div>
               <ul className="bg-warm-white p-6 rounded-xl gap-4 flex flex-col laptop:w-fit">
-                <h5 className="text-lg font-medium">
+                <h5 className="text-lg font-medium font-dream">
                   Why Private Yoga Sessions?
                 </h5>
                 <li className="flex gap-4 items-center">
@@ -138,38 +143,34 @@ export const PrivateSession = () => {
                 className="rounded-xl object-cover laptop:hidden"
               />
             </div>
-         
-        
           </div>
           <img
             src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743680404/StudioMamama_Therese-lind-bjellder-Light-body.yoga_f45qgs.png"
             alt="Private yoga session"
             className="w-5/12 rounded-xl object-cover hidden laptop:block"
           />
-         
         </div>
         <div className="flex flex-col bg-warm-white p-6 rounded-xl gap-4">
-              <h4 className="font-dream text-xl">FAQ:</h4>
-              <div className="flex flex-col laptop:grid grid-cols-2 gap-4">
-              {faqItems.map((item, index) => (
+          <h4 className="font-dream text-xl">FAQ:</h4>
+          <div className="flex flex-col laptop:grid grid-cols-2 gap-4">
+            {faqItems.map((item, index) => (
+              <div
+                key={index}
+                className="bg-gray-100 p-4 rounded-lg shadow-md w-full cursor-pointer font-medium"
+                onClick={() => toggleAnswer(index)}
+              >
+                {item.question}
                 <div
-                  key={index}
-                  className="bg-gray-100 p-4 rounded-lg shadow-md w-full cursor-pointer font-medium"
-                  onClick={() => toggleAnswer(index)}
+                  className={`mt-2 text-gray-700 font-light ${
+                    openIndex === index ? "block" : "hidden"
+                  }`}
                 >
-                  {item.question}
-                  <div
-                    className={`mt-2 text-gray-700 font-light ${
-                      openIndex === index ? "block" : "hidden"
-                    }`}
-                  >
-                    {item.answer}
-                  </div>
-                  
+                  {item.answer}
                 </div>
-              ))}
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

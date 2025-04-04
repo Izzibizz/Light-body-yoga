@@ -125,7 +125,7 @@ export const Treatments = () => {
                 </div>
               </li>
               <li className="bg-warm-white rounded-xl p-4 flex flex-col gap-4">
-                <span className="font-semibold">Healing & massage</span>
+                <span className="font-semibold">Healing & Massage</span>
                 <div className="flex flex-col laptop:flex-row gap-4">
                   Healing sessions draw from different techniques, combining
                   energy work, breath, and intuitive touch to create a session

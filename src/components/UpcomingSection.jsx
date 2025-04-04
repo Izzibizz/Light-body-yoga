@@ -5,7 +5,7 @@ export const UpcomingSection = () => {
   const navigate = useNavigate()
   return (
     <section className="bg-lightGray relative px-8 py-28 tablet:px-20 tablet:py-20 laptop:px-40 laptop:py-32 text-stone-900">
-      <div className="gap-8 laptop:gap-10 flex flex-col">
+      <div className="gap-8 laptop:gap-10 flex flex-col laptop:w-10/12 mx-auto ">
         <div className="flex gap-4 items-center">
           <h3 className="font-dream text-3xl text-center">Upcoming</h3>
           <img
