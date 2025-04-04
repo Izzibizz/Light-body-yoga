@@ -51,7 +51,7 @@ export const PrivateSession = () => {
             </h4>
             <p className="text-justify">
               Experience the full benefits of yoga with one-on-one sessions
-              designed to meet your unique needs and goals. Whether you're
+              designed to meet your unique needs and goals. Whether you&lsquo;re
               looking to deepen your practice, improve specific postures, or
               simply find a moment of focus away from the group, these sessions
               are all about you.

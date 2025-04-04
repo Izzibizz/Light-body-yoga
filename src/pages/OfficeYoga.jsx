@@ -19,11 +19,7 @@ My office yoga sessions are designed to fit seamlessly into the workday, offerin
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>A short relaxation to leave everyone feeling refreshed and focused</li>
 <li className="flex gap-4 items-center"> <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg" className="h-[15px]"/>The opportunity to connect with collegue in a fun and genuine way</li>
 </ul>
-<p>
-The practice is accessible to all levels</p>
-<p className="text-justify">
-The duration can be anything between <span className="font-medium">30 to 60 minutes</span>, whatever fits your office. Usually no shower is needed, so it&lsquo;s easy to fit into the work schedule.
-          </p><div className="flex gap-10 bg-warm-white p-6 rounded-xl">
+<div className="flex gap-10 bg-warm-white p-6 rounded-xl">
           <a
                 href="mailto:therese@lightbodyyoga.se?subject=Påbörja samarbete - Kontorsyoga"
                 className="flex gap-2 tablet:gap-4 items-center"
@@ -36,6 +32,11 @@ The duration can be anything between <span className="font-medium">30 to 60 minu
               </a>
           <p className="text-justify"><span className="font-medium italic">Do you want to bring yoga to your office?</span><br/> Simply send me an email, and we can find a way for me to improve your workday with movement, breath and joy. </p>
         </div>
+<p>
+The practice is accessible to all levels</p>
+<p className="text-justify">
+The duration can be anything between <span className="font-medium">30 to 60 minutes</span>, whatever fits your office. Usually no shower is needed, so it&lsquo;s easy to fit into the work schedule.
+          </p>
         </div>
         <video
        
