@@ -23,7 +23,7 @@ export const Grinda = () => {
             </h4>
             {showDiscount &&
             <p className="text-justify font-medium text-warm-white">
-              Early Bird Discount — available until May 1st
+              Early Bird Discount — available until 1 May
             </p>}
             <ul className="text-justify  gap-2 flex flex-col">
               What you get:
