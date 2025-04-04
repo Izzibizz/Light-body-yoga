@@ -23,7 +23,7 @@ export const Testimonials = () => {
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
-            <div className="laptop:w-1/2 h-full mx-auto px-10 laptop:px-20 items-center pt-12 laptop:pt-15 pb-6 text-justify bg-warm-white rounded-[25%] tablet:rounded-full rounded-br-none shadow-lg  tablet:text-base cursor-pointer">
+            <div className="laptop:w-1/2 h-full mx-auto px-10 tablet:px-20 items-center pt-12 tablet:pt-15 pb-6 text-justify bg-warm-white rounded-4xl tablet:rounded-full tablet:rounded-br-none rounded-br-none shadow-lg  tablet:text-base cursor-pointer">
               <p className="italic text-xs tablet:text-sm">{testimonial.text}</p>
               <p className="mt-4 text-right text-xs">
                 - {testimonial.name}, {testimonial.year}
