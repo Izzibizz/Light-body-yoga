@@ -60,13 +60,13 @@ export const Treatments = () => {
                   <div className="flex laptop:flex-col gap-2 items-center laptop:self-end justify-between">
                     <div className="flex flex-col tablet:flex-row laptop:flex-col tablet:gap-8 laptop:gap-1">
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">60 min</span> 1000 kr
+                        <span className="font-semibold">60 min</span> 1000 sek
                       </p>
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">75 min</span> 1300 kr
+                        <span className="font-semibold">75 min</span> 1300 sek
                       </p>
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">90 min</span> 1500 kr
+                        <span className="font-semibold">90 min</span> 1500 sek
                       </p>
                     </div>
                     <a
@@ -99,10 +99,10 @@ export const Treatments = () => {
                   <div className="flex laptop:flex-col gap-2 items-center laptop:self-end justify-between">
                     <div className="flex flex-col tablet:flex-row laptop:flex-col tablet:gap-8 laptop:gap-1">
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">60 min</span> 1000 kr
+                        <span className="font-semibold">60 min</span> 1000 sek
                       </p>
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">75 min</span> 1200 kr
+                        <span className="font-semibold">75 min</span> 1200 sek
                       </p>
                     </div>
                     <a
@@ -134,13 +134,13 @@ export const Treatments = () => {
                   <div className="flex laptop:flex-col gap-6 items-center laptop:self-end justify-between">
                     <div className="flex flex-col tablet:flex-row laptop:flex-col tablet:gap-8 laptop:gap-1">
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">60 min</span> 1200 kr
+                        <span className="font-semibold">60 min</span> 1200 sek
                       </p>
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">75 min</span> 1400 kr
+                        <span className="font-semibold">75 min</span> 1400 sek
                       </p>
                       <p className="whitespace-nowrap flex gap-2 laptop:gap-6">
-                        <span className="font-semibold">90 min</span> 1600 kr
+                        <span className="font-semibold">90 min</span> 1600 sek
                       </p>
                     </div>
                     <a

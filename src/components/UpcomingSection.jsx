@@ -19,7 +19,7 @@ export const UpcomingSection = () => {
             <h4 className="font-dream text-xl">Workshop</h4>
             <div className="flex flex-col gap-2">
               <h5 className="font-bold flex gap-4">
-                05 May, 2025
+              31 May, 2025
                 <span className="italic font-semibold">
                   Chitta Vritti Nirodah
                 </span>
@@ -52,6 +52,9 @@ export const UpcomingSection = () => {
                   Sofia French
                 </a>
               </p>
+              <p>
+                  <span className="font-medium">Price:</span> 750 sek
+                </p>
             </div>
             <div className="flex gap-4">
               <button
@@ -115,6 +118,9 @@ export const UpcomingSection = () => {
                   Sofia French
                 </a>
               </p>
+              <p>
+                  <span className="font-medium">Price:</span> 4950 - 7950 sek
+                </p>
             </div>
             <div className="flex gap-4">
               <button

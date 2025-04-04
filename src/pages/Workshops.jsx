@@ -25,7 +25,7 @@ export const Workshops = () => {
           <div className="flex flex-col bg-warm-white p-4 rounded-xl gap-4">
             <h4 className="font-dream text-xl">Upcoming</h4>
             <div className="flex flex-col gap-2">
-            <h5 className="font-bold flex gap-4">05 May, 2025<span className="italic font-semibold">Chitta Vritti Nirodah</span></h5>
+            <h5 className="font-bold flex gap-4">31 May, 2025<span className="italic font-semibold">Chitta Vritti Nirodah</span></h5>
             <p><span className="font-medium">Time:</span> 09:00 - 13:00</p>
             <p><span className="font-medium">Place:</span> <a href="https://holisticjourneycoach.com/lugnet-48" target="_blank" rel="noopener noreferrer" className="italic">Lugnet48</a>, Lugnets allé 48F, Hammarby Sjöstad Stockholm</p>
             <p> <span className="font-medium">Creators and leaders:</span> Therese Lind Bjellder & <a href="https://www.instagram.com/sofiafrench/" target="_blank" rel="noopener noreferrer" className="italic">Sofia French</a></p>

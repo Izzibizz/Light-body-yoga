@@ -71,8 +71,8 @@ export const PrivateSession = () => {
                 </h4>
                 <h5 className="text-lg">Pricing:</h5>
                 <ul>
-                  <li><span className="font-medium">60 min</span> 1100 kr</li>
-                  <li><span className="font-medium">Package price 3 classes</span> 3000 kr</li>
+                  <li><span className="font-medium">60 min</span> 1100 sek</li>
+                  <li><span className="font-medium">Package price 3 classes</span> 3000 sek</li>
                 </ul>
                 <p className="text-sm">You can also book a group session, contact me for more info.</p>
                 <a
