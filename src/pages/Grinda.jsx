@@ -89,29 +89,29 @@ export const Grinda = () => {
               {showDiscount ? (
               <ul className="flex flex-col gap-2">
                 <li className="flex justify-between">
-                  Part in double room: <span>5950 sek{" "}
-                  <span className="line-through text-xs">6950 sek</span></span>
+                  Part in double room: <span className="font-medium">5950 sek{" "}
+                  <span className="line-through text-xs font-light">6950 sek</span></span>
                 </li>
                 <li className="flex justify-between">
-                  Single room: <span>6950 sek{" "}
-                  <span className="line-through text-xs">7950 sek</span></span>
+                  Single room: <span className="font-medium">6950 sek{" "}
+                  <span className="line-through text-xs font-light">7950 sek</span></span>
                 </li>
                 <li className="flex justify-between">
-                  Part in 2-beds cabin: <span>4950 sek{" "}
-                  <span className="line-through text-xs">5950 sek</span></span>
+                  Part in 2-beds cabin: <span className="font-medium">4950 sek{" "}
+                  <span className="line-through text-xs font-light">5950 sek</span></span>
                 </li>
                 <p className="text-orange-500">1000 sek discount until 1 May</p>
               </ul>
               ) : (
               <ul className="flex flex-col gap-2">
                 <li className="flex justify-between">
-                  Part in double room: <span>6950 sek</span>
+                  Part in double room: <span className="font-medium">6950 sek</span>
                 </li>
                 <li className="flex justify-between">
-                  Single room: <span>7950 sek</span>
+                  Single room: <span className="font-medium">7950 sek</span>
                 </li>
                 <li className="flex justify-between">
-                  Part in 2-beds cabin: <span>5950 sek</span>
+                  Part in 2-beds cabin: <span className="font-medium">5950 sek</span>
                 </li>
               </ul> )}
             </div>
