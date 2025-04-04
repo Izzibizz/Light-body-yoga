@@ -182,7 +182,6 @@ export const Grinda = () => {
               <p className="mt-4 text-right text-xs">
                 - {testimonials[0].name}, {testimonials[0].year}
               </p>
-              <p className="text-right text-xs">{testimonials[0].place}</p>
             </div>
           </div>
         </div>
