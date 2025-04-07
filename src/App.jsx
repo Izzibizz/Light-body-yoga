@@ -3,6 +3,7 @@ import { MainRoutes } from "./routes/MainRoutes";
 import { VideoBg } from "./components/VideoBg";
 import { Footer } from "./components/Footer";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { CTA } from "./components/CTA"
 
 export const App = () => {
 
@@ -14,6 +15,7 @@ export const App = () => {
       <main className="flex-grow mb-20">
       <VideoBg />
         <MainRoutes />
+        <CTA/>
       </main>
       <Footer />
     </div>
