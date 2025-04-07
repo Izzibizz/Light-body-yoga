@@ -22,7 +22,7 @@ const [ showCTA, setShowCTA ] = useState(false)
   return (
     <>
     {showCTA && (
-    <a href="mailto:therese@lightbodyyoga.se"  className="animate-shortFadeIn fixed bottom-6 right-6 tablet:bottom-10 tablet:right-10 z-40 w-fit h-fit bg-orange-500/80 rounded-xl p-2 px-4 tablet:text-lg text-center laptop:hover:scale-105">
+    <a href="mailto:therese@lightbodyyoga.se"  className="animate-shortFadeIn fixed bottom-6 right-6 tablet:bottom-10 tablet:right-10 z-40 w-fit h-fit bg-purple/80 text-white rounded-xl p-2 px-4 tablet:text-lg text-center laptop:hover:scale-105">
         Connect with me
     </a>
   )}
