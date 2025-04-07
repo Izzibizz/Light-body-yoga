@@ -9,6 +9,9 @@ video::-webkit-media-controls {
   display: none !important;
 }
 
+.swiper-pagination-bullet-active {
+  background: white !important;
+}
 
 @theme {
   --font-round: "Nunito Sans", sans-serif;
