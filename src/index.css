@@ -5,6 +5,10 @@
 }
 @import "tailwindcss";
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
 
 @theme {
   --font-round: "Nunito Sans", sans-serif;

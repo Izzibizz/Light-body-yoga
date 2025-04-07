@@ -20,8 +20,8 @@ export const VideoBg = () => {
      <video
         autoPlay
         loop
-        muted
-        playsInline
+        muted="true"
+        playsInline="true"
         className={`absolute inset-0 w-full h-full object-cover z-0`}
       >
         <source

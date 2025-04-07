@@ -1,30 +1,51 @@
 [
-    {
-      "id": 1,
-      "text": "Tack för en perfekt helg Sofia och Therese! Jag reste därifrån alldeles harmonisk men också full av energi. Ni är båda så varma och inkluderande i er gemenskap - det betyder mycket! Jag älskade retreatet och jag älskade Grindas salta bad och vackra miljö. Lagom blandning mellan yoga, social samvaro och lite ensamtid. Det allra bästa tycker jag var morgonyogan vid havet - oförglömlig!",
-      "name": "Anna",
-      "year": 2025,
-      "place": "Experience: Grinda retreat"
-    },
-    {
-      "id": 2,
-      "text": "Therese is simply AMAZING. Her yoga classes are infused with a beautiful, healing energy that can turn a challenging day into a positive one. What makes her teaching so special to me is the authenticity and love she brings—it’s clear it comes straight from the heart. This genuine energy makes each session grounding, transformative, and deeply nourishing. ",
-      "name": "Sarah",
-      "year": 2025,
-      "place": "Experience: Yoga classes"
-    },
-    {
-      "id": 3,
-      "text": "Therese är min favorit yogalärare (och då har jag testat många på 20 år). Det som händer på hennes klass är att det skapas en kärleksfull gemenskap och hon har en varm, helande röst. Jag känner mig trygg och inspirerad på hennes klasser som hon lägger in hela sin närvaro i. ",
-      "name": "Melina",
-      "year": 2025,
-      "place": "Experience: Yoga classes"
-    },
-    {
-      "id": 4,
-      "text": "Jag kan verkligen rekommendera Therese, hon har en otrolig värme och närvaro som får en att känna sig trygg och omhändertagen från första stund. Hennes behandlingar, både massage och reiki, är djupt avslappnande och vårdande – en stund av total återhämtning för både kropp och själ. ",
-      "name": "Izabel",
-      "year": 2025,
-      "place": "Experience: Massage & Reiki"
-    }
-  ]
+  {
+    "id": 1,
+    "text": "Tack för en perfekt helg Sofia och Therese! Jag reste därifrån alldeles harmonisk men också full av energi. Ni är båda så varma och inkluderande i er gemenskap - det betyder mycket! Jag älskade retreatet och jag älskade Grindas salta bad och vackra miljö. Lagom blandning mellan yoga, social samvaro och lite ensamtid. Det allra bästa tycker jag var morgonyogan vid havet - oförglömlig!",
+    "name": "Lisa",
+    "year": 2024,
+    "place": "Experience: Grinda retreat"
+  },
+  {
+    "id": 2,
+    "text": "Therese is simply AMAZING. Her yoga classes are infused with a beautiful, healing energy that can turn a challenging day into a positive one. What makes her teaching so special to me is the authenticity and love she brings—it’s clear it comes straight from the heart. This genuine energy makes each session grounding, transformative, and deeply nourishing. ",
+    "name": "Sarah",
+    "year": 2025,
+    "place": "Experience: Yoga classes"
+  },
+  {
+    "id": 3,
+    "text": "Therese är min favorit yogalärare (och då har jag testat många på 20 år). Det som händer på hennes klass är att det skapas en kärleksfull gemenskap och hon har en varm, helande röst. Jag känner mig trygg och inspirerad på hennes klasser som hon lägger in hela sin närvaro i. ",
+    "name": "Melina",
+    "year": 2025,
+    "place": "Experience: Yoga classes"
+  },
+  {
+    "id": 4,
+    "text": "Jag kan verkligen rekommendera Thereses behandlingar, hon har en otrolig värme och närvaro som får en att känna sig trygg och omhändertagen från första stund. Hennes behandlingar, både massage och reiki, är djupt avslappnande och vårdande – en stund av total återhämtning för både kropp och själ. ",
+    "name": "Izabel",
+    "year": 2024,
+    "place": "Experience: Massage & Reiki"
+  },
+  {
+    "id": 5,
+    "text": "Jag tycker att läraren (Therese) har varit helt fenomenal! Passen har varit väl varierade och anpassade efter våra önskemål och hennes sätt har varit så lugnande. Jag hoppas verkligen att hon vill fortsätta köra pass i vår. Tycker det har varit bra blandning av mer styrkeorienterad yoga och lugnare yoga.",
+    "name": "Anonymous, employee",
+    "year": 2024,
+    "place": "Experience: Office Yoga"
+  },
+  {
+    "id": 6,
+    "text": "Jag var på Grinda-retreatet sommaren 2024 och tyckte det var helt fantastiskt. Therese och Sofia skapad en trygg och lugn men ändå rolig och lättsam miljö där vi alla fick vara oss själva. Gruppen kom nära varandra efter alla yogapass, delningar och upplevelser. Grinda är magiskt fint och det var så härligt att yoga i ladan och även kunna kallbada och basta. Yogan var en skön blandning av yin och yang, både lugn och mer fysiskt utmanande yoga fast alltid i ett flow. Det bästa med helgen var att vi som så blandad grupp ändå kändes så sammansvetsade efter retreatet och att få landa och känna mig mer grundad i mig själv. Rekommenderas starkt!",
+    "name": "Malin",
+    "year": 2024,
+    "place": "Experience: Grinda Retreat"
+  },
+  {
+    "id": 7,
+    "text": "Ur ett träningsperspektiv är Therese:s klasser helt fantastiska, utmanande/fysiska men med ett tempo och flow som ändå riktar sig till alla, jag uppfattar att jag hinner landa i poserna och fysiskt förstå innan man går vidare. Att Therese kommer från dans visar sig mkt i hur klasserna är utformade, flowet blir nästan som en koreografi, vilket gör att det är lätt att följa. Att detta dessutom är invaggat i en otroligt ljus och varm/kärleksfull energi gör att det är en av veckans höjdpunkter och något som verkligen lever med en långt efter minuterna på mattan.",
+    "name": "Mikael",
+    "year": 2025,
+    "place": "Experience: Yoga Classes"
+  }
+]
