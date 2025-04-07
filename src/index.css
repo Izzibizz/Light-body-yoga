@@ -39,6 +39,7 @@ video::-webkit-media-controls {
   --animate-longFadeIn: fadeIn 3s ease-in both;
   --animate-mediumFadeIn: fadeIn 1.5s ease-in both;
   --animate-fadeIn: fadeIn 1s ease-in both;
+  --animate-shortFadeIn: fadeIn 0.5s ease-in both;
   --animate-spin: spin 10s ease-in infinite;
 
 
