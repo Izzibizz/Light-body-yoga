@@ -44,7 +44,7 @@ The duration can be anything between <span className="font-medium">30 to 60 minu
         controls
         playsInline
   controlsList="nodownload nofullscreen noremoteplayback"
-  poster="https://res.cloudinary.com/dbf8xygxz/video/upload/v1743671518/video-dc-Therese-yoga_lrqfyw.jpg" 
+
 >
   <source
      src="https://res.cloudinary.com/dbf8xygxz/video/upload/v1743671518/video-dc-Therese-yoga_lrqfyw.mov"

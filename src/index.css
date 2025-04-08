@@ -5,7 +5,7 @@
 }
 @import "tailwindcss";
 
-video::-webkit-media-controls {
+video.hide-controls::-webkit-media-controls {
   display: none !important;
 }
 

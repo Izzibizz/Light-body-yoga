@@ -14,7 +14,7 @@ export const Hero = ({scrollToOverview}) => {
       
     >
       <img
-        src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743156984/skissbild_Therese_Y8A7743-1-srgb-sqr_txz9gp.png"
+        src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-600/v1744099458/StudioMamama_Therese-lind-bjellder-Light-body.yoga-teacher_los1hd.png"
         alt="Therese Lind Bjellder"
         className="h-[300px] w-full tablet:h-full laptop:w-[600px] laptop:h-[600px] aspect-square object-cover tablet:self-end rounded-xl mb-2"
       />

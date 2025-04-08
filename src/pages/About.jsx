@@ -66,6 +66,7 @@ export const About = () => {
                       <img
                         src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743176595/begnning_eqj8ae.svg"
                         className="w-[30px] h[30px]"
+                        alt="beginning symbol"
                       />
                     </div>
                     <p>
@@ -98,6 +99,7 @@ export const About = () => {
                   <img
                     src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743176561/circles_ayr69r.svg"
                     className="w-[30px] h-[20px]"
+                    alt="circle"
                   />
                 </div>
                 <p>

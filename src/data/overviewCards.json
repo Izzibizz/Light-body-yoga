@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/schedule",
+    "label": "Classes",
+    "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-400/v1744099439/StudioMamama-Emma-vistrand-Therese-light-body-yoga-classes_nmfahf.png"
+  },
+  {
+    "path": "/treatments",
+    "label": "Treatments",
+    "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-400/v1744099455/StudioMamama_Therese-lind-bjellder-Light-body.yoga-treatments_txrdr6.png"
+  },
+  {
+    "path": "/office-yoga",
+    "label": "Yoga at work",
+    "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-400/v1744099457/StudioMamama_Therese-lind-bjellder-Light-body.yoga-office_rgdkva.png"
+  },
+  {
+    "path": "/private-session",
+    "label": "Private sessions",
+    "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-400/v1744099461/StudioMamama_Therese-lind-bjellder-Light-body.yoga-private_ylkz2t.png"
+  },
+  {
+    "path": "/retreats",
+    "label": "Yoga Retreats",
+    "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-400/v1739461075/retreat_lah6u3.jpg"
+  },
+  {
+    "path": "/workshops",
+    "label": "Workshops",
+    "image": "https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-400/v1744099463/StudioMamama_Therese-lind-bjellder-Light-body.yoga-workshops_bxu35i.png"
+  }
+]

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import overviewCards from "../data/overviewCards.json"
 
 export const Overview = () => {
   return (
@@ -7,85 +8,22 @@ export const Overview = () => {
         <h3 className="font-dream text-3xl text-center">What I offer</h3>
         <div className="grid grid-cols-2 laptop:grid-cols-6 gap-4 tablet:gap-10 laptop:gap-[2%] ">
      
-          <NavLink
-            to="/schedule"
-            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742483472/skissbild_Therese_Y8A8873-1-srgb_mjdudg.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
-              alt="image"
-            />
-            <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              Classes
-            </div>
-          </NavLink>
-          <NavLink
-            to="/treatments"
-            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742483811/skissbild_Therese_Y8A9123-1-srgb_kfzs0x.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl "
-              alt="image"
-            />
-            <div className="bg-warm-white h-1/3 flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              <p>Treatments</p>
-            </div>
-          </NavLink>
-          <NavLink
-            to="/office-yoga"
-            className="hover:scale-105 transition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742483820/skissbild_Therese_Y8A9467-1-srgb_ksvq1f.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
-              alt="image"
-            />
-            <div className="bg-warm-white hover:drop-shadow-xl flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              Yoga at work
-            </div>
-          </NavLink>
-          <NavLink
-            to="/private-session"
-            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742493989/skissbild_Therese_Y8A8525-1-srgb_by8zvl.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
-              alt="image"
-            />
-            <div className="bg-warm-white h-1/3 flex-1 h-[50px] laptop:h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              Private sessions
-            </div>
-          </NavLink>
-        
-          <NavLink
-            to="/retreats"
-            className="hover:scale-105 hover:drop-shadow-xl hover:drop-shadow-xltransition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1739461075/retreat_lah6u3.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
-              alt="image"
-            />
-            <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              Yoga Retreats
-            </div>
-          </NavLink>
-          <NavLink
-            to="/workshops"
-            className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
-          >
-            <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_500w/v1742483813/skissbild_Therese_Y8A9009-1_srgb_xkwkym.jpg"
-              className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
-              alt="image"
-            />
-            <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center justify-center laptop:text-lg">
-              Workshops
-            </div>
-          </NavLink>
+        {overviewCards.map((card, index) => (
+        <NavLink
+          to={card.path}
+          key={index}
+          className="hover:scale-105 hover:drop-shadow-xl transition-transform duration-200"
+        >
+          <img
+            src={card.image}
+            alt={card.label}
+            className="aspect-square object-cover rounded-t-lg laptop:rounded-t-2xl"
+          />
+          <div className="bg-warm-white flex-1 h-[50px] laptop:h-[70px] flex items-center text-center justify-center laptop:text-lg">
+            {card.label}
+          </div>
+        </NavLink>
+      ))}
         </div>
         <div className="flex flex-col gap-4">
           <div className="font-dream text-2xl flex flex-col laptop:flex-row laptop:justify-between items-center gap-2">

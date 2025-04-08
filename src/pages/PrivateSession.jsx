@@ -138,7 +138,7 @@ export const PrivateSession = () => {
                 </li>
               </ul>
               <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743677534/StudioMamama_Y8A8713-webb_c0jme5.jpg"
+                src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-600/v1743677534/StudioMamama_Y8A8713-webb_c0jme5.jpg"
                 alt="Private yoga session"
                 className="rounded-xl object-cover laptop:hidden"
               />
