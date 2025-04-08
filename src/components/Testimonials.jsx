@@ -1,9 +1,10 @@
 import { useState , useEffect } from "react";
 import testimonials from "../data/testimonials.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 export const Testimonials = () => {
   const [shuffledTestimonials, setShuffledTestimonials] = useState([]);
@@ -20,7 +21,7 @@ export const Testimonials = () => {
   return (
     <section className="w-full mx-auto h-full pt-20">
       <Swiper
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         spaceBetween={70}
         slidesPerView={1}
         speed={3000}
@@ -33,6 +34,7 @@ export const Testimonials = () => {
         pagination={{
           clickable: true,
         }}
+        navigation
         loop
         effect="fade"
         className="my-10"

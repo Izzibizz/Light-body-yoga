@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @font-face {
   font-family: dreamAvenue;
-  src: url("./assets//fonts/FontsFree-Net-Dream-Avenue.ttf")
+  src: url("./assets//fonts/FontsFree-Net-Dream-Avenue.ttf");
 }
 @import "tailwindcss";
 
@@ -13,6 +13,24 @@ video.hide-controls::-webkit-media-controls {
   background: white !important;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+.swiper-button-next {
+  margin-right: 100px !important;
+}
+.swiper-button-prev {
+  margin-left: 100px !important;
+}
+
+@media (max-width: 1023px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+
 @theme {
   --font-round: "Nunito Sans", sans-serif;
   --font-body: "Figtree", sans-serif;
@@ -22,12 +40,12 @@ video.hide-controls::-webkit-media-controls {
   --breakpoint-laptop: 1025px;
   --breakpoint-desktop: 1280px;
 
-  --color-light: rgb(240,208, 195);
+  --color-light: rgb(240, 208, 195);
   --color-dark: rgb(160, 25, 25);
   --color-lightGray: rgb(194, 203, 209);
-  --color-gray: rgb(174, 180,188);
-  --color-grayBlue:rgb(77, 81, 103);
-  --color-purple:rgb(104, 109, 137);
+  --color-gray: rgb(174, 180, 188);
+  --color-grayBlue: rgb(77, 81, 103);
+  --color-purple: rgb(104, 109, 137);
   --color-lightPurple: rgb(146 158 182);
   --color-dark-blue: rgb(2, 2, 21);
   --color-warm-white: rgb(253, 251, 250);
@@ -42,21 +60,20 @@ video.hide-controls::-webkit-media-controls {
   --animate-shortFadeIn: fadeIn 0.5s ease-in both;
   --animate-spin: spin 10s ease-in infinite;
 
-
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
-  to {
-    opacity: 1;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-
-}
-
