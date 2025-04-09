@@ -29,6 +29,9 @@ export const Testimonials = ({ testimonialsToDisplay }) => {
 
   return (
     <section className={`w-full mx-auto h-full ${testimonialsToDisplay === "all" ? "pt-20" : "hide-nav"} `}>
+      {testimonialsToDisplay === "all" && (
+        <h4 className="font-dream text-xl text-center">What my beautiful Yogis & clients say</h4>
+      )}
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         spaceBetween={70}
