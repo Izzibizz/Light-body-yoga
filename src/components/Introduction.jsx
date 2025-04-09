@@ -31,7 +31,7 @@ export const Introduction = () => {
             Read more
           </button>
         </div>
-        <div className="flex flex-col justify-end text-end gap-2 h-[450px] w-full laptop:h-[600px] laptop:w-[900px] ">
+        <div className="flex flex-col justify-end text-end gap-2 h-[500px] w-full laptop:h-[600px] laptop:w-[900px] ">
           <img
             src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-600/v1744099430/StudioMamama-Light-body-yoga-Therese_jg7s3v.jpg"
             alt="Portrait Therese Lind Bjellder"
