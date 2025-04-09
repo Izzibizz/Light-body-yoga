@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
+import { useYogaStore } from "../store/useYogaStore";
 
 export const CTA = () => {
 
-const [ showCTA, setShowCTA ] = useState(false)
+const { showCTA, setShowCTA, isOpen } = useYogaStore()
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,7 +22,7 @@ const [ showCTA, setShowCTA ] = useState(false)
 
   return (
     <>
-    {showCTA && (
+    {showCTA && !isOpen && (
     <a href="mailto:therese@lightbodyyoga.se"  className="animate-shortFadeIn fixed bottom-0 right-0 tablet:bottom-10 tablet:right-10 z-40 w-fit h-fit bg-purple/80 text-white rounded-tl-xl tablet:rounded-xl p-2 px-4 tablet:text-lg text-center laptop:hover:scale-105">
         Connect with me
     </a>

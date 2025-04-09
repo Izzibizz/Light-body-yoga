@@ -8,7 +8,11 @@ export const useYogaStore = create((set) => ({
     showCTAPopup: false, 
     scrollToContact: false,
     scrollToOverview: false,
+    showCTA: false,
+    isOpen: false,
     
 
     setHeaderBg: (input) => set({ headerBg: input }),
+    setShowCTA: (input) => set({ showCTA: input}),
+    setIsOpen: (input) => set({ isOpen: input })
 }))

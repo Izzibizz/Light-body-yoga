@@ -4,12 +4,11 @@ import { useState, useEffect, useRef } from "react";
 import { useYogaStore } from "../store/useYogaStore";
 
 export const Header = () => {
-  const { headerBg, setHeaderBg } = useYogaStore();
+  const { isOpen, setIsOpen, headerBg, setHeaderBg, setShowCTA } = useYogaStore();
   const navigate = useNavigate();
   const location = useLocation ()
   const dropdownRef = useRef();
   const buttonRef = useRef();
-  const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
   const navLinksBase = [
@@ -78,8 +77,10 @@ export const Header = () => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setHeaderBg(true);
+        setShowCTA(true);
       } else {
         setHeaderBg(false);
+        setShowCTA(false);
       }
     };
 
