@@ -1,5 +1,5 @@
 
-import Lottie from "lottie-react"
+
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 export const Contact = () => {

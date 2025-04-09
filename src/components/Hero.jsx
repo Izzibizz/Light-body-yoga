@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import PropTypes from "prop-types";
 
 import { SlArrowDown } from "react-icons/sl";
-import sun from "/sol.svg";
+
 
 
 export const Hero = ({scrollToOverview}) => {
@@ -27,7 +27,7 @@ export const Hero = ({scrollToOverview}) => {
         <button className="flex font-extralight italic items-center gap-3 cursor-pointer group self-center tablet:self-end " onClick={scrollToOverview}>
         <p className="w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-300 group-hover:w-[80px] group-hover:opacity-100">Read more{" "}</p>
         <div className="relative w-[60px] h-[60px] laptop:w-[70px] laptop:h-[70px]">
-          <img src={sun} alt="sun button more" className="group-hover:scale-115 transition-transform duration-100 group-hover:animate-spin" />
+          <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1744208966/sol_d4aiju.svg" alt="sun button more" className="group-hover:scale-115 transition-transform duration-100 group-hover:animate-spin" />
           <motion.div
             className="absolute inset-0 flex justify-center items-center"
             animate={{ y: [0, -4, 0] }}

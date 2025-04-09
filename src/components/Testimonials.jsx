@@ -26,7 +26,6 @@ export const Testimonials = ({ testimonialsToDisplay }) => {
     }
   }, [testimonialsToDisplay]);
 
-  console.log(testimonialsToDisplay, shuffledTestimonials)
 
   return (
     <section className={`w-full mx-auto h-full ${testimonialsToDisplay === "all" ? "pt-20" : "hide-nav"} `}>
