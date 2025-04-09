@@ -36,6 +36,7 @@ video.hide-controls::-webkit-media-controls {
   display: none !important;
 }
 
+
 @theme {
   --font-round: "Nunito Sans", sans-serif;
   --font-body: "Figtree", sans-serif;

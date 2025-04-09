@@ -1,4 +1,6 @@
 
+import Lottie from "lottie-react"
+import animation from "../assets/Animation - arrow.json"
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 export const Contact = () => {
@@ -33,7 +35,7 @@ export const Contact = () => {
                 I look forward to connecting with you!
               </p>
             </div>
-            <div className="flex gap-4 laptop:gap-10 flex-wrap">
+            <div className="flex gap-4 laptop:gap-10 flex-col laptop:flex-row laptop:items-center">
               <a
                 href="mailto:therese@lightbodyyoga.se"
                 className="flex gap-2 tablet:gap-4 items-center"
@@ -63,6 +65,12 @@ export const Contact = () => {
                 />
                 yogitherese
               </a>
+              <Lottie
+        animationData={animation}
+        loop={true}
+        autoplay={true}
+        className="hidden laptop:block h-[100px] pb-10 "
+      />
             </div>
           </div>
           <div className="flex flex-col gap-2">
