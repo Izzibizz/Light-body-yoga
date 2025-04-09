@@ -174,8 +174,14 @@ export const Grinda = () => {
           </div>
           <div className="flex flex-col gap-8 laptop:w-1/2">
           <img
+            src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743675744/grinda-yoga-retreat-light-body-yoga-nature_xvq6px.png"
+            alt="Grinda retreat 2024 - yoga Sofia French & Therese Lind Bjellder"
+            className="rounded-xl object-cover laptop:hidden"
+          />
+           <img
             src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675744/grinda-yoga-retreat-light-body-yoga-nature_xvq6px.png"
-            className="rounded-xl object-cover"
+            alt="Grinda retreat 2024 - yoga Sofia French & Therese Lind Bjellder"
+            className="rounded-xl object-cover hidden laptop:block"
           />
           <div className="px-10 tablet:px-20 items-center pt-12 tablet:pt-15 pb-6 text-justify bg-warm-white rounded-4xl tablet:rounded-full tablet:rounded-br-none rounded-br-none shadow-lg  tablet:text-base cursor-pointer">
               <p className="italic text-xs tablet:text-sm">{testimonials[0].text}</p>
