@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import PropTypes from "prop-types";
 
 import { SlArrowDown } from "react-icons/sl";
 import sun from "/sol.svg";
@@ -47,4 +48,8 @@ export const Hero = ({scrollToOverview}) => {
   </div>
   )
 }
+
+Hero.propTypes = {
+  scrollToOverview: PropTypes.boolean
+};
 

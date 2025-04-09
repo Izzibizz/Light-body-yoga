@@ -2,6 +2,7 @@ import { useState , useEffect } from "react";
 import testimonials from "../data/testimonials.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import PropTypes from "prop-types";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -68,4 +69,7 @@ export const Testimonials = ({ testimonialsToDisplay }) => {
       </Swiper>
     </section>
   );
+};
+Testimonials.propTypes = {
+  testimonialsToDisplay: PropTypes.string
 };

@@ -1,6 +1,5 @@
 
 import Lottie from "lottie-react"
-import animation from "../assets/arrow.json"
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 export const Contact = () => {
@@ -65,12 +64,7 @@ export const Contact = () => {
                 />
                 yogitherese
               </a>
-              <Lottie
-        animationData={animation}
-        loop={true}
-        autoplay={true}
-        className="hidden laptop:block h-[100px] pb-10 "
-      />
+      
             </div>
           </div>
           <div className="flex flex-col gap-2">

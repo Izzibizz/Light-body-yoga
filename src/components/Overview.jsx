@@ -44,7 +44,7 @@ export const Overview = () => {
             
             </p>
             <p className="text-justify">
-            I teach Hatha & Vinyasa Yoga, Yin Yoga, Yoga Nidra, Pranayama, and give Reiki and Intuitive Healing & Massage. With a heart full of light and love, I share dynamic, playful classes infused with themes and intentions to cultivate energy and mindfullness. My creativity flows into every session, reflecting my dancer's soul, guiding others toward authenticity and compassion—for themselves, towards others, and how we show up for our beautiful Mother Earth.
+            I teach Hatha & Vinyasa Yoga, Yin Yoga, Yoga Nidra, Pranayama, and give Reiki and Intuitive Healing & Massage. With a heart full of light and love, I share dynamic, playful classes infused with themes and intentions to cultivate energy and mindfullness. My creativity flows into every session, reflecting my dancer&lsquo;s soul, guiding others toward authenticity and compassion—for themselves, towards others, and how we show up for our beautiful Mother Earth.
             </p>
           </div>
         </div>
