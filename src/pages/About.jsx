@@ -52,12 +52,18 @@ export const About = () => {
                 </div>
 
                 <div className="flex gap-10 laptop:h-full">
+                  <div className="flex flex-col gap-4">
                   <img
                     src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
                     alt="therese lind bjellder Light body yoga"
                     className="max-w-[300px] h-[400px] rounded-2xl hidden tablet:block laptop:hidden"
                   />
-
+                      <img
+                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1744185432/StudioMamama_LightBodyyoga-Therese-massage_s71338.jpg"
+                    alt="therese lind bjellder Light body yoga"
+                    className="max-w-[300px] object-cover rounded-2xl hidden tablet:block laptop:hidden"
+                  />
+                  </div>
                   <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl ">
                     <div className="flex gap-4">
                       <h4 className="font-dream text-2xl self-end laptop:self-start">

@@ -90,7 +90,6 @@ export const Header = () => {
     };
   }, []);
 
-  console.log(location.pathname)
 
   return (
     <header

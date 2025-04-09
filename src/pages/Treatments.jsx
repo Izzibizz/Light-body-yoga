@@ -1,7 +1,15 @@
+import testimonials from "../data/testimonials.json";
+
 export const Treatments = () => {
+  const testimonial = testimonials.filter(
+    (testimonial) => testimonial.place === "Experience: Massage & Reiki"
+  );
+
+  console.log(testimonial);
+
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col text-stone-900">
+      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col text-stone-900 gap-8 laptop:gap-20">
         <h3 className="font-dream text-3xl mb-10">Treatments</h3>
         <div className="flex flex-col laptop:flex-row gap-6 laptop:gap-20">
           <div className=" flex flex-col gap-6">
@@ -13,34 +21,32 @@ export const Treatments = () => {
               to support both physical and emotional well-being. Each session is
               shaped by the needs of the moment—whether that means releasing
               deep-seated tension, restoring balance, or simply creating space
-              to slow down and reconnect. I rent a beautiful treatment room in Vasastan on tuesdays, and otherwise I&lsquo;m available at home, south of Stockholm.
+              to slow down and reconnect. I rent a beautiful treatment room in
+              Vasastan on tuesdays, and otherwise I&lsquo;m available at home,
+              south of Stockholm.
             </p>
-              <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2">
               <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 bg-warm-white p-2 px-4 rounded-xl laptop:items-center">
                 <p className="font-semibold laptop:w-[100px]">Tuesdays</p>
                 <div className="flex gap-2 ">
-                <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
-                className="w-[10px]"
-              />
-                  <p>
-                    Home in Yoga, Birkagatan 23
-                  </p>
+                  <img
+                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
+                    className="w-[10px]"
+                  />
+                  <p>Home in Yoga, Birkagatan 23</p>
                 </div>
                 <p className="font-medium ml-4">08:00 - 16:00</p>
               </div>
               <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center bg-warm-white p-2 px-4 rounded-xl">
                 <p className=" font-semibold laptop:w-[100px]">On demand</p>
                 <div className="flex gap-2">
-                <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
-                className="w-[10px]"
-              />
-                  <p>
-                    Bjursätragatan 19, Rågsved
-                  </p>
+                  <img
+                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
+                    className="w-[10px]"
+                  />
+                  <p>Bjursätragatan 19, Rågsved</p>
                 </div>
-            </div>
+              </div>
             </div>
             <p className="text-justify ">
               There&lsquo;s no right or wrong way to experience these
@@ -169,6 +175,13 @@ export const Treatments = () => {
             alt="Therese Lind Bjellder massage"
             className="w-full laptop:w-5/12 object-cover rounded-xl"
           />
+        </div>
+        <div className="laptop:w-3/4 laptop:mx-auto px-10 tablet:px-20 items-center pt-12 tablet:pt-15 pb-6 text-justify bg-warm-white rounded-4xl tablet:rounded-full tablet:rounded-br-none rounded-br-none shadow-lg  tablet:text-base cursor-pointer">
+          <p className="italic text-xs tablet:text-sm">{testimonial[0].text}</p>
+          <p className="mt-4 text-right text-xs">
+            - {testimonial[0].name}, {testimonial.year}
+          </p>
+          <p className="text-right text-xs">{testimonial[0].place}</p>
         </div>
       </div>
     </section>

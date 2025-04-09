@@ -31,7 +31,7 @@ export const LandingPage = () => {
       <div ref={overviewRef}>
         <Overview />
       </div>
-      <Testimonials/>
+      <Testimonials testimonialsToDisplay="all"/>
       <Introduction />
       <UpcomingSection /> 
     </section>

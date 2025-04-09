@@ -12,7 +12,7 @@ export const Contact = () => {
             className="w-[70px] h-[40px]"
           />
         </div>
-        <div className="flex flex-col tablet:flex-row gap-2">
+        <div className="flex flex-col laptop:flex-row gap-2">
           <div className=" flex flex-col-reverse tablet:flex-col bg-warm-white p-6 laptop:p-8 rounded-xl w-full desktop:w-1/2 laptop:mx-auto laptop:h-fit laptop:self-end laptop:mb-6 gap-10">
             <div className="flex flex-col gap-4 text-lg text-justify">
               <h4 className="text-2xl italic font-dream ">
@@ -68,7 +68,7 @@ export const Contact = () => {
           <div className="flex flex-col gap-2">
           <img
             src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1744099449/StudioMamama_Therese-lind-bjellder-Light-body.yoga-contact_s1ernr.png"
-            className="tablet:w-[200px] laptop:w-[450px] object-cover rounded-xl"
+            className=" laptop:w-[450px] object-cover rounded-xl"
             alt="portrait Therese"
           />
  <a href="https://www.studiomamama.se/" target="_blank" rel="noopener noreferrer" className="text-[10px] flex items-center self-end justify-end h-4"><MdOutlineArrowOutward />Photographer: Studio Mamama</a>
