@@ -1,6 +1,6 @@
 
 import Lottie from "lottie-react"
-import animation from "../assets/animations/arrow.json"
+import animation from "../assets/arrow.json"
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 export const Contact = () => {
