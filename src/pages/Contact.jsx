@@ -35,7 +35,7 @@ export const Contact = () => {
                 I look forward to connecting with you!
               </p>
             </div>
-            <div className="flex gap-4 laptop:gap-10 flex-col laptop:flex-row laptop:items-center">
+            <div className="flex gap-4 laptop:gap-10 flex-col laptop:flex-row flex-wrap laptop:items-center">
               <a
                 href="mailto:therese@lightbodyyoga.se"
                 className="flex gap-2 tablet:gap-4 items-center"
