@@ -6,14 +6,14 @@ export const About = () => {
           <div className="flex flex-col gap-4">
             <div className="flex gap-4 items-center">
               <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743091266/blomma_ad2dpv.svg"
-                alt="balance symbol"
+                src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216566/blomma_wc7ssh.svg"
+                alt="flower symbol"
                 className="w-[40px] h-[40px]"
               />
               <h3 className="font-dream text-3xl">About me</h3>
             </div>
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
+              src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-500/v1744214390/StudioMamama_Therese-lind-bjellder-Light-body.yoga-teacher_nhjqr4.png"
               alt="therese lind bjellder Light body yoga"
               className="aspect-[3/4] object-cover rounded-2xl tablet:hidden"
             />
@@ -32,7 +32,7 @@ export const About = () => {
                   </p>
                 </div>
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743166688/skissbild_Therese_Y8A8247-1-srgbsqr_daarkk.png"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214390/StudioMamama_Therese-lind-bjellder-Light-body.yoga-teacher_nhjqr4.png"
                   alt="therese lind bjellder Light body yoga"
                   className=" rounded-2xl  justify-self-center hidden laptop:block"
                 />
@@ -51,17 +51,17 @@ export const About = () => {
                   </p>
                 </div>
 
-                <div className="flex gap-10 laptop:h-full">
-                  <div className="flex flex-col gap-4">
+                <div className="flex gap-10 laptop:h-full ">
+                  <div className="flex flex-col gap-4 hidden tablet:block laptop:hidden">
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1742493989/skissbild_Therese_Y8A8247-1-srgb_cjpu0u.jpg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214390/StudioMamama_Therese-lind-bjellder-Light-body.yoga-teacher_nhjqr4.png"
                     alt="therese lind bjellder Light body yoga"
-                    className="max-w-[300px] h-[400px] rounded-2xl hidden tablet:block laptop:hidden"
+                    className="max-w-[300px] h-[400px] rounded-2xl mb-6 object-cover"
                   />
                       <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1744185432/StudioMamama_LightBodyyoga-Therese-massage_s71338.jpg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744215825/StudioMamama-therese-lind-bjellder_hkxib1.jpg"
                     alt="therese lind bjellder Light body yoga"
-                    className="max-w-[300px] object-cover rounded-2xl hidden tablet:block laptop:hidden"
+                    className="max-w-[300px] object-cover rounded-2xl object-cover"
                   />
                   </div>
                   <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl ">
@@ -70,7 +70,7 @@ export const About = () => {
                         How it began
                       </h4>
                       <img
-                        src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743176595/begnning_eqj8ae.svg"
+                        src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216509/begnning_io5a3c.svg"
                         className="w-[30px] h[30px]"
                         alt="beginning symbol"
                       />
@@ -103,7 +103,7 @@ export const About = () => {
                 <div className="flex gap-4 items-center">
                   <h4 className="font-dream text-2xl ">My practice today</h4>
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743176561/circles_ayr69r.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216533/circles_hxxtbe.svg"
                     className="w-[30px] h-[20px]"
                     alt="circle"
                   />

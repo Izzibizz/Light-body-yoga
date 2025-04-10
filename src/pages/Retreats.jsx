@@ -96,7 +96,7 @@ export const Retreats = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-600/v1743675744/grinda-yoga-retreat-light-body-yoga-nature_xvq6px.png"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png"
             alt="Grinda retreat 2024"
             className="laptop:w-1/2 rounded-xl object-cover"
           />

@@ -88,7 +88,7 @@ export const ChittaVrittiNirodah = () => {
             </p>
           </div>
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743759655/lugnet48-lugnets-alle-yogastudio_q5hjrn.jpg"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744215852/lugnet48-lugnets-alle-yogastudio_nyt6jj.jpg"
             className="laptop:w-1/3 rounded-xl object-cover"
           />
         </div>

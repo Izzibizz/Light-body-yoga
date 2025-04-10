@@ -25,7 +25,7 @@ export const VideoBg = () => {
         className={`hide-controls absolute inset-0 w-full h-full object-cover z-0`}
       >
         <source
-          src={isLaptop? "https://res.cloudinary.com/dbf8xygxz/video/upload/v1739448144/tlb-lby_dbkvpp.mp4" : "https://res.cloudinary.com/dbf8xygxz/video/upload/v1739449884/Tlb-lby-rotate_tms1pq.mp4"}
+          src={isLaptop? "https://res.cloudinary.com/dknoal1v0/video/upload/v1744218894/tlb-lby_kg0vin.mp4" : "https://res.cloudinary.com/dknoal1v0/video/upload/v1744218919/Tlb-lby-rotate_rayypc.mp4"}
           type="video/mp4"
         />
       </video>

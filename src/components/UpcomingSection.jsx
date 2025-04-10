@@ -9,7 +9,7 @@ export const UpcomingSection = () => {
         <div className="flex gap-4 items-center">
           <h3 className="font-dream text-3xl text-center">Upcoming</h3>
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739545442/hands-up_qxepal.svg"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744219575/hands-up_hz8vtq.svg"
             alt="hands up symbol"
             className="w-[80px] h-[80px]"
           />

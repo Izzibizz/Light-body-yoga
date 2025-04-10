@@ -30,7 +30,7 @@ export const Treatments = () => {
                 <p className="font-semibold laptop:w-[100px]">Tuesdays</p>
                 <div className="flex gap-2 ">
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215900/pin-location-icon_mxwcfp.svg"
                     className="w-[10px]"
                   />
                   <p>Home in Yoga, Birkagatan 23</p>
@@ -41,7 +41,7 @@ export const Treatments = () => {
                 <p className=" font-semibold laptop:w-[100px]">On demand</p>
                 <div className="flex gap-2">
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743597147/pin-location-icon_uolebx.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215900/pin-location-icon_mxwcfp.svg"
                     className="w-[10px]"
                   />
                   <p>Bjursätragatan 19, Rågsved</p>
@@ -171,7 +171,7 @@ export const Treatments = () => {
             </ul>
           </div>
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743578921/pexels-koolshooters-Light-body-yoga_urwden.jpg"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214433/pexels-koolshooters-Light-body-yoga_k2xinp.jpg"
             alt="Therese Lind Bjellder massage"
             className="w-full laptop:w-5/12 object-cover rounded-xl"
           />

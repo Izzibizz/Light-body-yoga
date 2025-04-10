@@ -32,7 +32,7 @@ export const Overview = () => {
               {" "}
               <h4>For Everyone, Anywhere</h4>
               <img
-                src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739545182/free-movement_wbbd7u.svg"
+                src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216583/free-movement_qbfaxy.svg"
                 className="w-[40px]"
                 alt="yoga position"
               />

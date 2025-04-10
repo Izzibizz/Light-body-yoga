@@ -100,7 +100,7 @@ export const Header = () => {
       {/* Mobile Menu */}
       <div className="flex w-full laptop:hidden justify-end">
         <img
-          src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742979419/lby-logga-sq-2t_erqk6p.svg"
+          src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744219707/lby-logga-sq-2t_v9yku5.svg"
           alt="Therese Lind Bjellder Light Body Yoga"
           className="h-[60px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           onClick={() => logoClick()}

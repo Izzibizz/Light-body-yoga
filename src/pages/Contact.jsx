@@ -9,7 +9,8 @@ export const Contact = () => {
         <div className="flex gap-4 items-center">
           <h3 className="font-dream text-3xl">Contact</h3>{" "}
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743172936/hand-yoga-contact_k17acc.svg"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216589/hand-yoga-contact_ufga68.svg"
+            alt="hand symbol"
             className="w-[70px] h-[40px]"
           />
         </div>
@@ -40,7 +41,7 @@ export const Contact = () => {
                 className="flex gap-2 tablet:gap-4 items-center"
               >
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743172962/orange_mail_m06yz1.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215884/orange_mail_ytv4jk.svg"
                   className="w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]"
                   alt="mail contact"
                 />
@@ -58,7 +59,7 @@ export const Contact = () => {
               gap-2 tablet:gap-4 font-dream text-xl laptop:text-2xl"
               >
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743428096/instagram_uvjqqx.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744264754/instagram_qn9y6a.svg"
                   className="text-orange-500 w-[20px] h-[20px] laptop:w-[30px] laptop:h-[30px]"
                   alt="instagram"
                 />
@@ -69,7 +70,7 @@ export const Contact = () => {
           </div>
           <div className="flex flex-col gap-2">
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1744099449/StudioMamama_Therese-lind-bjellder-Light-body.yoga-contact_s1ernr.png"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214393/StudioMamama_Therese-lind-bjellder-Light-body.yoga-contact_fftupj.png"
             className=" laptop:w-[450px] object-cover rounded-xl"
             alt="portrait Therese"
           />

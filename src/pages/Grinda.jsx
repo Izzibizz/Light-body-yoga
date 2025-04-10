@@ -31,7 +31,7 @@ export const Grinda = () => {
               <li className="flex gap-4 items-center">
                 {" "}
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                   className="h-[15px]"
                 />
                 Yoga classes - Yin, Hatha, flow, Nidra, Pranayama
@@ -39,7 +39,7 @@ export const Grinda = () => {
               <li className="flex gap-4 items-center">
                 {" "}
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                   className="h-[15px]"
                 />
                 Meditation & Mindfulness
@@ -47,7 +47,7 @@ export const Grinda = () => {
               <li className="flex gap-4 items-center">
                 {" "}
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                   className="h-[15px]"
                 />
                 Reiki
@@ -55,7 +55,7 @@ export const Grinda = () => {
               <li className="flex gap-4 items-center">
                 {" "}
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                   className="h-[15px]"
                 />
                 Sauna & swim
@@ -63,7 +63,7 @@ export const Grinda = () => {
               <li className="flex gap-4 items-center">
                 {" "}
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                   className="h-[15px]"
                 />
                 Beautiful nature and peaceful surroundings
@@ -71,7 +71,7 @@ export const Grinda = () => {
               <li className="flex gap-4 items-center">
                 {" "}
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                   className="h-[15px]"
                 />
                 All vegetarian Meals & Housing at Grinda Wärdshus
@@ -79,7 +79,7 @@ export const Grinda = () => {
               <li className="flex gap-4 items-center">
                 {" "}
                 <img
-                  src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                   className="h-[15px]"
                 />
                 All material for yoga & meditation, such as mats etc.
@@ -174,12 +174,12 @@ export const Grinda = () => {
           </div>
           <div className="flex flex-col gap-8 laptop:w-1/2">
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-500/v1743675744/grinda-yoga-retreat-light-body-yoga-nature_xvq6px.png"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png"
             alt="Grinda retreat 2024 - yoga Sofia French & Therese Lind Bjellder"
             className="rounded-xl object-cover laptop:hidden"
           />
            <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675744/grinda-yoga-retreat-light-body-yoga-nature_xvq6px.png"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png"
             alt="Grinda retreat 2024 - yoga Sofia French & Therese Lind Bjellder"
             className="rounded-xl object-cover hidden laptop:block"
           />

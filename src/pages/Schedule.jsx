@@ -10,7 +10,7 @@ export const Schedule = () => {
       <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col gap-10 text-stone-900">
         <div className="flex gap-4 items-center laptop:items-start">
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1742974189/classes-light-body-yoga-icon_oxuhkj.svg"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744265293/classes-light-body-yoga-icon_oxuhkj_dnjljq.svg"
             className="h-[40px]"
           />
           <h3 className="font-dream text-3xl">Schedule</h3>

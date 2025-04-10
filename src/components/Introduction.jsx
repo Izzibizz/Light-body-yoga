@@ -11,7 +11,7 @@ export const Introduction = () => {
           <div className="flex gap-4">
             {" "}
             <img
-              src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1739544817/birth_iohmnn.svg"
+              src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216659/birth_jkr4de.svg"
               alt="symbol birth"
               className="w-[40px]"
             />{" "}
@@ -33,7 +33,7 @@ export const Introduction = () => {
         </div>
         <div className="flex flex-col justify-end text-end gap-2 h-[500px] w-full laptop:h-[600px] laptop:w-[900px] ">
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-600/v1744099430/StudioMamama-Light-body-yoga-Therese_jg7s3v.jpg"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744219442/StudioMamama_light-body-yoga-therese_yffwif.jpg"
             alt="Portrait Therese Lind Bjellder"
             className="w-full rounded-lg laptop:rounded-2xl object-cover"
           />

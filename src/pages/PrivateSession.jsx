@@ -99,7 +99,7 @@ export const PrivateSession = () => {
                 <li className="flex gap-4 items-center">
                   {" "}
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                     className="h-[15px]"
                   />
                   Personalized attention and guidance
@@ -107,7 +107,7 @@ export const PrivateSession = () => {
                 <li className="flex gap-4 items-center">
                   {" "}
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                     className="h-[15px]"
                   />
                   Focus on individual goals
@@ -115,7 +115,7 @@ export const PrivateSession = () => {
                 <li className="flex gap-4 items-center">
                   {" "}
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                     className="h-[15px]"
                   />
                   Flexibility to work on specific poses, areas, or techniques
@@ -123,7 +123,7 @@ export const PrivateSession = () => {
                 <li className="flex gap-4 items-center">
                   {" "}
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                     className="h-[15px]"
                   />
                   Privacy and comfort
@@ -131,7 +131,7 @@ export const PrivateSession = () => {
                 <li className="flex gap-4 items-center">
                   {" "}
                   <img
-                    src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743675228/circle-bullet_onsheq.svg"
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
                     className="h-[15px]"
                   />
                   Accelerated progress with dedicated time
@@ -145,7 +145,7 @@ export const PrivateSession = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743680404/StudioMamama_Therese-lind-bjellder-Light-body.yoga_f45qgs.png"
+            src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744214394/StudioMamama_Therese-lind-bjellder-Light-body.yoga_kj2b2b.png"
             alt="Private yoga session"
             className="w-5/12 rounded-xl object-cover hidden laptop:block"
           />

@@ -15,19 +15,19 @@ export const Hero = ({scrollToOverview}) => {
       
     >
       <img
-        src="https://res.cloudinary.com/dbf8xygxz/image/upload/t_w-600/v1744098800/StudioMamama-Emma-vistrand-Therese-Lind-Bjellder-yoga_jat6y9.png"
+        src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744214408/StudioMamama-Emma-vistrand-Therese-Lind-Bjellder-yoga_wquwoz.png"
         alt="Therese Lind Bjellder"
         className="h-[300px] w-full tablet:h-full laptop:w-[600px] laptop:h-[600px] aspect-square object-cover tablet:self-end rounded-xl mb-2"
       />
       <div className="w-full justify-center laptop:w-[45%] flex flex-col tablet:flex-row laptop:flex-col gap-4">
       <img
-        src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1743156626/healing_treatments_holistic-yoga-therese-lind-bjellder_u8yh2m.svg"
+        src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215591/healing_treatments_holistic-yoga-therese-lind-bjellder_h98z84.svg"
         alt="Healing treatment & holistic yoga"
         className="w-9/12 tablet:w-2/3 laptop:w-11/12  mx-auto laptop:mx-0"/>
         <button className="flex font-extralight italic items-center gap-3 cursor-pointer group self-center tablet:self-end " onClick={scrollToOverview}>
         <p className="w-0 overflow-hidden whitespace-nowrap opacity-0 transition-all duration-300 group-hover:w-[80px] group-hover:opacity-100">Read more{" "}</p>
         <div className="relative w-[60px] h-[60px] laptop:w-[70px] laptop:h-[70px]">
-          <img src="https://res.cloudinary.com/dbf8xygxz/image/upload/v1744208966/sol_d4aiju.svg" alt="sun button more" className="group-hover:scale-115 transition-transform duration-100 group-hover:animate-spin" />
+          <img src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215582/sol_b47ljp.svg" alt="sun button more" className="group-hover:scale-115 transition-transform duration-100 group-hover:animate-spin" />
           <motion.div
             className="absolute inset-0 flex justify-center items-center"
             animate={{ y: [0, -4, 0] }}
