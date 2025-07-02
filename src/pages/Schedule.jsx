@@ -7,7 +7,7 @@ export const Schedule = () => {
 
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col gap-10 text-stone-900">
+      <div className="relative w-10/12 laptop:w-11/12 desktop:max-w-[1400px] mx-auto mt-40 flex flex-col gap-10 text-stone-900">
         <div className="flex gap-4 items-center laptop:items-start">
           <img
             src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744265293/classes-light-body-yoga-icon_oxuhkj_dnjljq.svg"
@@ -15,7 +15,7 @@ export const Schedule = () => {
           />
           <h3 className="font-dream text-3xl">Schedule</h3>
         </div>
-        <div className="bg-purple/40 border border-solid rounded-3xl p-6 py-8 laptop:grid laptop:grid-cols-5 w-full laptop:w-fit gap-4 laptop:mx-auto ">
+        <div className="bg-purple/40 border border-solid rounded-3xl p-6 py-8 laptop:grid laptop:grid-cols-6 w-full laptop:w-full gap-4 laptop:mx-auto ">
           {schedule.map((dayItem, index) => {
             const { day, classes } = dayItem;
 
@@ -37,18 +37,22 @@ export const Schedule = () => {
                           </h6>
                         </div>
 
-                        <p className="text-sm  tablet:text-xs flex justify-between">
+                        <p className="text-sm  tablet:text-xs flex justify-between gap-2">
                           <span className="flex gap-1 items-center ">
                             {yogaClass.startingAt} <MdArrowRightAlt />
                             {yogaClass.endingAt}
                           </span>
-                          <span className="p-1 border border-dotted rounded-xl tablet:hidden desktop:block">
+                          {yogaClass.duration && (
+                            <span className="p-1 border border-dotted rounded-xl tablet:hidden desktop:block text-center">
+                              {yogaClass.duration}
+                            </span>
+                          )}
+                        </p>
+                        {yogaClass.duration && (
+                          <p className="p-1 border border-dotted rounded-xl hidden tablet:block desktop:hidden w-fit text-xs">
                             {yogaClass.duration}
-                          </span>
-                        </p>
-                        <p className="p-1 border border-dotted rounded-xl hidden tablet:block desktop:hidden w-fit text-xs">
-                          {yogaClass.duration}
-                        </p>
+                          </p>
+                        )}
                         <p className="text-sm tablet:text-xs text-stone-700 font-medium">
                           {yogaClass.place}
                         </p>
@@ -65,12 +69,17 @@ export const Schedule = () => {
                                 ? "Yogashala"
                                 : yogaClass.place === "Downtown Camper"
                                 ? "Downtown C."
+                                : yogaClass.class ===
+                                  "Treatments - Reiki & Massage" || yogaClass.place === "Stockholm"
+                                ? "email me"
+                                : yogaClass.place === "Home in Yoga"
+                                ? "Home in"
                                 : yogaClass.place}
                               <MdOutlineArrowRight />
                             </span>
 
                             <span className="ease absolute flex h-full w-full transform items-center justify-center text-warm-white text-sm transition-all duration-300 group-hover:translate-x-full">
-                              Book a spot
+                            { yogaClass.place === "Stockholm" ? "Interested?" : "Book a spot" }
                             </span>
                           </button>
                         </a>
