@@ -70,7 +70,7 @@ export const Schedule = () => {
                                 : yogaClass.place === "Downtown Camper"
                                 ? "Downtown C."
                                 : yogaClass.class ===
-                                  "Treatments - Reiki & Massage" || yogaClass.place === "Stockholm"
+                                  "Treatments - Reiki & Massage" || yogaClass.place === "At client"
                                 ? "email me"
                                 : yogaClass.place === "Home in Yoga"
                                 ? "Home in"
