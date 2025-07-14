@@ -14,7 +14,9 @@ export const Schedule = () => {
             className="h-[40px]"
           />
           <h3 className="font-dream text-3xl">Schedule</h3>
+         
         </div>
+         <p className="self-end tablet:self-start">Starting 18/8 2025</p>
         <div className="bg-purple/40 border border-solid rounded-3xl p-6 py-8 laptop:grid laptop:grid-cols-6 w-full laptop:w-full gap-4 laptop:mx-auto ">
           {schedule.map((dayItem, index) => {
             const { day, classes } = dayItem;
@@ -70,7 +72,8 @@ export const Schedule = () => {
                                 : yogaClass.place === "Downtown Camper"
                                 ? "Downtown C."
                                 : yogaClass.class ===
-                                  "Treatments - Reiki & Massage" || yogaClass.place === "At client"
+                                    "Treatments - Reiki & Massage" ||
+                                  yogaClass.place === "At client"
                                 ? "email me"
                                 : yogaClass.place === "Home in Yoga"
                                 ? "Home in"
@@ -79,7 +82,9 @@ export const Schedule = () => {
                             </span>
 
                             <span className="ease absolute flex h-full w-full transform items-center justify-center text-warm-white text-sm transition-all duration-300 group-hover:translate-x-full">
-                            { yogaClass.place === "Stockholm" ? "Interested?" : "Book a spot" }
+                              {yogaClass.place === "Stockholm"
+                                ? "Interested?"
+                                : "Book a spot"}
                             </span>
                           </button>
                         </a>
