@@ -77,7 +77,7 @@ export const Retreats = () => {
                   <span>Read more</span>
                 </button>
                 <a
-                  href="mailto:therese@lightbodyyoga.se?subject=Bokning Chitta Vritti Nirodah&body=Hej, jag skulle vilja boka en plats på workshopen Chitta Vritti Nirodah."
+                  href="mailto:therese@lightbodyyoga.se?subject=Bokning Grinda Retreat&body=Hej, jag skulle vilja boka en plats på Grinda Retreat."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="laptop:inline-block laptop:w-full"
