@@ -3,6 +3,14 @@
     "day": "Mon",
     "classes": [
       {
+        "class": "Treatments - Reiki & Massage",
+        "startingAt": "08:00",
+        "endingAt": "14:00",
+        "duration": "",
+        "place": "Yogashala Zinkensdamm",
+        "bookinglink": "mailto:therese@lightbodyyoga.se?subject=Bokning behandling session&body=Hej, jag skulle vilja boka en behandling på Yogashala Zinkensdamm på måndag den .. kl .. Namn & telefonnummer:"
+      },
+      {
         "class": "Office Yoga",
         "startingAt": "16:15",
         "endingAt": "17:15",
@@ -18,11 +26,20 @@
         "place": "Home in Yoga",
         "bookinglink": "https://www.homeinyoga.com/schedule"
       }
+      
     ]
   },
   {
     "day": "Tue",
     "classes": [
+      {
+        "class": "Treatments - Reiki & Massage",
+        "startingAt": "08:00",
+        "endingAt": "15:00",
+        "duration": "",
+        "place": "Yogashala Zinkensdamm",
+        "bookinglink": "mailto:therese@lightbodyyoga.se?subject=Bokning behandling session&body=Hej, jag skulle vilja boka en behandling på Yogashala Zinkensdamm på tisdag den .. kl .. Namn & telefonnummer:"
+      },
       {
         "class": "Strong Flow",
         "startingAt": "17:30",
@@ -31,6 +48,7 @@
         "place": "Yogashala Nytorget",
         "bookinglink": "https://yogashalastockholm.se/dropin/"
       }
+       
     ]
   },
   {
@@ -54,7 +72,7 @@
         "startingAt": "08:00",
         "endingAt": "09:00",
         "duration": "60 min",
-        "place": "On-site at client ",
+        "place": "On-site at client",
         "bookinglink": "intern office"
       }
     ]

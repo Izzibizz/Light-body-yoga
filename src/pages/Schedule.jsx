@@ -73,7 +73,7 @@ export const Schedule = () => {
                                 ? "Downtown C."
                                 : yogaClass.class ===
                                     "Treatments - Reiki & Massage" ||
-                                  yogaClass.place === "At client"
+                                  yogaClass.place === "On-site at client"
                                 ? "email me"
                                 : yogaClass.place === "Home in Yoga"
                                 ? "Home in"
@@ -82,7 +82,7 @@ export const Schedule = () => {
                             </span>
 
                             <span className="ease absolute flex h-full w-full transform items-center justify-center text-warm-white text-sm transition-all duration-300 group-hover:translate-x-full">
-                              {yogaClass.place === "Stockholm"
+                              {yogaClass.place === "On-site at client"
                                 ? "Interested?"
                                 : "Book a spot"}
                             </span>
