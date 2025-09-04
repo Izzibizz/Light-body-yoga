@@ -9,7 +9,7 @@ export const Hero = ({scrollToOverview}) => {
 
 
   return (
-    <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40 laptop:pt-32 desktop:pt-38">
+    <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40 laptop:pt-32">
     <div
       className="flex flex-col laptop:flex-row-reverse w-10/12 mx-auto laptop:justify-between items-center gap-6 tablet:gap-12 laptop:gap-20 h-full"
       
@@ -17,7 +17,7 @@ export const Hero = ({scrollToOverview}) => {
       <img
         src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214408/StudioMamama-Emma-vistrand-Therese-Lind-Bjellder-yoga_wquwoz.png"
         alt="Therese Lind Bjellder"
-        className="h-[300px] w-full tablet:h-full laptop:w-[450px] laptop:h-[450px] desktop:w-[600px] desktop:h-[600px] aspect-square object-cover tablet:self-end rounded-xl mb-2"
+        className="h-[300px] w-full tablet:h-full laptop:w-[500px] laptop:h-[500px] aspect-square object-cover tablet:self-end rounded-xl mb-2"
       />
       <div className="w-full justify-center laptop:w-[45%] flex flex-col tablet:flex-row laptop:flex-col gap-4">
       <img
