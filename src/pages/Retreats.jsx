@@ -1,31 +1,35 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 export const Retreats = () => {
-
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col text-stone-900">
+      <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40 flex flex-col text-stone-900">
         <h3 className="font-dream text-3xl mb-10">Yoga Retreats</h3>
         <div className="flex flex-col laptop:flex-row gap-10 laptop:gap-20">
           <div className=" flex flex-col gap-4">
             <h4 className="text-2xl italic font-dream ">
-            Mindfulness meets the beauty of nature and community
+              Mindfulness meets the beauty of nature and community
             </h4>
             <p className="text-justify">
-              Imagine a little getaway where you can simply be — where
-              every day can be a new adventure filled with joy, connection, and
+              Imagine a little getaway where you can simply be — where every day
+              can be a new adventure filled with joy, connection, and
               self-discovery. Our multi-day yoga retreats are set in stunning,
-              serene locations that invite you to unwind, take a break from the must dos of everyday life,
-              and seek togetherness in the simplest moments. We go swimming in the sun, enjoy the sauna, share delicious
-              meals and practice yoga, meditation, breathwork, and movement both indoors and outdoors,
-              in a playful, welcoming atmosphere. </p>
-              <p className="hidden laptop:block text-justify">Whether you choose a private
-              room just for you or prefer to share the experience with friends
-              or new kindred spirits, these retreats are all about embracing
-              every level and celebrating the journey rather than perfection.</p>
-              <p className="hidden laptop:block text-justify">
+              serene locations that invite you to unwind, take a break from the
+              must dos of everyday life, and seek togetherness in the simplest
+              moments. We go swimming in the sun, enjoy the sauna, share
+              delicious meals and practice yoga, meditation, breathwork, and
+              movement both indoors and outdoors, in a playful, welcoming
+              atmosphere.{" "}
+            </p>
+            <p className="hidden laptop:block text-justify">
+              Whether you choose a private room just for you or prefer to share
+              the experience with friends or new kindred spirits, these retreats
+              are all about embracing every level and celebrating the journey
+              rather than perfection.
+            </p>
+            <p className="hidden laptop:block text-justify">
               It&lsquo;s a relaxed, joyous gathering where the focus is on fun,
               friendship, and the simple pleasure of being together. Join us and
               rediscover the delight of living fully, laughing often, and moving
@@ -34,41 +38,43 @@ export const Retreats = () => {
             <div className="flex flex-col bg-warm-white p-4 rounded-xl gap-4">
               <h4 className="font-dream text-xl">Upcoming</h4>
               <div className="flex flex-col gap-2">
-              <h5 className="font-bold flex gap-4">
-                22 - 24 Aug, 2025
-                <span className="italic font-semibold">
-                 Yoga & Mindfullness in the Archipelago 
-                </span>
-              </h5>
-              <p>
-                <span className="font-medium">Time: 3 days with hotel</span> 
-              </p>
-              <p>
-                <span className="font-medium">Place:</span>{" "}
-                <a
-                  href="https://grinda.se/mat-fest/wardshuset/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="italic"
-                >
-                  Grinda Wärdshus
-                </a>
-                , Vaxholm
-              </p>
-              <p>
-                {" "}
-                <span className="font-medium">Creators and leaders:</span>{" "}
-                Therese Lind Bjellder &{" "}
-                <a
-                  href="https://www.instagram.com/sofiafrench/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="italic"
-                >
-                  Sofia French
-                </a>
-              </p>
-            </div>
+                <h5 className="font-bold flex gap-4">
+                  22 - 24 Aug, 2025
+                  <span className="italic font-semibold">
+                    Yoga & Mindfullness in the Archipelago
+                  </span>
+                </h5>
+                <p>
+                  <span className="font-medium">Time: 3 days with hotel</span>
+                </p>
+                <p>
+                  <span className="font-medium">Place:</span>{" "}
+                  <a
+                    href="https://grinda.se/mat-fest/wardshuset/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="italic"
+                  >
+                    Grinda Wärdshus
+                  </a>
+                  , Vaxholm
+                </p>
+                <p>
+                  {" "}
+                  <span className="font-medium">
+                    Creators and leaders:
+                  </span>{" "}
+                  Therese Lind Bjellder &{" "}
+                  <a
+                    href="https://www.instagram.com/sofiafrench/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="italic"
+                  >
+                    Sofia French
+                  </a>
+                </p>
+              </div>
               <div className="flex gap-4">
                 <button
                   className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-2 px-3 laptop:px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer laptop:w-[150px] hover:bg-lightPurple hover:text-white"
@@ -100,16 +106,18 @@ export const Retreats = () => {
             alt="Grinda retreat 2024"
             className="laptop:w-1/2 rounded-xl object-cover"
           />
-          <p className="laptop:hidden text-justify">Whether you choose a private
-              room just for you or prefer to share the experience with friends
-              or new kindred spirits, these retreats are all about embracing
-              every level and celebrating the journey rather than perfection.</p>
-              <p className="laptop:hidden text-justify">
-              It&lsquo;s a relaxed, joyous gathering where the focus is on fun,
-              friendship, and the simple pleasure of being together. Join us and
-              rediscover the delight of living fully, laughing often, and moving
-              with your heart in a space where you&lsquo;e always welcome.
-            </p>
+          <p className="laptop:hidden text-justify">
+            Whether you choose a private room just for you or prefer to share
+            the experience with friends or new kindred spirits, these retreats
+            are all about embracing every level and celebrating the journey
+            rather than perfection.
+          </p>
+          <p className="laptop:hidden text-justify">
+            It&lsquo;s a relaxed, joyous gathering where the focus is on fun,
+            friendship, and the simple pleasure of being together. Join us and
+            rediscover the delight of living fully, laughing often, and moving
+            with your heart in a space where you&lsquo;e always welcome.
+          </p>
         </div>
       </div>
     </section>

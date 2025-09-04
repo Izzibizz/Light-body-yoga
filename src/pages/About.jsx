@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col text-stone-900 gap-10 ">
+      <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40 flex flex-col text-stone-900 gap-10 ">
         <div className="flex flex-col laptop:flex-row gap-16">
           <div className="flex flex-col gap-4">
             <div className="flex gap-4 items-center">
@@ -64,7 +64,7 @@ export const About = () => {
                     className="max-w-[300px] object-cover rounded-2xl object-cover"
                   />
                   </div>
-                  <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl ">
+                  <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl h-fit">
                     <div className="flex gap-4">
                       <h4 className="font-dream text-2xl self-end laptop:self-start">
                         How it began
@@ -99,7 +99,7 @@ export const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl laptop:h-full">
+              <div className="flex flex-col gap-4 bg-warm-white p-6 laptop:p-8 rounded-xl laptop:h-fit">
                 <div className="flex gap-4 items-center">
                   <h4 className="font-dream text-2xl ">My practice today</h4>
                   <img

@@ -5,7 +5,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 export const Contact = () => {
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col gap-10 text-stone-900">
+      <div className="relative relative w-10/12 max-w-[1400px] mx-auto mt-40 flex flex-col gap-10 text-stone-900">
         <div className="flex gap-4 items-center">
           <h3 className="font-dream text-3xl">Contact</h3>{" "}
           <img

@@ -15,7 +15,7 @@ export const Grinda = () => {
   }, []);
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40  flex flex-col text-stone-900">
+      <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40  flex flex-col text-stone-900">
         <h3 className="font-dream text-3xl mb-10">3 days retreat in Grinda</h3>
         <div className="flex flex-col laptop:flex-row gap-10 laptop:gap-20">
           <div className=" flex flex-col gap-8">

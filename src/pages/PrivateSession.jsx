@@ -42,7 +42,7 @@ export const PrivateSession = () => {
 
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 laptop:w-9/12 mx-auto mt-40 flex flex-col text-stone-900 gap-10">
+      <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40 flex flex-col text-stone-900 gap-10">
         <h3 className="font-dream text-3xl mb-10">Private sessions</h3>
         <div className="flex flex-col laptop:flex-row gap-10">
           <div className=" flex flex-col gap-4">
@@ -71,10 +71,17 @@ export const PrivateSession = () => {
                 </h4>
                 <h5 className="text-lg">Pricing:</h5>
                 <ul>
-                  <li><span className="font-medium">60 min</span> 1100 sek</li>
-                  <li><span className="font-medium">Package price 3 classes</span> 3000 sek</li>
+                  <li>
+                    <span className="font-medium">60 min</span> 1100 sek
+                  </li>
+                  <li>
+                    <span className="font-medium">Package price 3 classes</span>{" "}
+                    3000 sek
+                  </li>
                 </ul>
-                <p className="text-sm">You can also book a group session, contact me for more info.</p>
+                <p className="text-sm">
+                  You can also book a group session, contact me for more info.
+                </p>
                 <a
                   href="mailto:therese@lightbodyyoga.se?subject=Bokning Privat yoga klass&body=Hej, jag skulle vilja boka en privat yoga klass .."
                   target="_blank"

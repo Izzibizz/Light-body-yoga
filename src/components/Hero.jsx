@@ -9,7 +9,7 @@ export const Hero = ({scrollToOverview}) => {
 
 
   return (
-    <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40 laptop:pt-48">
+    <div className="relative w-full min-h-[100vh] z-10 flex flex-col py-28 tablet:py-32 tablet:py-40 laptop:pt-32 desktop:pt-38">
     <div
       className="flex flex-col laptop:flex-row-reverse w-10/12 mx-auto laptop:justify-between items-center gap-6 tablet:gap-12 laptop:gap-20 h-full"
       
