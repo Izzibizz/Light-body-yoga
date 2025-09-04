@@ -9,8 +9,8 @@ export const Treatments = () => {
 
   return (
     <section className="animate-mediumFadeIn ">
-      <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40 flex flex-col text-stone-900 gap-8 laptop:gap-20">
-        <h3 className="font-dream text-3xl mb-10">Treatments</h3>
+      <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40 flex flex-col text-stone-900 gap-8 laptop:gap-10">
+        <h3 className="font-dream text-3xl">Treatments</h3>
         <div className="flex flex-col laptop:flex-row gap-6 laptop:gap-20">
           <div className=" flex flex-col gap-6">
             <h4 className="text-2xl italic font-dream ">
