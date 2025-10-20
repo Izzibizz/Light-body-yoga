@@ -1,4 +1,5 @@
 import testimonials from "../data/testimonials.json";
+import bokadirekt from "/bokadirekt.svg"
 
 export const Treatments = () => {
   const testimonial = testimonials.filter(
@@ -37,7 +38,8 @@ export const Treatments = () => {
                 </div>
                 <p className="font-medium ml-4">08:00 - 15:00 / 08:00 - 16:00</p>
               </div>
-              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 bg-warm-white p-4 rounded-xl laptop:items-center">
+              <div className="flex flex-col gap-6 bg-warm-white p-4 rounded-xl ">
+              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center">
                 <p className="font-semibold laptop:w-[100px]">Fridays</p>
                 <div className="flex gap-2 ">
                   <img
@@ -47,6 +49,8 @@ export const Treatments = () => {
                   <p>Home in Yoga, Birkagatan 23</p>
                 </div>
                 <p className="font-medium ml-4">08:00 - 16:00</p>
+              </div>
+              <a href="https://www.bokadirekt.se/places/light-body-yoga-massage-132793" target="_blank" rel="noopener noreferrer" className="flex gap-2 font-medium items-center">Booking available at <img src={bokadirekt} alt="boka direkt" className="w-[100px]"/></a>
               </div>
               <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center bg-warm-white p-4 rounded-xl">
                 <p className=" font-semibold laptop:w-[100px]">On demand</p>
