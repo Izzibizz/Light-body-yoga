@@ -107,6 +107,22 @@
         "duration": "75 min",
         "place": "Yogashala Nytorget",
         "bookinglink": "https://yogashalastockholm.se/dropin/"
+      },
+      {
+        "class": "Vinyasa",
+        "startingAt": "14:45",
+        "endingAt": "16:00",
+        "duration": "75 min",
+        "place": "SATS Sjöstaden",
+        "bookinglink": "https://sats.se/"
+      },
+      {
+        "class": "Deep rest/Yoga nidra",
+        "startingAt": "16:00",
+        "endingAt": "16:30",
+        "duration": "30 min",
+        "place": "SATS Sjöstaden",
+        "bookinglink": "https://sats.se/"
       }
     ]
   }
