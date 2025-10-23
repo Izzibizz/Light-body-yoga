@@ -5,7 +5,7 @@
       {
         "class": "Treatments - Reiki & Massage",
         "startingAt": "08:00",
-        "endingAt": "14:00",
+        "endingAt": "13:00",
         "duration": "",
         "place": "Yogashala Zinkensdamm",
         "bookinglink": "mailto:therese@lightbodyyoga.se?subject=Bokning behandling session&body=Hej, jag skulle vilja boka en behandling på Yogashala Zinkensdamm på måndag den .. kl .. Namn & telefonnummer:"
@@ -55,12 +55,20 @@
     "day": "Wed",
     "classes": [
       {
-        "class": "Hatha Flow",
-        "startingAt": "10:00",
-        "endingAt": "11:15",
-        "duration": "75 min",
-        "place": "Yogashala Nytorget",
-        "bookinglink": "https://yogashalastockholm.se/dropin/"
+        "class": "Treatments - Reiki & Massage",
+        "startingAt": "08:00",
+        "endingAt": "12:00",
+        "duration": "",
+        "place": "Yogashala Zinkensdamm",
+        "bookinglink": "mailto:therese@lightbodyyoga.se?subject=Bokning behandling session&body=Hej, jag skulle vilja boka en behandling på Yogashala Zinkensdamm på onsdag den .. kl .. Namn & telefonnummer:"
+      },
+      {
+        "class": "Mindful Evening",
+        "startingAt": "18:00",
+        "endingAt": "19:00",
+        "duration": "60 min",
+        "place": "Downtown Camper",
+        "bookinglink": "mailto:lifestyleconcierge@scandichotels.com?subject=Bokning Mindful Evening&body=Hej, jag skulle vilja boka Mindful Evening.."
       }
     ]
   },

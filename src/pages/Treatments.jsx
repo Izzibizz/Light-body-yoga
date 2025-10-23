@@ -27,20 +27,19 @@ export const Treatments = () => {
               south of Stockholm.
             </p>
             <div className="flex flex-col gap-2">
-              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 bg-warm-white p-4 rounded-xl laptop:items-center">
-                <p className="font-semibold laptop:w-[100px]">Mondays & Tuesdays</p>
-                <div className="flex gap-2 ">
+              <div className="flex flex-col tablet:grid grid-cols-2 gap-1 tablet:gap-6 bg-warm-white p-4 rounded-xl items-start">
+        
+                <div className="flex gap-2">
                   <img
                     src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215900/pin-location-icon_mxwcfp.svg"
                     className="w-[10px]"
                   />
                   <p>Yogashala Zinkensdamm, Ringvägen 9d</p>
                 </div>
-                <p className="font-medium ml-4">08:00 - 15:00 / 08:00 - 16:00</p>
+                <p className="font-medium ml-4"> Mondays 08:00 - 13:00 <br/> Tuesdays 08:00 - 15:00 <br/> Wednesdays 08:00 - 12:00</p>
               </div>
               <div className="flex flex-col gap-6 bg-warm-white p-4 rounded-xl ">
-              <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center">
-                <p className="font-semibold laptop:w-[100px]">Fridays</p>
+              <div className="flex flex-col tablet:grid grid-cols-2 gap-1 tablet:gap-6 laptop:items-center">
                 <div className="flex gap-2 ">
                   <img
                     src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215900/pin-location-icon_mxwcfp.svg"
@@ -48,7 +47,7 @@ export const Treatments = () => {
                   />
                   <p>Home in Yoga, Birkagatan 23</p>
                 </div>
-                <p className="font-medium ml-4">08:00 - 16:00</p>
+                <p className="font-medium ml-4">Fridays 08:00 - 18:00</p>
               </div>
               <a href="https://www.bokadirekt.se/places/light-body-yoga-massage-132793" target="_blank" rel="noopener noreferrer" className="flex gap-2 font-medium items-center">Booking available at <img src={bokadirekt} alt="boka direkt" className="w-[100px]"/></a>
               </div>
