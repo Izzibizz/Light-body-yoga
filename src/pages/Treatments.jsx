@@ -22,9 +22,7 @@ export const Treatments = () => {
               to support both physical and emotional well-being. Each session is
               shaped by the needs of the moment—whether that means releasing
               deep-seated tension, restoring balance, or simply creating space
-              to slow down and reconnect. I rent a beautiful treatment room in
-              Vasastan on tuesdays, and otherwise I&lsquo;m available at home,
-              south of Stockholm.
+              to slow down and reconnect. 
             </p>
             <div className="flex flex-col gap-2">
               <div className="flex flex-col tablet:grid grid-cols-2 gap-1 tablet:gap-6 bg-warm-white p-4 rounded-xl items-start">
