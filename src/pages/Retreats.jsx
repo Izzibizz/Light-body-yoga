@@ -36,7 +36,7 @@ export const Retreats = () => {
               with your heart in a space where you&lsquo;e always welcome.
             </p>
             <div className="flex flex-col bg-warm-white p-4 rounded-xl gap-4">
-              <h4 className="font-dream text-xl">Upcoming</h4>
+              <h4 className="font-dream text-xl">Previous retreats</h4>
               <div className="flex flex-col gap-2">
                 <h5 className="font-bold flex gap-4">
                   22 - 24 Aug, 2025
@@ -82,7 +82,7 @@ export const Retreats = () => {
                 >
                   <span>Read more</span>
                 </button>
-                <a
+                {/* <a
                   href="mailto:therese@lightbodyyoga.se?subject=Bokning Grinda Retreat&body=Hej, jag skulle vilja boka en plats på Grinda Retreat."
                   target="_blank"
                   rel="noopener noreferrer"
@@ -97,7 +97,7 @@ export const Retreats = () => {
                     </span>
                     <span className="laptop:hidden">Book via mail</span>
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

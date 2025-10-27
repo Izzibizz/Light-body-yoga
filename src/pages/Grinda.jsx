@@ -160,12 +160,12 @@ export const Grinda = () => {
                 rel="noopener noreferrer"
                 className="laptop:inline-block laptop:w-full"
               >
-                <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-2 laptop:py-5 px-3 laptop:px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer laptop:w-[150px]">
+                <button className="group relative inline-flex items-center justify-center overflow-hidden rounded-2xl py-2 laptop:py-5 px-3 laptop:px-2 text-warm-white bg-purple shadow-md transition duration-300 ease-out cursor-pointer laptop:w-[250px]">
                   <span className="ease absolute hidden laptop:flex inset-0 h-full w-full -translate-x-full items-center justify-center bg-lightPurple text-white duration-300 group-hover:translate-x-0">
-                    Book via mail
+                    Ask me via mail
                   </span>
                   <span className="hidden laptop:flex ease absolute h-full w-full transform items-center justify-center text-warm-white transition-all duration-300 group-hover:translate-x-full">
-                    Book now
+                    Questions about next retreat?
                   </span>
                   <span className="laptop:hidden">Book via mail</span>
                 </button>
