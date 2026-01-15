@@ -1,5 +1,5 @@
 import testimonials from "../data/testimonials.json";
-import bokadirekt from "/bokadirekt.svg"
+import bokadirekt from "/bokadirekt.svg";
 
 export const Treatments = () => {
   const testimonial = testimonials.filter(
@@ -22,11 +22,10 @@ export const Treatments = () => {
               to support both physical and emotional well-being. Each session is
               shaped by the needs of the moment—whether that means releasing
               deep-seated tension, restoring balance, or simply creating space
-              to slow down and reconnect. 
+              to slow down and reconnect.
             </p>
             <div className="flex flex-col gap-2">
               <div className="flex flex-col tablet:grid grid-cols-2 gap-1 tablet:gap-6 bg-warm-white p-4 rounded-xl items-start">
-        
                 <div className="flex gap-2">
                   <img
                     src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215900/pin-location-icon_mxwcfp.svg"
@@ -34,20 +33,36 @@ export const Treatments = () => {
                   />
                   <p>Yogashala Zinkensdamm, Ringvägen 9d</p>
                 </div>
-                <p className="font-medium ml-4"> Mondays 08:00 - 13:00 <br/> Tuesdays 08:00 - 15:00 <br/> Wednesdays 08:00 - 12:00</p>
+                <p className="font-medium ml-4">
+                  {" "}
+                  Mondays 08:00 - 13:00 <br /> Tuesdays 08:00 - 15:00 
+                  
+                </p>
               </div>
               <div className="flex flex-col gap-6 bg-warm-white p-4 rounded-xl ">
-              <div className="flex flex-col tablet:grid grid-cols-2 gap-1 tablet:gap-6 laptop:items-center">
-                <div className="flex gap-2 ">
-                  <img
-                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215900/pin-location-icon_mxwcfp.svg"
-                    className="w-[10px]"
-                  />
-                  <p>Home in Yoga, Birkagatan 23</p>
+                <div className="flex flex-col tablet:grid grid-cols-2 gap-1 tablet:gap-6 laptop:items-center">
+                  <div className="flex gap-2 ">
+                    <img
+                      src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744215900/pin-location-icon_mxwcfp.svg"
+                      className="w-[10px]"
+                    />
+                    <p>Home in Yoga, Birkagatan 23</p>
+                  </div>
+                  <p className="font-medium ml-4">Fridays 08:00 - 18:00</p>
                 </div>
-                <p className="font-medium ml-4">Fridays 08:00 - 18:00</p>
-              </div>
-              <a href="https://www.bokadirekt.se/places/light-body-yoga-massage-132793" target="_blank" rel="noopener noreferrer" className="flex gap-2 font-medium items-center">Booking available at <img src={bokadirekt} alt="boka direkt" className="w-[100px]"/></a>
+                <a
+                  href="https://www.bokadirekt.se/places/light-body-yoga-massage-132793"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex gap-2 font-medium items-center"
+                >
+                  Booking available at{" "}
+                  <img
+                    src={bokadirekt}
+                    alt="boka direkt"
+                    className="w-[100px]"
+                  />
+                </a>
               </div>
               <div className="flex flex-col tablet:flex-row gap-1 tablet:gap-6 laptop:items-center bg-warm-white p-4 rounded-xl">
                 <p className=" font-semibold laptop:w-[100px]">On demand</p>

@@ -17,16 +17,7 @@
         "duration": "60 min",
         "place": "On-site at client",
         "bookinglink": "intern office"
-      },
-           {
-        "class": "Hatha Flow & Yoga Nidra",
-        "startingAt": "19:00",
-        "endingAt": "20:15",
-        "duration": "75 min",
-        "place": "Home in Yoga",
-        "bookinglink": "https://www.homeinyoga.com/schedule"
       }
-      
     ]
   },
   {
@@ -48,22 +39,29 @@
         "place": "Yogashala Nytorget",
         "bookinglink": "https://yogashalastockholm.se/dropin/"
       }
-       
     ]
   },
   {
     "day": "Wed",
     "classes": [
       {
-        "class": "Treatments - Reiki & Massage",
-        "startingAt": "08:00",
-        "endingAt": "12:00",
-        "duration": "",
-        "place": "Yogashala Zinkensdamm",
-        "bookinglink": "mailto:therese@lightbodyyoga.se?subject=Bokning behandling session&body=Hej, jag skulle vilja boka en behandling på Yogashala Zinkensdamm på onsdag den .. kl .. Namn & telefonnummer:"
+        "class": "Yin Yoga & Yoga Nidra",
+        "startingAt": "10:00",
+        "endingAt": "11:15",
+        "duration": "75 min",
+        "place": "Yogashala Nytorget",
+        "bookinglink": "https://yogashalastockholm.se/dropin/"
       },
       {
-        "class": "Mindful Evening",
+        "class": "Strong Flow",
+        "startingAt": "12:15",
+        "endingAt": "13:30",
+        "duration": "75 min",
+        "place": "Home in Yoga",
+        "bookinglink": "https://www.homeinyoga.com/schedule"
+      },
+      {
+        "class": "Sound Healing",
         "startingAt": "18:00",
         "endingAt": "19:00",
         "duration": "60 min",
