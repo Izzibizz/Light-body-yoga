@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { A11y, Navigation, Keyboard } from "swiper/modules";
+import { A11y, Navigation, Keyboard, Pagination } from "swiper/modules";
+import { AiOutlineClose } from "react-icons/ai";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -19,26 +20,39 @@ export const ImageModalSlider = ({ images, startIndex, onClose }) => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [onClose]);
 
+    useEffect(() => {
+    document.body.style.overflow = "hidden"; // blockera
+    return () => {
+      document.body.style.overflow = "auto"; // återställ
+    };
+  }, []);
+
   console.log(images, startIndex);
 
   return (
     <div
-      className="fixed inset-0 top-0 bg-purple bg-opacity-70 flex items-center justify-center z-50"
-      onClick={onClose}
+      className="fixed inset-0 top-0 bg-purple/98  flex items-center justify-center z-50"
     >
+      <div ref={modalRef} className="relative z-50 max-w-[90vw] max-h-[90vh] w-full">
+    <button
+      onClick={onClose}
+      className="absolute top-4 right-4 z-50 text-white text-3xl hover:text-gray-300 cursor-pointer"
+    >
+      <AiOutlineClose />
+    </button>
       <Swiper
-        modules={[A11y, Navigation, Keyboard]}
+        modules={[A11y, Navigation, Keyboard, Pagination]}
         effect="fade"
         keyboard={{
           enabled: true,
           onlyInViewport: true,
         }}
-        ref={modalRef}
         initialSlide={startIndex}
         spaceBetween={20}
         loop={true}
         navigation
-        className="max-w-[90vw] max-h-[90vh] z-60"
+        pagination={{ clickable: true }}
+        className="max-w-[90vw] max-h-[90vh]"
       >
         {images?.map((img, index) => (
           <SwiperSlide key={index} className="flex flex-col">
@@ -53,13 +67,14 @@ export const ImageModalSlider = ({ images, startIndex, onClose }) => {
                   }
                 }}
               />
-              <p className="text-white font-medium mt-3 text-left break-words max-w-full">
+              <p className="text-white font-medium mt-10 mb-10 text-left break-words max-w-full">
                 {img.alt}
               </p>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+    </div>
     </div>
   );
 };

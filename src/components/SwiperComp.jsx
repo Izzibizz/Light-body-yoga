@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 import "swiper/css";
 
@@ -13,9 +13,11 @@ export const SwiperComp = ({
   return (
     <Swiper
       slidesPerView={3}
-      spaceBetween={15}
-      modules={[Autoplay]}
-      className="rounded-xl w-full"
+      spaceBetween={20}
+      modules={[Autoplay, Navigation, Pagination]}
+      className="rounded-xl w-full h-[200px] laptop:h-[400px]"
+      navigation
+      pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
     >
       {images.map((img, index) => (
@@ -24,7 +26,7 @@ export const SwiperComp = ({
             src={img.thumbnail || img.url}
             alt={img.alt}
             onClick={() => onSelect(index)}
-            className={`laptop:h-[300px] object-cover
+            className={`h-[100px] laptop:h-[300px] object-cover
               rounded-xl
               overflow-hidden
               cursor-pointer

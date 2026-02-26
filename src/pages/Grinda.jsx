@@ -27,7 +27,7 @@ export const Grinda = () => {
   return (
     <section className="animate-mediumFadeIn ">
       <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40  flex flex-col text-stone-900">
-        <h3 className="font-dream text-3xl mb-10">{project.title}</h3>
+        <h3 className="font-dream text-3xl mb-10">{project.title2}</h3>
         <div className="flex flex-col laptop:flex-row gap-10 laptop:gap-20">
           <div className=" flex flex-col gap-8">
             <h4 className="text-2xl italic font-dream ">{project.subtitle}</h4>

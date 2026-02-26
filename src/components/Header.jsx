@@ -91,9 +91,10 @@ export const Header = () => {
   }, []);
 
 
+
   return (
     <header
-      className={`fixed top-0 z-20 w-full py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-body ${
+      className={`fixed top-0 left-0 z-20 w-full py-4 flex px-4 laptop:px-10 h-[100px] laptop:h-fit justify-end laptop:justify-start font-body ${
         headerBg ? "bg-lightPurple/90 " : "bg-light/0"
       }`}
     >
