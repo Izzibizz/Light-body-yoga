@@ -39,7 +39,7 @@ export const Retreats = () => {
               <h4 className="font-dream text-xl">Previous retreats</h4>
               <div className="flex flex-col gap-2">
                 <h5 className="font-bold flex gap-4">
-                  22 - 24 Aug, 2025
+                  28 - 30 Aug, 2026
                   <span className="italic font-semibold">
                     Yoga & Mindfullness in the Archipelago
                   </span>
