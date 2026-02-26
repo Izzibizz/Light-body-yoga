@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { A11y, Navigation, Keyboard, Pagination } from "swiper/modules";
 import { AiOutlineClose } from "react-icons/ai";
@@ -29,14 +30,14 @@ export const ImageModalSlider = ({ images, startIndex, onClose }) => {
 
   console.log(images, startIndex);
 
-  return (
+ return createPortal(
     <div
-      className="fixed inset-0 top-0 bg-purple/98  flex items-center justify-center z-50"
+      className="fixed inset-0 top-0 bg-grayBlue/98  flex items-center justify-center z-[100]"
     >
-      <div ref={modalRef} className="relative z-50 max-w-[90vw] max-h-[90vh] w-full">
+      <div ref={modalRef} className="relative z-[101] max-w-[90vw] max-h-[90vh] w-full">
     <button
       onClick={onClose}
-      className="absolute top-4 right-4 z-50 text-white text-3xl hover:text-gray-300 cursor-pointer"
+      className="absolute top-4 right-4 z-[102] text-white text-3xl hover:text-gray-300 cursor-pointer"
     >
       <AiOutlineClose />
     </button>
@@ -75,6 +76,7 @@ export const ImageModalSlider = ({ images, startIndex, onClose }) => {
         ))}
       </Swiper>
     </div>
-    </div>
+    </div>,
+     document.body
   );
 };
