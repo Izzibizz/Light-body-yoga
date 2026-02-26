@@ -1,155 +1,131 @@
 import { useState, useEffect } from "react";
-import { Testimonials } from "../components/Testimonials"
+import { Testimonials } from "../components/Testimonials";
+import { SwiperComp } from "../components/SwiperComp";
+import upcomingRetreats from "../data/upcomingRetreats.json";
+import { ImageModalSlider } from "../components/ImageModalSlider";
+import { useIsLaptop } from "../hooks/IsLaptop";
 
 export const Grinda = () => {
+  const project = upcomingRetreats.find(
+    (retreat) => retreat.id === "grinda-retreat",
+  );
 
   const [showDiscount, setShowDiscount] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const isLaptop = useIsLaptop();
 
   useEffect(() => {
     const today = new Date();
-    const expiryDate = new Date(today.getFullYear(), 4, 2); 
+    const expiryDate = project.lastEarlyBirdPrice;
 
     if (today >= expiryDate) {
       setShowDiscount(false);
     }
-  }, []);
+  }, [project]);
+
   return (
     <section className="animate-mediumFadeIn ">
       <div className="relative w-10/12 max-w-[1400px] mx-auto mt-40  flex flex-col text-stone-900">
-        <h3 className="font-dream text-3xl mb-10">3 days retreat in Grinda</h3>
+        <h3 className="font-dream text-3xl mb-10">{project.title}</h3>
         <div className="flex flex-col laptop:flex-row gap-10 laptop:gap-20">
           <div className=" flex flex-col gap-8">
-            <h4 className="text-2xl italic font-dream ">
-              Join Us for Yoga and mindfulness in the archipelago this summer
-            </h4>
-            {showDiscount &&
-            <p className="text-justify font-medium text-warm-white">
-              Early Bird Discount — available until 1 May
-            </p>}
-            <ul className=" gap-2 flex flex-col">
+            <h4 className="text-2xl italic font-dream ">{project.subtitle}</h4>
+            {showDiscount && (
+              <p className="text-justify font-medium text-warm-white text-xl">
+                Early Bird Discount — available until April 1st
+              </p>
+            )}
+            <ul className="gap-2 flex flex-col">
               What you get:
-              <li className="flex gap-4 items-center">
-                {" "}
-                <img
-                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
-                  className="h-[15px]"
-                />
-                Yoga classes - Yin, Hatha, flow, Nidra, Pranayama
-              </li>
-              <li className="flex gap-4 items-center">
-                {" "}
-                <img
-                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
-                  className="h-[15px]"
-                />
-                Meditation & Mindfulness
-              </li>
-              <li className="flex gap-4 items-center">
-                {" "}
-                <img
-                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
-                  className="h-[15px]"
-                />
-                Reiki
-              </li>
-              <li className="flex gap-4 items-center">
-                {" "}
-                <img
-                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
-                  className="h-[15px]"
-                />
-                Sauna & swim
-              </li>
-              <li className="flex gap-4 items-center">
-                {" "}
-                <img
-                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
-                  className="h-[15px]"
-                />
-                Beautiful nature and peaceful surroundings
-              </li>
-              <li className="flex gap-4 items-center">
-                {" "}
-                <img
-                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
-                  className="h-[15px]"
-                />
-                All vegetarian Meals & Housing at Grinda Wärdshus
-              </li>
-              <li className="flex gap-4 items-center">
-                {" "}
-                <img
-                  src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
-                  className="h-[15px]"
-                />
-                All material for yoga & meditation, such as mats etc.
-              </li>
+              {project.includes.map((item, index) => (
+                <li key={index} className="flex gap-4 items-center">
+                  <img
+                    src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744216443/circle-bullet_rbd7a8.svg"
+                    className="h-[15px]"
+                  />
+                  {item}
+                </li>
+              ))}
             </ul>
             <div className="flex flex-col bg-warm-white p-4 rounded-xl gap-4">
               <h4 className="font-dream text-xl">Prices</h4>
+
               {showDiscount ? (
-              <ul className="flex flex-col gap-2">
-                <li className="flex justify-between">
-                  Part in double room: <span className="font-medium">5950 sek{" "}
-                  <span className="line-through text-xs font-light">6950 sek</span></span>
-                </li>
-                <li className="flex justify-between">
-                  Single room: <span className="font-medium">6950 sek{" "}
-                  <span className="line-through text-xs font-light">7950 sek</span></span>
-                </li>
-                <li className="flex justify-between">
-                  Part in 2-beds cabin: <span className="font-medium">4950 sek{" "}
-                  <span className="line-through text-xs font-light">5950 sek</span></span>
-                </li>
-                <p className="text-orange-500">1000 sek discount until 1 May</p>
-              </ul>
+                <ul className="flex flex-col gap-2">
+                  {project.prices.discount.map((item, index) => (
+                    <li key={index} className="flex justify-between">
+                      {item.label}:{" "}
+                      <span className="font-medium">
+                        {item.price}{" "}
+                        <span className="line-through text-xs font-light">
+                          {item.originalPrice}
+                        </span>
+                      </span>
+                    </li>
+                  ))}
+
+                  <p className="text-orange-500">
+                    1000 sek discount until April 1st
+                  </p>
+                </ul>
               ) : (
-              <ul className="flex flex-col gap-2">
-                <li className="flex justify-between">
-                  Part in double room: <span className="font-medium">6950 sek</span>
-                </li>
-                <li className="flex justify-between">
-                  Single room: <span className="font-medium">7950 sek</span>
-                </li>
-                <li className="flex justify-between">
-                  Part in 2-beds cabin: <span className="font-medium">5950 sek</span>
-                </li>
-              </ul> )}
+                <ul className="flex flex-col gap-2">
+                  {project.prices.regular.map((item, index) => (
+                    <li key={index} className="flex justify-between">
+                      {item.label}:{" "}
+                      <span className="font-medium">{item.price}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
-           
+
             <div className="flex flex-col bg-warm-white p-4 rounded-xl gap-4">
               <h4 className="font-dream text-xl">Details</h4>
               <div className="flex flex-col gap-2">
-                <h5 className="font-bold flex gap-4 text-lg">22 - 24 Aug, 2025</h5>
+                <h5 className="font-bold flex gap-4 text-lg">
+                  {project.details.date}
+                </h5>
+
                 <p>
-                  <span className="font-medium">Time: 3 days with hotel</span>
+                  <span className="font-medium">
+                    Time: {project.details.time}
+                  </span>
                 </p>
+
                 <p>
                   <span className="font-medium">Place:</span>{" "}
                   <a
-                    href="https://grinda.se/mat-fest/wardshuset/"
+                    href={project.details.placeUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="italic"
                   >
-                    Grinda Wärdshus
+                    {project.details.place}
                   </a>
-                  , Vaxholm
+                  , {project.details.location}
                 </p>
+
                 <p>
-                  {" "}
-                  <span className="font-medium">
-                    Creators and leaders:
-                  </span>{" "}
-                  Therese Lind Bjellder &{" "}
-                  <a
-                    href="https://www.instagram.com/sofiafrench/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="italic"
-                  >
-                    Sofia French
-                  </a>
+                  <span className="font-medium">Creators and leaders:</span>{" "}
+                  {project.leaders.map((leader, i) => (
+                    <span key={i}>
+                      {leader.url ? (
+                        <a
+                          href={leader.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="italic"
+                        >
+                          {leader.name}
+                        </a>
+                      ) : (
+                        leader.name
+                      )}
+                      {i < project.leaders.length - 1 && " & "}
+                    </span>
+                  ))}
                 </p>
               </div>
 
@@ -173,20 +149,34 @@ export const Grinda = () => {
             </div>
           </div>
           <div className="flex flex-col gap-8 laptop:w-1/2">
-          <img
-            src="https://res.cloudinary.com/dknoal1v0/image/upload/t_w-700/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png"
-            alt="Grinda retreat 2024 - yoga Sofia French & Therese Lind Bjellder"
-            className="rounded-xl object-cover laptop:hidden"
-          />
-           <img
-            src="https://res.cloudinary.com/dknoal1v0/image/upload/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png"
-            alt="Grinda retreat 2024 - yoga Sofia French & Therese Lind Bjellder"
-            className="rounded-xl object-cover hidden laptop:block"
-          />
-          <Testimonials testimonialsToDisplay="Grinda"/>
+            <img
+              src={
+                isLaptop
+                  ? project.images[selectedIndex].url
+                  : project.images[selectedIndex].thumbnail
+              }
+              alt={project.images[selectedIndex].alt}
+              className="rounded-xl object-cover cursor-pointer h-[300px] laptop:h-[500px]"
+              onClick={() => setIsModalOpen(true)}
+            />
+
+            <SwiperComp
+              images={project.images}
+              selectedIndex={selectedIndex}
+              onSelect={setSelectedIndex}
+            />
+
+            <Testimonials testimonialsToDisplay="Grinda" />
           </div>
         </div>
       </div>
+      {isModalOpen && (
+        <ImageModalSlider
+          images={project.images}
+          startIndex={selectedIndex}
+          onClose={() => setIsModalOpen(false)}
+        />
+      )}
     </section>
   );
 };

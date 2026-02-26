@@ -1,0 +1,116 @@
+[
+  {
+    "id": "grinda-retreat",
+    "category": "Retreat",
+    "title": "Yoga & Mindfulness in the Archipelago",
+    "date": "28 - 30 Aug, 2026",
+    "format": "3 days with hotel",
+    "price": "5450 - 8450 sek (depends on room type)",
+    "lastEarlyBirdPrice": "2026-04-01",
+    "navigateTo": "/grinda",
+    "bookingMail": "therese@lightbodyyoga.se",
+    "lastDateToDisplay": "2026-08-28",
+
+    "place": {
+      "name": "Grinda Wärdshus",
+      "location": "Vaxholm",
+      "url": "https://grinda.se/mat-fest/wardshuset/"
+    },
+
+    "leaders": [
+      {
+        "name": "Therese Lind Bjellder"
+      },
+      {
+        "name": "Sofia French",
+        "url": "https://www.instagram.com/sofiafrench/"
+      }
+    ],
+    "title": "3 days retreat in Grinda",
+    "subtitle": "Join Us for Yoga and mindfulness in the archipelago this summer",
+
+    "images": [
+      {
+        "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png",
+        "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png",
+        "alt": "Grinda retreat 2024"
+      },
+        {
+            "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772138206/Grinda-2025-gruppbild_c9kckv.png",
+            "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1772138206/Grinda-2025-gruppbild_c9kckv.png",
+            "alt": "Grinda retreat 2025 - group picture in the barn"
+        },
+        {
+            "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772138679/middag-grinda-2025-Light-body-yoga-retreat_yqp6ut.png",
+            "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1772138679/middag-grinda-2025-Light-body-yoga-retreat_yqp6ut.png",
+            "alt": "Grinda retreat 2025 - group picture at the dinner at Grinda Wärdshus"
+        },
+         {
+            "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772138681/yoga-ladan-grinda-2025-Light-body-yoga-retreat_jgr3ln.png",
+            "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1772138681/yoga-ladan-grinda-2025-Light-body-yoga-retreat_jgr3ln.png",
+            "alt": "Grinda retreat 2025 - yoga class in the barn"
+        },
+         {
+            "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772138684/yoga-ladan-grinda-2025-Light-body-yoga-retreat-2_eqeygz.png",
+            "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1772138684/yoga-ladan-grinda-2025-Light-body-yoga-retreat-2_eqeygz.png",
+            "alt": "Grinda retreat 2025 - yoga class in the barn"
+        },
+         {
+            "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772138690/boende-grinda-2025-Light-body-yoga-retreat-2_himl4l.png",
+            "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1772138690/boende-grinda-2025-Light-body-yoga-retreat-2_himl4l.png",
+            "alt": "Grinda retreat 2025 - accommodation at Grinda Wärdshus"
+        }
+    ],
+
+    "includes": [
+      "Yoga classes - Yin, Hatha, flow, Nidra, Pranayama",
+      "Meditation & Mindfulness",
+      "Reiki",
+      "Sauna & swim",
+      "Beautiful nature and peaceful surroundings",
+      "All vegetarian Meals & Housing at Grinda Wärdshus",
+      "All material for yoga & meditation, such as mats etc."
+    ],
+    "prices": {
+      "discount": [
+        {
+          "label": "Part in double room",
+          "price": "6450 sek",
+          "originalPrice": "7450 sek"
+        },
+        {
+          "label": "Single room",
+          "price": "7450 sek",
+          "originalPrice": "8450 sek"
+        },
+        {
+          "label": "Part in 2-beds cabin",
+          "price": "5450 sek",
+          "originalPrice": "6450 sek"
+        }
+      ],
+      "regular": [
+        {
+          "label": "Part in double room",
+          "price": "7450 sek"
+        },
+        {
+          "label": "Single room",
+          "price": "8450 sek"
+        },
+        {
+          "label": "Part in 2-beds cabin",
+          "price": "6450 sek"
+        }
+      ]
+    },
+
+    "details": {
+      "date": "28 - 30 Aug, 2026",
+      "time": "3 days with hotel",
+      "place": "Grinda Wärdshus",
+      "placeUrl": "https://grinda.se/mat-fest/wardshuset/",
+      "location": "Vaxholm"
+    }
+  }
+]
