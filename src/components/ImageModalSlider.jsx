@@ -32,7 +32,7 @@ export const ImageModalSlider = ({ images, startIndex, onClose }) => {
 
  return createPortal(
     <div
-      className="fixed inset-0 top-0 bg-grayBlue/98  flex items-center justify-center z-[100]"
+      className="fixed inset-0 top-0 bg-grayBlue/98  flex items-center justify-center z-[100] h-100vh"
     >
       <div ref={modalRef} className="relative z-[101] max-w-[90vw] max-h-[90vh] w-full">
     <button
