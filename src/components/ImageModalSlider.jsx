@@ -21,15 +21,6 @@ export const ImageModalSlider = ({ images, startIndex, onClose }) => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [onClose]);
 
-    useEffect(() => {
-    document.body.style.overflow = "hidden"; // blockera
-    return () => {
-      document.body.style.overflow = "auto"; // återställ
-    };
-  }, []);
-
-  console.log(images, startIndex);
-
  return createPortal(
     <div
       className="fixed inset-0 top-0 bg-grayBlue/98  flex items-center justify-center z-[100] h-100vh"
@@ -61,7 +52,7 @@ export const ImageModalSlider = ({ images, startIndex, onClose }) => {
               <img
                 src={img.url}
                 alt={img.alt}
-                className="object-contain max-h-[80vh] w-auto cursor-pointer select-none"
+                className="object-contain max-h-[80vh] w-auto cursor-pointer select-none rounded-xl"
                 onClick={() => {
                   if (window.innerWidth > 768) {
                     onClose();
