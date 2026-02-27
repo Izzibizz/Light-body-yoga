@@ -156,7 +156,7 @@ export const Grinda = () => {
                   : project.images[selectedIndex].thumbnail
               }
               alt={project.images[selectedIndex].alt}
-              className="rounded-xl object-cover cursor-pointer h-[300px] laptop:h-[500px]"
+              className="rounded-xl object-cover cursor-pointer h-[200px] laptop:h-[500px]"
               onClick={() => setIsModalOpen(true)}
             />
 
