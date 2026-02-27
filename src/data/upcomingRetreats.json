@@ -30,15 +30,15 @@
     "subtitle": "Join Us for Yoga and mindfulness in the archipelago this summer",
 
     "images": [
-      {
-        "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png",
-        "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1744214454/grinda-yoga-retreat-light-body-yoga-nature_u6aur8.png",
-        "alt": "Grinda retreat 2024"
-      },
         {
             "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772138206/Grinda-2025-gruppbild_c9kckv.png",
             "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1772138206/Grinda-2025-gruppbild_c9kckv.png",
             "alt": "Grinda retreat 2025 - group picture in the barn"
+        },
+         {
+            "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772186462/ledare-therese-sofia-grinda-2025-Light-body-yoga-retreat-2_vz0klp.png",
+            "thumbnail": "https://res.cloudinary.com/dknoal1v0/image/upload/w_400/v1772186462/ledare-therese-sofia-grinda-2025-Light-body-yoga-retreat-2_vz0klp.png",
+            "alt": "Grinda retreat 2025 - leaders Therese and Sofia in the barn"
         },
         {
             "url": "https://res.cloudinary.com/dknoal1v0/image/upload/v1772138679/middag-grinda-2025-Light-body-yoga-retreat_yqp6ut.png",
