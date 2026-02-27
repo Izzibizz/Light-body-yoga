@@ -36,7 +36,7 @@ export const Retreats = () => {
               with your heart in a space where you&lsquo;e always welcome.
             </p>
             <div className="flex flex-col bg-warm-white p-4 rounded-xl gap-4">
-              <h4 className="font-dream text-xl">Previous retreats</h4>
+              <h4 className="font-dream text-xl">Upcoming retreats</h4>
               <div className="flex flex-col gap-2">
                 <h5 className="font-bold flex gap-4">
                   28 - 30 Aug, 2026
